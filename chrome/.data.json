@@ -1,6 +1,6 @@
 [{
 	"repo": "OpenBMB/MiniCPM",
-	"website": "weichat", 
+	"website": "wechat", 
 	"type": "text",
 	"title": "可在手机端部署的大模型",
 	"url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490332&idx=1&sn=faa9a9646368e6316c94348591e9f75b&chksm=9b3f8bc4ac4802d2a5bb06eb293e30d10bfde2e8db69862796d86c1238cbc511321cfa0e513a#rd"
@@ -12,7 +12,7 @@
 	"url": "https://www.bilibili.com/video/BV1yM4m1r7sG/"
 }, {
 	"repo": "dockur/windows",
-	"website": "weichat", 
+	"website": "wechat", 
 	"type": "text",
 	"title": "使用 Docker 运行 Windows 容器，太方便了",
 	"url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490559&idx=1&sn=3f0c5f3e34619e8b790b893e6eefe6b7&chksm=9b3f8b27ac4802310f6ace154e144d33ebb2dd22982933d7605685a0deb875b631ab8c064c43#rd"

@@ -44,10 +44,13 @@ function addReleatedBlog(type, result) {
 	console.log('addReleatedBlog', result)
 	let inject = ''
   for (const r of result.slice(0, 4)) {
+		var ico = 'https://raw.githubusercontent.com/ZhuPeng/github_linker/master/assert/'+r.website+'.ico'
 		const card = `
         <div class="f4 mt-1 lh-condensed color-fg-default">
+				    <span style="padding-left:20px; background:url(${ico}) no-repeat;">
             <a class="wb-break-all d-inline-block" target="_blank"
                href="${r.url}">[${r.type}] ${r.title}</a>
+						</span>
         </div>
 		`
 		inject += card
