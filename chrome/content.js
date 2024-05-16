@@ -46,9 +46,9 @@ function addReleatedBlog(type, result) {
 	let inject = ''
   for (const r of result.slice(0, 4)) {
 		const card = `
-        <div class="f4 lh-condensed text-bold color-fg-default">
-            <a class="Link--primary text-bold no-underline wb-break-all d-inline-block"
-               href="${r.url}">${r.title}</a>
+        <div class="f4 mt-1 lh-condensed color-fg-default">
+            <a class="wb-break-all d-inline-block" target="_blank"
+               href="${r.url}">[${r.type}] ${r.title}</a>
         </div>
 		`
 		inject += card
@@ -74,7 +74,7 @@ function addSimilarRepo(repoPath, repos) {
         const card = `<div class="Box p-idx-storm mt-2">
     <div>
         <div class="f4 lh-condensed text-bold color-fg-default">
-            <a class="Link--primary text-bold no-underline wb-break-all d-inline-block"
+            <a class="Link--primary text-bold no-underline wb-break-all d-inline-block" target="_blank"
                href="${repo.html_url}">${repo.full_name}</a>
         </div>
         <div class="dashboard-break-word color-fg-muted mt-1 repo-description">
