@@ -14,10 +14,11 @@ function main() {
             const about = getAbout()
             console.log('about', about)
             if (about.length > 10) {
+                searchReleatedInfo(repoPath)
+                    .then(result => addReleatedBlog("text", result))
                 searchGitHubReleatdBVideo(repoPath)
                     .then(result => result.json())
                     .then(result => console.log(result))
-                    .catch(e => console.error(e))
                 searchGitHubForSimilar(repoPath, about)
                     .then(result => result.json())
                     .then(result => addSimilarRepo(repoPath, result))
@@ -25,6 +26,34 @@ function main() {
             }
         }
     }
+}
+
+function appendCardList(head, cards) {
+	  if (cards.length === 0) {return}
+    let template = `<div class="BorderGrid-row"><div class="BorderGrid-cell"><h2 class="h4 mb-3">${head}</h2>` + cards + `</div></div>`;
+    const fragment = document.createRange().createContextualFragment(template);
+    const borderGrid = document.querySelector('.BorderGrid');
+    console.log(borderGrid.children)
+    borderGrid.appendChild(fragment.firstChild)
+    // if (borderGrid.children.length <= 1) {
+    // } else {
+    //     borderGrid.insertBefore(fragment.firstChild, borderGrid.children[1])
+    // }
+}
+
+function addReleatedBlog(type, result) {
+	console.log('addReleatedBlog', result)
+	let inject = ''
+  for (const r of result.slice(0, 4)) {
+		const card = `
+        <div class="f4 lh-condensed text-bold color-fg-default">
+            <a class="Link--primary text-bold no-underline wb-break-all d-inline-block"
+               href="${r.url}">${r.title}</a>
+        </div>
+		`
+		inject += card
+	}
+	appendCardList("Releated Blog", inject)
 }
 
 function addSimilarRepo(repoPath, repos) {
@@ -66,15 +95,7 @@ function addSimilarRepo(repoPath, repos) {
 `
         inject += card
     }
-    let template = `<div class="BorderGrid-row"><div class="BorderGrid-cell"><h2 class="h4 mb-1">Similar repositories</h2>` + inject + `</div></div>`;
-    const fragment = document.createRange().createContextualFragment(template);
-    const borderGrid = document.querySelector('.BorderGrid');
-    console.log(borderGrid.children)
-    borderGrid.appendChild(fragment.firstChild)
-    // if (borderGrid.children.length <= 1) {
-    // } else {
-    //     borderGrid.insertBefore(fragment.firstChild, borderGrid.children[1])
-    // }
+	  appendCardList('Similar repositories', inject)
 }
 
 function getAbout() {
@@ -99,6 +120,23 @@ function getDescription() {
         }
     }
     return result.slice(0, 5)
+}
+
+async function searchReleatedInfo(reponame) {
+	var key = 'github-data'
+	var cached = localStorage.getItem(key) || false;
+  if (cached !== false) {return JSON.parse(cached)}
+
+  fetch('https://raw.githubusercontent.com/ZhuPeng/github_linker/master/chrome/.data.json')
+     .then(response => response.json())
+     .then(data => {
+         console.log(data)
+         localStorage.setItem(key, JSON.stringify(data));
+			   return data
+     })
+     .catch(error => {
+         console.log('fetch json:', error);
+     });
 }
 
 async function searchGitHubReleatdBVideo(reponame) {
@@ -147,17 +185,6 @@ async function searchGitHubForSimilar(url, keyword) {
 		.then(response => {
             return response
 	})
-}
-
-async function requestSimilarRepo(body) {
-    return fetch('https://git.indexstorm.com/similar', {
-        method: 'POST',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(body)
-    })
 }
 
 chrome.runtime.onMessage.addListener(
