@@ -10,4 +10,16 @@
 	"type": "video",
 	"title": "可在手机端部署的大模型",
 	"url": "https://www.bilibili.com/video/BV1yM4m1r7sG/"
+}, {
+	"repo": "dockur/windows",
+	"website": "weichat", 
+	"type": "text",
+	"title": "使用 Docker 运行 Windows 容器，太方便了",
+	"url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490559&idx=1&sn=3f0c5f3e34619e8b790b893e6eefe6b7&chksm=9b3f8b27ac4802310f6ace154e144d33ebb2dd22982933d7605685a0deb875b631ab8c064c43#rd"
+}, {
+	"repo": "dockur/windows",
+	"website": "bilibili", 
+	"type": "video",
+	"title": "使用Docker运行Windows容器，太方便了",
+	"url": "https://www.bilibili.com/video/BV1Cw4m1C7jn/"
 }]

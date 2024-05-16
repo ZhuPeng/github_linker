@@ -14,11 +14,10 @@ function main() {
             const about = getAbout()
             console.log('about', about)
             if (about.length > 10) {
-                searchReleatedInfo(repoPath)
-                    .then(result => addReleatedBlog("text", result))
-                searchGitHubReleatdBVideo(repoPath)
-                    .then(result => result.json())
-                    .then(result => console.log(result))
+                addReleatedBlog("text", searchReleatedInfo(repoPath))
+                // searchGitHubReleatdBVideo(repoPath)
+                //     .then(result => result.json())
+                //     .then(result => console.log(result))
                 searchGitHubForSimilar(repoPath, about)
                     .then(result => result.json())
                     .then(result => addSimilarRepo(repoPath, result))
@@ -122,15 +121,24 @@ function getDescription() {
     return result.slice(0, 5)
 }
 
-async function searchReleatedInfo(reponame) {
+function searchReleatedInfo(reponame) {
 	var key = 'github-data'
 	var cached = localStorage.getItem(key) || false;
-  if (cached !== false) {return JSON.parse(cached)}
+  if (cached !== false) {
+		var c = JSON.parse(cached)
+		console.log('parse', c)
+		var result = []
+		for (const r of c) {
+			if (r.repo !== reponame) {continue}
+			result.push(r)
+		}
+	  return result
+	}
 
   fetch('https://raw.githubusercontent.com/ZhuPeng/github_linker/master/chrome/.data.json')
      .then(response => response.json())
      .then(data => {
-         console.log(data)
+         console.log('fetch data:', data)
          localStorage.setItem(key, JSON.stringify(data));
 			   return data
      })
