@@ -48,10 +48,8 @@ function addReleatedBlog(type, result) {
 		var ico = chrome.runtime.getURL('/assert/'+r.website+'.ico')
 		const card = `
         <div class="f4 mt-1 lh-condensed color-fg-default">
-				    <span style="padding-left:20px; background:url(${ico}) no-repeat;">
-            <a class="wb-break-all d-inline-block" target="_blank"
-               href="${r.url}">[${r.type}] ${r.title}</a>
-						</span>
+						<i style="padding-left:25px; background:url(${ico}) no-repeat; background-size: contain;"></i>
+            <a class="wb-break-all" style="overflow: hidden; text-overflow:ellipsis; white-space:nowrap; -webkit-line-clamp: 1;" target="_blank" href="${r.url}">${r.title}</a>
         </div>
 		`
 		inject += card
@@ -80,7 +78,7 @@ function addSimilarRepo(repoPath, repos) {
             <a class="Link--primary text-bold no-underline wb-break-all d-inline-block" target="_blank"
                href="${repo.html_url}">${repo.full_name}</a>
         </div>
-        <div class="dashboard-break-word color-fg-muted mt-1 repo-description">
+        <div class="dashboard-break-word color-fg-muted mt-1" style="width: 100%; overflow: hidden; text-overflow:ellipsis; -webkit-line-clamp: 2;">
             <p>${repo.description ?? ""}</p>
         </div>
         <p class="f6 color-fg-muted mt-2 mb-0">
