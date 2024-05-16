@@ -14,6 +14,10 @@ function main() {
             const about = getAbout()
             console.log('about', about)
             if (about.length > 10) {
+                searchGitHubReleatdBVideo(repoPath)
+                    .then(result => result.json())
+                    .then(result => console.log(result))
+                    .catch(e => console.error(e))
                 searchGitHubForSimilar(repoPath, about)
                     .then(result => result.json())
                     .then(result => addSimilarRepo(repoPath, result))
@@ -96,6 +100,32 @@ function getDescription() {
     }
     return result.slice(0, 5)
 }
+
+async function searchGitHubReleatdBVideo(reponame) {
+    console.log('searchGitHubReleatdBVideo:', reponame)
+	const headerObj = {
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Credentials': true,
+        'Content-Type': 'application/json',
+        'Accept': 'application/json',
+		'User-Agent': 'vivek/repository-suggestions'
+	}
+
+	const API = 'https://api.bilibili.com/x/web-interface/search/type';
+    const page = '?keyword=' + reponame + '&search_type=video';
+
+	const request = new Request(`${API}${page}`, {
+		headers: new Headers(headerObj),
+        mode: 'no-cors',
+        credentials: 'include',
+	})
+
+	return fetch(request)
+		.then(response => {
+            return response
+	})
+}
+
 
 async function searchGitHubForSimilar(url, keyword) {
     console.log('searchGitHubForSimilar:', url, keyword)
