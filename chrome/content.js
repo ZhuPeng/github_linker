@@ -105,7 +105,10 @@ async function searchGitHubForSimilar(url, keyword) {
 	}
 
 	const API = 'https://api.github.com/search/repositories';
-	const page = '?q=' + keyword + '+in:name,description' + '&sort=stars&order=desc';
+
+    // use about search result is not good 
+    keyword = url.split("/")[1]
+    const page = '?q=' + keyword + '+in:name,description' + '&sort=stars&order=desc';
 
 	const request = new Request(`${API}${page}`, {
 		headers: new Headers(headerObj)
