@@ -27,14 +27,15 @@ function main() {
     }
 }
 
-function appendCardList(head, cards) {
+function appendCardList(head, cards, idx) {
 	  if (cards.length === 0) {return}
     let template = `<div class="BorderGrid-row"><div class="BorderGrid-cell"><h2 class="h4 mb-3">${head}</h2>` + cards + `</div></div>`;
     const fragment = document.createRange().createContextualFragment(template);
     const borderGrid = document.querySelector('.BorderGrid');
     console.log(borderGrid.children)
-    borderGrid.appendChild(fragment.firstChild)
+    borderGrid.insertBefore(fragment.firstChild, borderGrid.children[idx])
     // if (borderGrid.children.length <= 1) {
+		// 	borderGrid.appendChild(fragment.firstChild)
     // } else {
     //     borderGrid.insertBefore(fragment.firstChild, borderGrid.children[1])
     // }
@@ -54,7 +55,7 @@ function addReleatedBlog(type, result) {
 		`
 		inject += card
 	}
-	appendCardList("Releated Blog", inject)
+	appendCardList("Releated Blogs", inject, 1)
 }
 
 function addSimilarRepo(repoPath, repos) {
@@ -96,7 +97,7 @@ function addSimilarRepo(repoPath, repos) {
 `
         inject += card
     }
-	  appendCardList('Similar repositories', inject)
+	  appendCardList('Similar repositories', inject, 2)
 }
 
 function getAbout() {
