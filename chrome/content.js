@@ -62,8 +62,7 @@ function addSimilarRepo(repoPath, repos) {
 `
         inject += card
     }
-    let template = `<div class="BorderGrid-row"><div class="BorderGrid-cell"><h2 class="h4 mb-1">Similar repositories</h2>
-<p class="text color-fg-muted mb-2">Provided by <a href="https://indexstorm.com/" target="_blank">indexStorm</a></p>` + inject + `</div></div>`;
+    let template = `<div class="BorderGrid-row"><div class="BorderGrid-cell"><h2 class="h4 mb-1">Similar repositories</h2>` + inject + `</div></div>`;
     const fragment = document.createRange().createContextualFragment(template);
     const borderGrid = document.querySelector('.BorderGrid');
     console.log(borderGrid.children)
