@@ -44,7 +44,8 @@ function addReleatedBlog(type, result) {
 	console.log('addReleatedBlog', result)
 	let inject = ''
   for (const r of result.slice(0, 4)) {
-		var ico = 'https://raw.githubusercontent.com/ZhuPeng/github_linker/master/assert/'+r.website+'.ico'
+		// var ico = 'https://raw.githubusercontent.com/ZhuPeng/github_linker/master/assert/'+r.website+'.ico'
+		var ico = chrome.runtime.getURL('/assert/'+r.website+'.ico')
 		const card = `
         <div class="f4 mt-1 lh-condensed color-fg-default">
 				    <span style="padding-left:20px; background:url(${ico}) no-repeat;">
@@ -138,7 +139,8 @@ function searchReleatedInfo(reponame) {
 	  return result
 	}
 
-  fetch('https://raw.githubusercontent.com/ZhuPeng/github_linker/master/chrome/.data.json')
+	fetch(chrome.runtime.getURL('/.data.json'))
+  // fetch('https://raw.githubusercontent.com/ZhuPeng/github_linker/master/chrome/.data.json')
      .then(response => response.json())
      .then(data => {
          console.log('fetch data:', data)

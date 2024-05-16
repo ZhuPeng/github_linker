@@ -18,6 +18,12 @@
   "icons": {
     "1024": "logo.png"
   },
+  "web_accessible_resources": [
+      {
+        "resources": ["/.data.json", "/assert/*.ico"],
+        "matches": ["<all_urls>"]
+      }
+  ],
   "content_scripts": [
     {
       "matches": [
