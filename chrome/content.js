@@ -7,22 +7,23 @@ function main() {
     console.log('run main', href)
     if ((m = regex.exec(href)) !== null) {
         console.log('regex match', m)
-        if (m.length === 2) {
-            const repoPath = m[1]
-            const about = getAbout()
-            console.log('about', about)
-            const tags = getTags()
-            console.log('tags', tags)
+        if (m.length !== 2) {return}
+        const repoPath = m[1]
+        if (repoPath.indexOf('/') === -1) {return}
+        const about = getAbout()
+        console.log('about', about)
+        const tags = getTags()
+        console.log('tags', tags)
+        if (about === undefined && tags.length === 0) {return}
 
-            addReleatedBlog("text", searchReleatedInfo(repoPath))
-            // searchGitHubReleatdBVideo(repoPath)
-            //     .then(result => result.json())
-            //     .then(result => console.log(result))
-            searchGitHubForSimilar(repoPath, about, tags.join(' '))
-                .then(result => result.json())
-                .then(result => addSimilarRepo(repoPath, result))
-                .catch(e => console.error(e))
-        }
+        addReleatedBlog("text", searchReleatedInfo(repoPath))
+        // searchGitHubReleatdBVideo(repoPath)
+        //     .then(result => result.json())
+        //     .then(result => console.log(result))
+        searchGitHubForSimilar(repoPath, about, tags.join(' '))
+            .then(result => result.json())
+            .then(result => addSimilarRepo(repoPath, result))
+            .catch(e => console.error(e))
     }
 }
 
@@ -182,10 +183,12 @@ async function searchGitHubForSimilar(url, about, tags) {
 
 	const API = 'https://api.github.com/search/repositories';
 
-    // use about search result is not good 
-    keyword = url.split("/")[1] + ' ' + tags
+    var keyword = tags
+    if (keyword.length < 10) {
+        keyword = keyword + ' ' + url.split("/")[1]
+    }
     console.log('real search query:', keyword)
-    const page = '?q=' + keyword + '+in:name,description' + '&sort=stars&order=desc';
+    const page = '?q=' + keyword + '+in:name,description,topics' + '&sort=stars&order=desc';
 
 	const request = new Request(`${API}${page}`, {
 		headers: new Headers(headerObj)
