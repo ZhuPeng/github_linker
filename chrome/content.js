@@ -47,9 +47,9 @@ function addReleatedBlog(type, result) {
 		// var ico = 'https://raw.githubusercontent.com/ZhuPeng/github_linker/master/assert/'+r.website+'.ico'
 		var ico = chrome.runtime.getURL('/assert/'+r.website+'.ico')
 		const card = `
-        <div class="f4 mt-1 lh-condensed color-fg-default">
+        <div class="f4 mt-1 lh-condensed color-fg-default" style="display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden;">
 						<i style="padding-left:25px; background:url(${ico}) no-repeat; background-size: contain;"></i>
-            <a class="wb-break-all" style="overflow: hidden; text-overflow:ellipsis; white-space:nowrap; -webkit-line-clamp: 1;" target="_blank" href="${r.url}">${r.title}</a>
+            <a class="wb-break-all" target="_blank" href="${r.url}">${r.title}</a>
         </div>
 		`
 		inject += card
@@ -75,11 +75,10 @@ function addSimilarRepo(repoPath, repos) {
         const card = `<div class="Box p-idx-storm mt-2">
     <div>
         <div class="f4 lh-condensed text-bold color-fg-default">
-            <a class="Link--primary text-bold no-underline wb-break-all d-inline-block" target="_blank"
-               href="${repo.html_url}">${repo.full_name}</a>
+            <a class="Link--primary text-bold no-underline wb-break-all d-inline-block" target="_blank" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis; width: 100%" href="${repo.html_url}">${repo.full_name}</a>
         </div>
-        <div class="dashboard-break-word color-fg-muted mt-1" style="width: 100%; overflow: hidden; text-overflow:ellipsis; -webkit-line-clamp: 2;">
-            <p>${repo.description ?? ""}</p>
+        <div class="dashboard-break-word color-fg-muted mt-1">
+            <p style="display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">${repo.description ?? ""}</p>
         </div>
         <p class="f6 color-fg-muted mt-2 mb-0">
             <span class="d-inline-block mr-3">
