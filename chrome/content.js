@@ -1,5 +1,3 @@
-
-
 const regex = /github\.com\/(.*\w+)$/
 
 main()
@@ -13,16 +11,17 @@ function main() {
             const repoPath = m[1]
             const about = getAbout()
             console.log('about', about)
-            if (about.length > 10) {
-                addReleatedBlog("text", searchReleatedInfo(repoPath))
-                // searchGitHubReleatdBVideo(repoPath)
-                //     .then(result => result.json())
-                //     .then(result => console.log(result))
-                searchGitHubForSimilar(repoPath, about)
-                    .then(result => result.json())
-                    .then(result => addSimilarRepo(repoPath, result))
-                    .catch(e => console.error(e))
-            }
+            const tags = getTags()
+            console.log('tags', tags)
+
+            addReleatedBlog("text", searchReleatedInfo(repoPath))
+            // searchGitHubReleatdBVideo(repoPath)
+            //     .then(result => result.json())
+            //     .then(result => console.log(result))
+            searchGitHubForSimilar(repoPath, about, tags.join(' '))
+                .then(result => result.json())
+                .then(result => addSimilarRepo(repoPath, result))
+                .catch(e => console.error(e))
         }
     }
 }
@@ -108,14 +107,13 @@ function getAbout() {
     }
 }
 
-function getDescription() {
+function getTags () {
     const result = []
-    const article = document.querySelector("#readme > div.Box-body.px-5.pb-5 > article")
-    if (!article) {
-        return undefined
+    const tags = document.querySelector("#repo-content-pjax-container > div > div > div.Layout.Layout--flowRow-until-md.react-repos-overview-margin.Layout--sidebarPosition-end.Layout--sidebarPosition-flowRow-end > div.Layout-sidebar > div.BorderGrid.about-margin > div:nth-child(1) > div > div > div.my-3 > div")
+    if (!tags) {
+        return result
     }
-    for (const child of article.children) {
-        if (child.tagName !== 'P') continue;
+    for (const child of tags.children) {
         const text = child.innerText.trim()
         if (text.length) {
             result.push(text)
@@ -177,8 +175,8 @@ async function searchGitHubReleatdBVideo(reponame) {
 }
 
 
-async function searchGitHubForSimilar(url, keyword) {
-    console.log('searchGitHubForSimilar:', url, keyword)
+async function searchGitHubForSimilar(url, about, tags) {
+    console.log('searchGitHubForSimilar:', url, about, tags)
 	const headerObj = {
 		'User-Agent': 'vivek/repository-suggestions'
 	}
@@ -186,7 +184,8 @@ async function searchGitHubForSimilar(url, keyword) {
 	const API = 'https://api.github.com/search/repositories';
 
     // use about search result is not good 
-    keyword = url.split("/")[1]
+    keyword = url.split("/")[1] + ' ' + tags
+    console.log('real search query:', keyword)
     const page = '?q=' + keyword + '+in:name,description' + '&sort=stars&order=desc';
 
 	const request = new Request(`${API}${page}`, {
