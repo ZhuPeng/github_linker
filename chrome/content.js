@@ -60,20 +60,17 @@ function addReleatedBlog(type, result) {
 
 function addSimilarRepo(repoPath, repos) {
     console.log('addSimilarRepo:', repos)
-    if (document.getElementsByClassName('p-idx-storm').length !== 0) {
-        return
-    }
-    const style = document.createElement('style');
-    style.innerHTML = '.p-idx-storm { padding: 12px; }';
-    document.getElementsByTagName('head')[0].appendChild(style);
     let inject = ''
-    for (const repo of repos.items.slice(0, 4)) {
-        if (repo.full_name === repoPath) {
+    var cnt = 0
+    for (const repo of repos.items) {
+        if (repo.full_name === repoPath || (repo.description && repo.description.length > 2000)) {
             console.log('filter repo:', repo)
             continue;
         }
+        cnt += 1;
+        if (cnt > 3) {break}
         console.log('add repo:', repo)
-        const card = `<div class="Box p-idx-storm mt-2">
+        const card = `<div class="Box p-idx-storm mt-2" style="padding: 12px">
     <div>
         <div class="f4 lh-condensed text-bold color-fg-default">
             <a class="Link--primary text-bold no-underline wb-break-all d-inline-block" target="_blank" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis; width: 100%" href="${repo.html_url}">${repo.full_name}</a>
@@ -96,7 +93,7 @@ function addSimilarRepo(repoPath, repos) {
 `
         inject += card
     }
-	  appendCardList('Similar repositories', inject, 2)
+	appendCardList('Similar repositories', inject, 2)
 }
 
 function getAbout() {
