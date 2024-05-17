@@ -1,26 +1,23 @@
 {
-  "name": "GitHub Recommender",
-  "description": "Get similar repositories on GitHub page",
-  "author": "https://indexstorm.com",
-  "version": "1.2.0",
+  "name": "GitHub Linker",
+  "description": "Show repo related info, like blog, video, similar project etc. on GitHub page",
+  "author": "https://github.com/ZhuPeng/github_linker",
+  "version": "1.0.0",
   "manifest_version": 3,
   "background": {
     "service_worker": "background.js"
   },
-  "permissions": [
-    "tabs"
-  ],
   "action": {
     "default_icon": {
-      "1024": "logo.png"
+      "1024": "assert/logo.png"
     }
   },
   "icons": {
-    "1024": "logo.png"
+    "1024": "assert/logo.png"
   },
   "web_accessible_resources": [
       {
-        "resources": ["/.data.json", "/assert/*.ico"],
+        "resources": ["/assert/data.json", "/assert/*.ico"],
         "matches": ["<all_urls>"]
       }
   ],

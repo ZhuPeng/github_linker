@@ -43,8 +43,9 @@ function appendCardList(head, cards, idx) {
 
 function addReleatedBlog(type, result) {
 	console.log('addReleatedBlog', result)
+    if (result === undefined) {return}
 	let inject = ''
-  for (const r of result.slice(0, 4)) {
+    for (const r of result.slice(0, 4)) {
 		// var ico = 'https://raw.githubusercontent.com/ZhuPeng/github_linker/master/assert/'+r.website+'.ico'
 		var ico = chrome.runtime.getURL('/assert/'+r.website+'.ico')
 		const card = `
@@ -122,7 +123,7 @@ function getTags () {
 function searchReleatedInfo(reponame) {
 	var key = 'github-data'
 	var cached = localStorage.getItem(key) || false;
-  if (cached !== false) {
+    if (cached !== false) {
 		var c = JSON.parse(cached)
 		console.log('parse', c)
 		var result = []
@@ -130,11 +131,11 @@ function searchReleatedInfo(reponame) {
 			if (r.repo !== reponame) {continue}
 			result.push(r)
 		}
-	  return result
+        return result
 	}
 
-	fetch(chrome.runtime.getURL('/.data.json'))
-  // fetch('https://raw.githubusercontent.com/ZhuPeng/github_linker/master/chrome/.data.json')
+	fetch(chrome.runtime.getURL('/assert/data.json'))
+  // fetch('https://raw.githubusercontent.com/ZhuPeng/github_linker/master/chrome/assert/data.json')
      .then(response => response.json())
      .then(data => {
          console.log('fetch data:', data)
