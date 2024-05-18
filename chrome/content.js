@@ -121,17 +121,17 @@ function getTags () {
 }
 
 function searchReleatedInfo(reponame) {
-	var key = 'github-data'
+	var key = 'github-data-100' 
 	var cached = localStorage.getItem(key) || false;
     if (cached !== false) {
 		var c = JSON.parse(cached)
-		console.log('parse', c)
+		// console.log('parse', c)
 		var result = []
 		for (const r of c) {
 			if (r.repo !== reponame) {continue}
 			result.push(r)
 		}
-        return result
+    return result
 	}
 
 	fetch(chrome.runtime.getURL('/assert/data.json'))
