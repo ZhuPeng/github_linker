@@ -1,6 +1,6 @@
 {
   "name": "GitHub Linker",
-  "description": "Show repo related info, like blog, video, similar project etc. on GitHub page",
+  "description": "Show repo related info on GitHub page, like blog, video, similar project etc.",
   "author": "https://github.com/ZhuPeng/github_linker",
   "version": "1.0.3",
   "manifest_version": 3,
