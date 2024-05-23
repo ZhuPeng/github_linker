@@ -88,7 +88,7 @@ function addRelatedBlogInSearch() {
 }
 
 function addRelatedBlogInTrending() {
-    const repos = document.querySelectorAll("body > div.logged-in.env-production.page-responsive > div.application-main > main > div.position-relative.container-lg.p-responsive.pt-6 > div > div:nth-child(2) > article")
+    const repos = document.querySelectorAll("article.Box-row")
     if (!repos) {
         return 
     }
