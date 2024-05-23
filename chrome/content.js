@@ -56,7 +56,7 @@ function getIco(item) {
 }
 
 function addRelatedBlogInSearch() {
-    const repos = document.querySelectorAll("body > div.logged-in.env-production.page-responsive > div.application-main > main > react-app > div > div > div.Box-sc-g0xbh4-0.emundt > div > div > div.Box-sc-g0xbh4-0.kKUpQe > div.Box-sc-g0xbh4-0.hlUAHL > div > div.Box-sc-g0xbh4-0.gytyqX > div.Box-sc-g0xbh4-0.kzrAHr > div > div > div")
+    const repos = document.querySelectorAll('div[data-testid="results-list"] > div')
     if (!repos) {
         return 
     }
