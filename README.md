@@ -9,7 +9,13 @@ This is an official repo for <a href="https://chromewebstore.google.com/detail/g
 #### Repo Page
 install extension and visite https://github.com/dockur/windows
 
-![](chrome/assert/demo.png)
+![](images/demo.png)
+
+#### Trending Page
+
+url: https://github.com/trending
+
+![](images/demo-trending.png)
 
 ## Installation
 

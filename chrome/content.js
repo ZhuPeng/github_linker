@@ -5,26 +5,33 @@ main()
 function main() {
     const href = location.href
     console.log('run main', href)
-    if ((m = regex.exec(href)) !== null) {
-        console.log('regex match', m)
-        if (m.length !== 2) {return}
-        const repoPath = m[1]
-        if (repoPath.indexOf('/') === -1) {return}
+    var m = regex.exec(href) 
+    if (m == null) {return}
+
+    console.log('regex match', m)
+    if (m.length !== 2) {return}
+    const pathArr = m[1].split('/')
+    var org = pathArr[0]
+    if (org === 'trending') {
+        console.log('trending page')
+        addRelatedBlogInTrending()
+    } else if (pathArr.length >= 2) {
+        var repo = org + '/' + pathArr[1]
         const about = getAbout()
         console.log('about', about)
         const tags = getTags()
         console.log('tags', tags)
         if (about === undefined && tags.length === 0) {return}
 
-        addReleatedBlog("text", searchReleatedInfo(repoPath))
-        // searchGitHubReleatdBVideo(repoPath)
+        addRelatedBlog("text", searchRelatedInfo(repo))
+        // searchGitHubRelatdBVideo(repo)
         //     .then(result => result.json())
         //     .then(result => console.log(result))
-        searchGitHubForSimilar(repoPath, about, tags.join(' '))
+        searchGitHubForSimilar(path, about, tags.join(' '))
             .then(result => result.json())
-            .then(result => addSimilarRepo(repoPath, result))
+            .then(result => addSimilarRepo(repo, result))
             .catch(e => console.error(e))
-    }
+    } 
 }
 
 function appendCardList(head, cards, idx) {
@@ -41,13 +48,41 @@ function appendCardList(head, cards, idx) {
     // }
 }
 
-function addReleatedBlog(type, result) {
-	console.log('addReleatedBlog', result)
+function getIco(item) {
+    return chrome.runtime.getURL('/assert/'+item.website+'.ico')
+}
+
+function addRelatedBlogInTrending() {
+    const repos = document.querySelectorAll("body > div.logged-in.env-production.page-responsive > div.application-main > main > div.position-relative.container-lg.p-responsive.pt-6 > div > div:nth-child(2) > article")
+    if (!repos) {
+        return 
+    }
+    for (const repo of repos) {
+        var rname = repo.querySelector("h2 > a").innerText.replace(/ /g, '')
+        console.log('repo name:', rname)
+        var bar = repo.querySelector("div:nth-child(4)")
+
+        var blogs = searchRelatedInfo(rname)
+        if (blogs.length == 0) {continue}
+        var inject = ''
+        for (const b of blogs) {
+            var ico = getIco(b)
+            inject += `<a class="d-inline-block" target="_blank" href="${b.url}"><img class="mb-1" src="${ico}" width="20" height="20" style="vertical-align: middle;"></a>`
+        }
+
+        const newEle = document.createElement('span');
+        newEle.className = 'd-inline-block mr-3';
+        newEle.innerHTML = `Related Blogs ${inject}`;
+        bar.insertBefore(newEle, bar.children[4])
+    }
+}
+
+function addRelatedBlog(type, result) {
+	console.log('addRelatedBlog', result)
     if (result === undefined) {return}
 	let inject = ''
     for (const r of result.slice(0, 4)) {
-		// var ico = 'https://raw.githubusercontent.com/ZhuPeng/github_linker/master/assert/'+r.website+'.ico'
-		var ico = chrome.runtime.getURL('/assert/'+r.website+'.ico')
+		var ico = getIco(r)
 		const card = `
         <div class="f4 mt-1 lh-condensed color-fg-default" style="display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden;">
 						<i style="padding-left:25px; background:url(${ico}) no-repeat; background-size: contain;"></i>
@@ -56,7 +91,7 @@ function addReleatedBlog(type, result) {
 		`
 		inject += card
 	}
-	appendCardList("Releated Blogs", inject, 1)
+	appendCardList("Related Blogs", inject, 1)
 }
 
 function addSimilarRepo(repoPath, repos) {
@@ -120,7 +155,7 @@ function getTags () {
     return result.slice(0, 5)
 }
 
-function searchReleatedInfo(reponame) {
+function searchRelatedInfo(reponame) {
 	var key = 'github-data-400' 
 	var cached = localStorage.getItem(key) || false;
     if (cached !== false) {
@@ -147,8 +182,8 @@ function searchReleatedInfo(reponame) {
      });
 }
 
-async function searchGitHubReleatdBVideo(reponame) {
-    console.log('searchGitHubReleatdBVideo:', reponame)
+async function searchGitHubRelatdBVideo(reponame) {
+    console.log('searchGitHubRelatdBVideo:', reponame)
 	const headerObj = {
         'Access-Control-Allow-Origin': '*',
         'Access-Control-Allow-Credentials': true,
