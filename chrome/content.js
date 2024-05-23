@@ -27,7 +27,7 @@ function main() {
         // searchGitHubRelatdBVideo(repo)
         //     .then(result => result.json())
         //     .then(result => console.log(result))
-        searchGitHubForSimilar(path, about, tags.join(' '))
+        searchGitHubForSimilar(repo, about, tags.join(' '))
             .then(result => result.json())
             .then(result => addSimilarRepo(repo, result))
             .catch(e => console.error(e))
