@@ -102,7 +102,7 @@ function addRelatedBlogInTrending() {
         var inject = ''
         for (const b of blogs) {
             var ico = getIco(b)
-            inject += `<a class="d-inline-block" target="_blank" href="${b.url}"><img class="mb-1" src="${ico}" width="20" height="20" style="vertical-align: middle;"></a>`
+            inject += `<a class="d-inline-block" style="padding-right: 5px;" target="_blank" href="${b.url}"><img class="mb-1" src="${ico}" width="18" height="18" style="vertical-align: middle;"></a>`
         }
 
         const newEle = document.createElement('span');
