@@ -15,6 +15,9 @@ function main() {
     if (org === 'trending') {
         console.log('trending page')
         addRelatedBlogInTrending()
+    } else if (org.startsWith('search?')) {
+        console.log('search page')
+        addRelatedBlogInSearch()
     } else if (pathArr.length >= 2) {
         var repo = org + '/' + pathArr[1]
         const about = getAbout()
@@ -50,6 +53,38 @@ function appendCardList(head, cards, idx) {
 
 function getIco(item) {
     return chrome.runtime.getURL('/assert/'+item.website+'.ico')
+}
+
+function addRelatedBlogInSearch() {
+    const repos = document.querySelectorAll("body > div.logged-in.env-production.page-responsive > div.application-main > main > react-app > div > div > div.Box-sc-g0xbh4-0.emundt > div > div > div.Box-sc-g0xbh4-0.kKUpQe > div.Box-sc-g0xbh4-0.hlUAHL > div > div.Box-sc-g0xbh4-0.gytyqX > div.Box-sc-g0xbh4-0.kzrAHr > div > div > div")
+    if (!repos) {
+        return 
+    }
+    for (const repo of repos) {
+        var rname = repo.querySelector("div > div > h3 > div > div > a > span").innerText.replace(/ /g, '')
+        console.log('repo name:', rname)
+        var bar = repo.querySelector("div > div > ul")
+
+        var blogs = searchRelatedInfo(rname)
+        if (blogs.length == 0) {continue}
+        var inject = ''
+        for (const b of blogs) {
+            var ico = getIco(b)
+            inject += `<a class="d-inline-block" style="padding-right: 5px;" target="_blank" href="${b.url}"><img src="${ico}" width="15" height="15" style="vertical-align: middle;"></a>`
+        }
+
+        var last = bar.children[bar.children.length-1];
+
+        var dotspan = document.createElement('span');
+        dotspan.className = bar.children[bar.children.length-2].className
+        dotspan.innerHTML = `·`;
+        bar.appendChild(dotspan)
+
+        const newEle = document.createElement('li');
+        newEle.className = last.className;
+        newEle.innerHTML = `<span class="${last.children[0].className}">Related Blogs  ${inject}</span>`;
+        bar.appendChild(newEle)
+    }
 }
 
 function addRelatedBlogInTrending() {

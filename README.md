@@ -7,7 +7,8 @@ This is an official repo for <a href="https://chromewebstore.google.com/detail/g
 ## Screenshots
 
 #### Repo Page
-install extension and visite https://github.com/dockur/windows
+
+install extension and visite url https://github.com/dockur/windows
 
 ![](images/demo.png)
 
@@ -16,6 +17,12 @@ install extension and visite https://github.com/dockur/windows
 url: https://github.com/trending
 
 ![](images/demo-trending.png)
+
+#### Search
+
+url: https://github.com/search?q=windows&type=repositories
+
+![](images/demo-search.png)
 
 ## Installation
 
