@@ -4,6 +4,7 @@
   "author": "https://github.com/ZhuPeng/github_linker",
   "version": "1.0.3",
   "manifest_version": 3,
+  "permissions": ["tabs"],
   "background": {
     "service_worker": "background.js"
   },

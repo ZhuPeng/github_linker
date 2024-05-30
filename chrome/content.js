@@ -1,6 +1,12 @@
-const regex = /github\.com\/(.*\w+)$/
+chrome.runtime.onMessage.addListener(
+    function (request, sender, sendResponse) {
+        if (request.message === 'url changed') {
+            main()
+        }
+    }
+);
 
-main()
+const regex = /github\.com\/(.*\w+)$/
 
 function main() {
     const href = location.href
@@ -12,7 +18,7 @@ function main() {
     if (m.length !== 2) {return}
     const pathArr = m[1].split('/')
     var org = pathArr[0]
-    if (org === 'trending') {
+    if (org.startsWith('trending')) {
         console.log('trending page')
         addRelatedBlogInTrending()
     } else if (org.startsWith('search?')) {
@@ -89,7 +95,8 @@ function addRelatedBlogInSearch() {
 
 function addRelatedBlogInTrending() {
     const repos = document.querySelectorAll("article.Box-row")
-    if (!repos) {
+    if (repos == undefined || repos.length == 0) {
+        console.log('cannot find any article box')
         return 
     }
     for (const repo of repos) {
@@ -267,11 +274,3 @@ async function searchGitHubForSimilar(url, about, tags) {
             return response
 	})
 }
-
-chrome.runtime.onMessage.addListener(
-    function (request, sender, sendResponse) {
-        if (request.message === 'url changed') {
-            main()
-        }
-    }
-);
