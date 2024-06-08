@@ -1,25 +1,3296 @@
-[{
-	"repo": "OpenBMB/MiniCPM",
-	"website": "wechat", 
-	"type": "text",
-	"title": "可在手机端部署的大模型",
-	"url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490332&idx=1&sn=faa9a9646368e6316c94348591e9f75b&chksm=9b3f8bc4ac4802d2a5bb06eb293e30d10bfde2e8db69862796d86c1238cbc511321cfa0e513a#rd"
-}, {
-	"repo": "OpenBMB/MiniCPM",
-	"website": "bilibili", 
-	"type": "video",
-	"title": "可在手机端部署的大模型",
-	"url": "https://www.bilibili.com/video/BV1yM4m1r7sG/"
-}, {
-	"repo": "dockur/windows",
-	"website": "wechat", 
-	"type": "text",
-	"title": "使用 Docker 运行 Windows 容器，太方便了",
-	"url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490559&idx=1&sn=3f0c5f3e34619e8b790b893e6eefe6b7&chksm=9b3f8b27ac4802310f6ace154e144d33ebb2dd22982933d7605685a0deb875b631ab8c064c43#rd"
-}, {
-	"repo": "dockur/windows",
-	"website": "bilibili", 
-	"type": "video",
-	"title": "使用Docker运行Windows容器，太方便了",
-	"url": "https://www.bilibili.com/video/BV1Cw4m1C7jn/"
-}]
+[
+    {
+        "repo": "OpenBMB/MiniCPM",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u53ef\u5728\u624b\u673a\u7aef\u90e8\u7f72\u7684\u5927\u6a21\u578b",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490332&idx=1&sn=faa9a9646368e6316c94348591e9f75b&chksm=9b3f8bc4ac4802d2a5bb06eb293e30d10bfde2e8db69862796d86c1238cbc511321cfa0e513a#rd"
+    },
+    {
+        "repo": "OpenBMB/MiniCPM",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u53ef\u5728\u624b\u673a\u7aef\u90e8\u7f72\u7684\u5927\u6a21\u578b",
+        "url": "https://www.bilibili.com/video/BV1yM4m1r7sG/"
+    },
+    {
+        "repo": "dockur/windows",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4f7f\u7528 Docker \u8fd0\u884c Windows \u5bb9\u5668\uff0c\u592a\u65b9\u4fbf\u4e86",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490559&idx=1&sn=3f0c5f3e34619e8b790b893e6eefe6b7&chksm=9b3f8b27ac4802310f6ace154e144d33ebb2dd22982933d7605685a0deb875b631ab8c064c43#rd"
+    },
+    {
+        "repo": "dockur/windows",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4f7f\u7528Docker\u8fd0\u884cWindows\u5bb9\u5668\uff0c\u592a\u65b9\u4fbf\u4e86",
+        "url": "https://www.bilibili.com/video/BV1Cw4m1C7jn/"
+    },
+    {
+        "repo": "lukas-blecher/LaTeX-OCR",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u901a\u8fc7 OCR \u5c06\u6570\u5b66\u516c\u5f0f\u56fe\u50cf\u8f6c\u6362\u4e3a Latex \u4ee3\u7801",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489018&idx=1&sn=cc22aef5ced15d1d805a3cac56968293&chksm=9b"
+    },
+    {
+        "repo": "lukas-blecher/LaTeX-OCR",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u901a\u8fc7 OCR \u5c06\u6570\u5b66\u516c\u5f0f\u56fe\u50cf\u8f6c\u6362\u4e3a Latex \u4ee3\u7801",
+        "url": "https://www.bilibili.com/video/BV1wa4y117gm/"
+    },
+    {
+        "repo": "wailsapp/wails",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u8f7b\u91cf\u7ea7 Electron \u66ff\u4ee3\u54c1\uff0cGo \u5c01\u88c5\u524d\u7aef\u9875\u9762",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488883&idx=1&sn=c13c6ecd1014e6569b633b653b350eb4&chksm=9b3f85abac4"
+    },
+    {
+        "repo": "wailsapp/wails",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u8f7b\u91cf\u7ea7 Electron \u66ff\u4ee3\u54c1\uff0cGo \u5c01\u88c5\u524d\u7aef\u9875\u9762",
+        "url": "https://www.bilibili.com/video/BV1LC4y1e7Rj/"
+    },
+    {
+        "repo": "keyval-dev/odigos",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u65e0\u9700\u6539\u52a8\u4ee3\u7801\u4e3a\u4efb\u4f55\u5e94\u7528\u7a0b\u5e8f\u751f\u6210\u5206\u5e03\u5f0f\u8ffd\u8e2a\u7684\u5de5\u5177",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488660&idx=1&sn=72574469dbad4347f86db11e2be0cc20&chksm=9b3f844cac4"
+    },
+    {
+        "repo": "keyval-dev/odigos",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u65e0\u9700\u6539\u52a8\u4ee3\u7801\u4e3a\u4efb\u4f55\u5e94\u7528\u7a0b\u5e8f\u751f\u6210\u5206\u5e03\u5f0f\u8ffd\u8e2a\u7684\u5de5\u5177",
+        "url": "https://www.bilibili.com/video/BV1Kt4y1R7Uv/"
+    },
+    {
+        "repo": "Pradumnasaraf/DevOps",
+        "website": "wechat",
+        "type": "text",
+        "title": "DevOps \u5b66\u4e60\u7b14\u8bb0\u53ca\u53c2\u8003\u624b\u518c",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488302&idx=1&sn=2a35f9c6ead5510adc229fad0a08235e&chksm=9b3f83f6ac480ae072fe59974be7f65534e819dde44406a47362714d801cb2d53b78c3eb47a4&token=1240254177&lang=zh_CN#rd"
+    },
+    {
+        "repo": "Pradumnasaraf/DevOps",
+        "website": "bilibili",
+        "type": "video",
+        "title": "DevOps \u5b66\u4e60\u7b14\u8bb0\u53ca\u53c2\u8003\u624b\u518c",
+        "url": "https://www.bilibili.com/video/BV19m411S7bH/"
+    },
+    {
+        "repo": "ByteByteGoHq/system-design-101",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u590d\u6742\u7cfb\u7edf\u8bbe\u8ba1\u514d\u8d39\u6559\u79d1\u4e66\uff0c\u9762\u8bd5&\u5de5\u4f5c\u90fd\u7528\u5f97\u4e0a",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489074&idx=1&sn=e2bf986ee06194093d55ba73b660d2af&chksm=9b3f86eaac480ffc743b5fb20819c851c48aa30fc9a741d69b63769329a74b1db22ca8d7cc64&token=1240254177&lang=zh_CN#rd"
+    },
+    {
+        "repo": "ByteByteGoHq/system-design-101",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u590d\u6742\u7cfb\u7edf\u8bbe\u8ba1\u514d\u8d39\u6559\u79d1\u4e66\uff0c\u9762\u8bd5&\u5de5\u4f5c\u90fd\u7528\u5f97\u4e0a",
+        "url": "https://www.bilibili.com/video/BV1Zv42167Su/"
+    },
+    {
+        "repo": "jetpack-io/typeid",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u6570\u636e\u6807\u8bc6\u7b26\u751f\u6210\u5de5\u5177\uff0c\u5177\u5907\u7c7b\u578b\u5b89\u5168\u3001K\u53ef\u6392\u5e8f\u3001\u5168\u5c40\u552f\u4e00\u7684\u7279\u6027",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488503&idx=1&sn=0cd855e4fae4ceac4fefac6330652cd9&chksm=9b3f832fac48"
+    },
+    {
+        "repo": "jetpack-io/typeid",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u6570\u636e\u6807\u8bc6\u7b26\u751f\u6210\u5de5\u5177\uff0c\u5177\u5907\u7c7b\u578b\u5b89\u5168\u3001K\u53ef\u6392\u5e8f\u3001\u5168\u5c40\u552f\u4e00\u7684\u7279\u6027",
+        "url": "https://www.bilibili.com/video/BV1cw411E754/"
+    },
+    {
+        "repo": "IBM/fp-go",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e13\u4e3a Go \u8bed\u8a00\u8bbe\u8ba1\u7684\u51fd\u6570\u5f0f\u7f16\u7a0b\u5e93",
+        "url": "https://mp.weixin.qq.com/s?biz=MzAwMzE5NzM2Nw==&mid=2247488245&idx=1&sn=79fc0f03ccd552695dfa46b9381c782d&chksm=9b3f822dac480b3bdeac3def9058788928fd4fa426e22f472358d1cbf44c3eb16b920a6c8fd9&token=1240254177&lang=zh_CN&poc_token=HCc742WjWsp9wWOevTs7DV0hNdPNTKR1YxVMoRO9"
+    },
+    {
+        "repo": "IBM/fp-go",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e13\u4e3a Go \u8bed\u8a00\u8bbe\u8ba1\u7684\u51fd\u6570\u5f0f\u7f16\u7a0b\u5e93",
+        "url": "https://www.bilibili.com/video/BV1dC41187ju/"
+    },
+    {
+        "repo": "ko-build/ko",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u65e0\u9700\u4f9d\u8d56 Docker\uff0c\u7b80\u5355\u4e14\u5feb\u901f\u7684 Go \u5e94\u7528\u5bb9\u5668\u955c\u50cf\u6784\u5efa\u5de5\u5177",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489125&idx=1&sn=f81baefdb3ff1cab24a4279d53dfe00e&chksm=9b3f86bdac480fabf30d4233dd16a83b6b102280ea7a6d92fcac38405c18316710d5e9ef535a&token=1240254177&lang=zh_CN#rd"
+    },
+    {
+        "repo": "ko-build/ko",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u65e0\u9700\u4f9d\u8d56 Docker\uff0c\u7b80\u5355\u4e14\u5feb\u901f\u7684 Go \u5e94\u7528\u5bb9\u5668\u955c\u50cf\u6784\u5efa\u5de5\u5177",
+        "url": "https://www.bilibili.com/video/BV1Gr421p7ZR/"
+    },
+    {
+        "repo": "yonahd/kor",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u63a2\u5bdf\u548c\u53d1\u73b0 Kubernetes \u4e2d\u672a\u4f7f\u7528\u7684\u8d44\u6e90",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488954&idx=1&sn=b68c277db5121e61b0e74c99f69425b4&chksm=9b3f8562ac480c7425407b56498ff3352a4050d46b0ec4a472523d456df5237dd1bc36e008be&token=1240254177&lang=zh_CN#rd"
+    },
+    {
+        "repo": "yonahd/kor",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u63a2\u5bdf\u548c\u53d1\u73b0 Kubernetes \u4e2d\u672a\u4f7f\u7528\u7684\u8d44\u6e90",
+        "url": "https://www.bilibili.com/video/BV1QC411W7Rm/"
+    },
+    {
+        "repo": "loft-sh/devpod",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e3a\u4f60\u63d0\u4f9b\u53ef\u5b9a\u5236\u7684\u5f00\u53d1\u73af\u5883",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487726&idx=1&sn=5e2224798721edd4fb1c0db0be35c819&chksm=9b3f8036ac4809200057b0e12dc24185b74532adf9572469bc50a4049be38a674affe597e9cb&token=1240254177&lang=zh_CN#rd"
+    },
+    {
+        "repo": "loft-sh/devpod",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e3a\u4f60\u63d0\u4f9b\u53ef\u5b9a\u5236\u7684\u5f00\u53d1\u73af\u5883",
+        "url": "https://www.bilibili.com/video/BV1XH4y1p7nW/"
+    },
+    {
+        "repo": "FerretDB/FerretDB",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u4e2a\u771f\u6b63\u7684\u5f00\u6e90 MongoDB \u66ff\u4ee3\u54c1",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487776&idx=1&sn=196aec18de401254f68cd9ac7cd9adba&chksm=9b3f81f8ac4808eecf3a5c32a7016cb1b235b232bc666f2ea3ed033f37d6251001b002c09de4&token=1240254177&lang=zh_CN#rd"
+    },
+    {
+        "repo": "FerretDB/FerretDB",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e00\u4e2a\u771f\u6b63\u7684\u5f00\u6e90 MongoDB \u66ff\u4ee3\u54c1",
+        "url": "https://www.bilibili.com/video/BV1wC411a7VC/"
+    },
+    {
+        "repo": "hay-kot/homebox",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u4e2a\u4e3a\u5bb6\u5ead\u7528\u6237\u6253\u9020\u7684\u5e93\u5b58\u548c\u7ec4\u7ec7\u7cfb\u7edf",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487985&idx=1&sn=94793540daa6f2db74f5a65c1e95d9b0&chksm=9b3f8129ac48083f9197aff587a2140d6fc3b4c1871553a1302979098490b1109480e16114e0&token=1240254177&lang=zh_CN#rd"
+    },
+    {
+        "repo": "hay-kot/homebox",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e00\u4e2a\u4e3a\u5bb6\u5ead\u7528\u6237\u6253\u9020\u7684\u5e93\u5b58\u548c\u7ec4\u7ec7\u7cfb\u7edf",
+        "url": "https://www.bilibili.com/video/BV1Vu4m1g7Re/"
+    },
+    {
+        "repo": "ByteStorage/FlyDB",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u6b3e\u5e73\u8861\u6027\u80fd\u548c\u5b58\u50a8\u6210\u672c\u952e\u503c\uff08KV\uff09\u5b58\u50a8\u5f15\u64ce",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488471&idx=1&sn=70c6e6c487f807de9d53bd595af441fa&chksm=9b3f830fac480a1911116af28d921ef22650e7488ab63a0f763a1cd4435103d0e76c097b1c8a&token=1240254177&lang=zh_CN#rd"
+    },
+    {
+        "repo": "ByteStorage/FlyDB",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e00\u6b3e\u5e73\u8861\u6027\u80fd\u548c\u5b58\u50a8\u6210\u672c\u952e\u503c\uff08KV\uff09\u5b58\u50a8\u5f15\u64ce",
+        "url": "https://www.bilibili.com/video/BV1Kr421x7MN/"
+    },
+    {
+        "repo": "reactive-python/reactpy",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u7528 Python \u7f16\u5199 React \u5f0f\u7528\u6237\u754c\u9762",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487407&idx=1&sn=9858d4397b0a4704141cf5cfdf445924&chksm=9b3f9f77ac481661e796b1c2f42608765e249ea12dd8b99005828444ba0a4560cb5792f2a24a&token=1240254177&lang=zh_CN#rd"
+    },
+    {
+        "repo": "reactive-python/reactpy",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u7528 Python \u7f16\u5199 React \u5f0f\u7528\u6237\u754c\u9762",
+        "url": "https://www.bilibili.com/video/BV16C411t7Lf/"
+    },
+    {
+        "repo": "ansible-semaphore/semaphore",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u4e2a\u73b0\u4ee3\u5316\u7684 Ansible \u7528\u6237\u754c\u9762",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487450&idx=1&sn=3c481481f96800a2daf609fe97ddd310&chksm=9b3f9f02ac481614a005e6fb393c99cde6aee36d054260378fbc462b9819593b6d9fc10720f1&token=1240254177&lang=zh_CN#rd"
+    },
+    {
+        "repo": "ansible-semaphore/semaphore",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e00\u4e2a\u73b0\u4ee3\u5316\u7684 Ansible \u7528\u6237\u754c\u9762",
+        "url": "https://www.bilibili.com/video/BV1Uu4m1T7xP/"
+    },
+    {
+        "repo": "groundcover-com/caretta",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5feb\u901f\u521b\u5efa Kubernetes \u96c6\u7fa4\u4e2d\u670d\u52a1\u7684\u53ef\u89c6\u5316\u4f9d\u8d56\u56fe",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488987&idx=1&sn=414968275a9726164d1f859aaab8d36c&chksm=9b3f8503ac480c15aa64663e00f26d598e80b4eb5e5ca5aaa6422dcd9b9e92569f53c9f2b9d6&token=1240254177&lang=zh_CN#rd"
+    },
+    {
+        "repo": "groundcover-com/caretta",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u5feb\u901f\u521b\u5efa Kubernetes \u96c6\u7fa4\u4e2d\u670d\u52a1\u7684\u53ef\u89c6\u5316\u4f9d\u8d56\u56fe",
+        "url": "https://www.bilibili.com/video/BV1Qt421w7vC/"
+    },
+    {
+        "repo": "go-nunu/nunu",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u4e2a\u7528\u4e8e\u6784\u5efa Go \u5e94\u7528\u7a0b\u5e8f\u7684\u811a\u624b\u67b6\u5de5\u5177",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488350&idx=1&sn=7f03e5796682824824690159638f628d&chksm=9b3f8386ac480a90850ef6bbff6c81449a68a158f7de59e82f2095f33b77f191644d4e5abcc6&token=1240254177&lang=zh_CN#rd"
+    },
+    {
+        "repo": "go-nunu/nunu",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e00\u4e2a\u7528\u4e8e\u6784\u5efa Go \u5e94\u7528\u7a0b\u5e8f\u7684\u811a\u624b\u67b6\u5de5\u5177",
+        "url": "https://www.bilibili.com/video/BV1MD421n7Yq/"
+    },
+    {
+        "repo": "ServiceWeaver/weaver",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u6b3e\u7b80\u5316\u5206\u5e03\u5f0f\u5e94\u7528\u7f16\u5199\u3001\u90e8\u7f72\u548c\u7ba1\u7406\u7684\u7f16\u7a0b\u6846\u67b6",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488375&idx=1&sn=1c0cf7ff3e0ad60a22e48f3d5690e215&chksm=9b3f83afac480ab935d0df0ec57a5ddf8b18f4499b9a3c11f070e922fe42259847b684e987bf&token=1240254177&lang=zh_CN#rd"
+    },
+    {
+        "repo": "ServiceWeaver/weaver",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e00\u6b3e\u7b80\u5316\u5206\u5e03\u5f0f\u5e94\u7528\u7f16\u5199\u3001\u90e8\u7f72\u548c\u7ba1\u7406\u7684\u7f16\u7a0b\u6846\u67b6",
+        "url": "https://www.bilibili.com/video/BV1Yx4y187jt/"
+    },
+    {
+        "repo": "maaslalani/nap",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u4e2a\u547d\u4ee4\u884c\u7ec8\u7aef\u4e0b\u7684\u4ee3\u7801\u7247\u6bb5\u7ba1\u7406\u5de5\u5177",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488721&idx=1&sn=8944e96d5361821c5ffde4784904c2ee&chksm=9b3f8409ac480d1fd47f9598622c1c2f5657e8ada47832c37f82b76a8c7a2d309a021cfa3377&token=1240254177&lang=zh_CN#rd"
+    },
+    {
+        "repo": "maaslalani/nap",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e00\u4e2a\u547d\u4ee4\u884c\u7ec8\u7aef\u4e0b\u7684\u4ee3\u7801\u7247\u6bb5\u7ba1\u7406\u5de5\u5177",
+        "url": "https://www.bilibili.com/video/BV1iH4y1P7ns/"
+    },
+    {
+        "repo": "pgrok/pgrok",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u9488\u5bf9\u5c0f\u56e2\u961f\u7684\u591a\u79df\u6237\u53cd\u5411\u4ee3\u7406",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488953&idx=1&sn=59e4d1cd6a739704fe457ec3979b01ef&chksm=9b3f8561ac480c7704f0dc4c82cc73d9bdd475fd372eab86a6aed2531f20c4fa1d52f90010b9&token=1240254177&lang=zh_CN#rd"
+    },
+    {
+        "repo": "pgrok/pgrok",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u9488\u5bf9\u5c0f\u56e2\u961f\u7684\u591a\u79df\u6237\u53cd\u5411\u4ee3\u7406",
+        "url": "https://www.bilibili.com/video/BV18M4m1f7sD/"
+    },
+    {
+        "repo": "mjl-/mox",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4f4e\u7ef4\u62a4\u7684\u81ea\u6211\u6258\u7ba1\u7535\u5b50\u90ae\u4ef6\u670d\u52a1\u5668",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488952&idx=1&sn=e14327c559a842b82e4c74c859acde56&chksm=9b3f8560ac480c7665ca696dc4ed88537aef26ee4b4540da6f9a6b47263ffabe776d67914c0b&token=1240254177&lang=zh_CN#rd"
+    },
+    {
+        "repo": "mjl-/mox",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4f4e\u7ef4\u62a4\u7684\u81ea\u6211\u6258\u7ba1\u7535\u5b50\u90ae\u4ef6\u670d\u52a1\u5668",
+        "url": "https://www.bilibili.com/video/BV14t421c7UF/"
+    },
+    {
+        "repo": "rulego/rulego",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u4e2a\u8f7b\u91cf\u7ea7\u3001\u9ad8\u6027\u80fd\u3001\u5d4c\u5165\u5f0f\u89c4\u5219\u5f15\u64ce",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487986&idx=1&sn=bc04a07e418863bf74830152511921a4&chksm=9b3f812aac48083ca6aeb6118eb90b9dd978bfe7fdfaf197c326d9147430a7b5bd0434066053&token=1240254177&lang=zh_CN#rd"
+    },
+    {
+        "repo": "rulego/rulego",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e00\u4e2a\u8f7b\u91cf\u7ea7\u3001\u9ad8\u6027\u80fd\u3001\u5d4c\u5165\u5f0f\u89c4\u5219\u5f15\u64ce",
+        "url": "https://www.bilibili.com/video/BV1pt421u7Ud/"
+    },
+    {
+        "repo": "chrieke/prettymapp",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u4e2a\u521b\u5efa\u4e2a\u6027\u5316\u5730\u56fe\u5c55\u793a\u7684\u5de5\u5177",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487961&idx=1&sn=a2844953e2ebfe0e86020a8186ec6a40&chksm=9b3f8101ac480817691da959ab30e0fd002cb49a927ff86aff5a94ae18589a640cd01b6ed7cc&token=1240254177&lang=zh_CN#rd"
+    },
+    {
+        "repo": "chrieke/prettymapp",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e00\u4e2a\u521b\u5efa\u4e2a\u6027\u5316\u5730\u56fe\u5c55\u793a\u7684\u5de5\u5177",
+        "url": "https://www.bilibili.com/video/BV1Ft421g7Eq/"
+    },
+    {
+        "repo": "IceWhaleTech/CasaOS",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u4e2a\u7b80\u5355\u3001\u6613\u7528\u3001\u4f18\u96c5\u7684\u5f00\u6e90\u4e2a\u4eba\u4e91\u7cfb\u7edf",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488143&idx=1&sn=792a5f269bed6dc0df9c12f233653394&chksm=9b3f8257ac480b41587e00507134eeabd96666c5e463e6aa747d021e397d38fbd4b90329f4bf&token=1240254177&lang=zh_CN#rd"
+    },
+    {
+        "repo": "IceWhaleTech/CasaOS",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e00\u4e2a\u7b80\u5355\u3001\u6613\u7528\u3001\u4f18\u96c5\u7684\u5f00\u6e90\u4e2a\u4eba\u4e91\u7cfb\u7edf",
+        "url": "https://www.bilibili.com/video/BV1VT42197cA/"
+    },
+    {
+        "repo": "KillianLucas/open-interpreter",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5728\u547d\u4ee4\u884c\u7ec8\u7aef\u672c\u5730\u8fd0\u884c\u7684 OpenAI \u4ee3\u7801\u6267\u884c\u5668",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488763&idx=1&sn=23e444b14174a678afcc8649cc76aa24&chksm=9b3f8423ac480d3583a09297912d65d8193c8c1edb2e9180c351b9fd0c91de329ead79f9214e&token=1240254177&lang=zh_CN#rd"
+    },
+    {
+        "repo": "KillianLucas/open-interpreter",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u5728\u547d\u4ee4\u884c\u7ec8\u7aef\u672c\u5730\u8fd0\u884c\u7684 OpenAI \u4ee3\u7801\u6267\u884c\u5668",
+        "url": "https://www.bilibili.com/video/BV1Lb421h7xB/"
+    },
+    {
+        "repo": "lomorage/homepage",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u6b3e\u4e3a\u5bb6\u5ead\u6253\u9020\u7684\u7b80\u5355\u6613\u7528\u7684\u79c1\u6709\u7167\u7247\u4e91\u670d\u52a1",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488990&idx=1&sn=46dcacac9eb5cef9ff4cd52035ef97d9&chksm=9b3f8506ac480c10f168063993c0917f43e1073b7533e060e2fc3afdcc251263a93b22c5e5d8&token=1240254177&lang=zh_CN#rd"
+    },
+    {
+        "repo": "lomorage/homepage",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e00\u6b3e\u4e3a\u5bb6\u5ead\u6253\u9020\u7684\u7b80\u5355\u6613\u7528\u7684\u79c1\u6709\u7167\u7247\u4e91\u670d\u52a1",
+        "url": "https://www.bilibili.com/video/BV1t1421z7A6/"
+    },
+    {
+        "repo": "OpenInterpreter/open-interpreter",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5728\u547d\u4ee4\u884c\u7ec8\u7aef\u672c\u5730\u8fd0\u884c\u7684 OpenAI \u4ee3\u7801\u6267\u884c\u5668",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488763&idx=1&sn=23e444b14174a678afcc8649cc76aa24&chksm=9b3f8423ac480d3583a09297912d65d8193c8c1edb2e9180c351b9fd0c91de329ead79f9214e&token=1240254177&lang=zh_CN#rd"
+    },
+    {
+        "repo": "OpenInterpreter/open-interpreter",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u5728\u547d\u4ee4\u884c\u7ec8\u7aef\u672c\u5730\u8fd0\u884c\u7684 OpenAI \u4ee3\u7801\u6267\u884c\u5668",
+        "url": "https://www.bilibili.com/video/BV1Lb421h7xB/"
+    },
+    {
+        "repo": "Ryujinx/Ryujinx",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u6b3e\u4efb\u5929\u5802 Switch \u6a21\u62df\u5668",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490761&idx=1&sn=a3f339e9d69c01732e4141a4d9b6e3ed&chksm=9b3f8c11ac480507e5523b4e94a8fb75c915d633ac0e5f2155d4277f1ff38c105ecdf1fd7959#rd"
+    },
+    {
+        "repo": "Ryujinx/Ryujinx",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e00\u6b3e\u4efb\u5929\u5802 Switch \u6a21\u62df\u5668",
+        "url": "https://www.bilibili.com/video/BV1Ni421X7CP/"
+    },
+    {
+        "repo": "philippta/flyscrape",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4f7f\u7528 Go \u5f00\u53d1\u4f46\u901a\u8fc7 JS \u7f16\u5199\u89c4\u5219\u7684\u722c\u866b\u5de5\u5177",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490626&idx=1&sn=991bf01ce71d60e4cca9af775891a1b0&chksm=9b3f8c9aac48058c99318148d02c4f02e65e7e1d0d5b31b66ff109de7ef4092b9bdd16bb4034#rd"
+    },
+    {
+        "repo": "philippta/flyscrape",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4f7f\u7528 Go \u5f00\u53d1\u4f46\u901a\u8fc7 JS \u7f16\u5199\u89c4\u5219\u7684\u722c\u866b\u5de5\u5177",
+        "url": "https://www.bilibili.com/video/BV1qT42197a8/"
+    },
+    {
+        "repo": "maypok86/otter",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u65e0\u9501\u9ad8\u6027\u80fd\u7f13\u5b58\u5e93\u63a8\u8350",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490636&idx=1&sn=34e9dff3b8dcac1426af6e0efa3fb971&chksm=9b3f8c94ac48058279c94bd3fe200628b81d6147fcda59248489d109e21d3db5e320de8c7451#rd"
+    },
+    {
+        "repo": "maypok86/otter",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u65e0\u9501\u9ad8\u6027\u80fd\u7f13\u5b58\u5e93\u63a8\u8350",
+        "url": "https://www.bilibili.com/video/BV1Pw4m1976o/"
+    },
+    {
+        "repo": "daytonaio/daytona",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5f00\u53d1\u8005\u5fc5\u5907\u795e\u5668\uff0c\u4e00\u6b3e\u5f00\u53d1\u73af\u5883\u7ba1\u7406\u5668",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490611&idx=1&sn=c0728c80a8d4a37de3b92c2c4ace76ea&chksm=9b3f8cebac4805fd8a42ba98bc25e96fa284775ed48dc0fb473351600c99f78164a6351ad0c5#rd"
+    },
+    {
+        "repo": "daytonaio/daytona",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u5f00\u53d1\u8005\u5fc5\u5907\u795e\u5668\uff0c\u4e00\u6b3e\u5f00\u53d1\u73af\u5883\u7ba1\u7406\u5668",
+        "url": "https://www.bilibili.com/video/BV1Vb421B71B/"
+    },
+    {
+        "repo": "pydantic/FastUI",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5feb\u901f\u5f00\u53d1 UI \u9875\u9762\u7684\u5de5\u5177\u5305",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490692&idx=1&sn=6e967eefcb6a23b876b3c14e2bd40d3c&chksm=9b3f8c5cac48054af0f30f7e143e89697d4c9d4af3a7ae74190db363687efbe821e067820163#rd"
+    },
+    {
+        "repo": "pydantic/FastUI",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u5feb\u901f\u5f00\u53d1 UI \u9875\u9762\u7684\u5de5\u5177\u5305",
+        "url": "https://www.bilibili.com/video/BV1eU411o7Qc/"
+    },
+    {
+        "repo": "segfall/static-wiki",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e0d\u7528\u670d\u52a1\u5668\u5c31\u80fd\u642d\u5efa\u7684\u4e92\u8054\u7f51\u767e\u79d1\u5168\u4e66\u7f51\u7ad9\uff0c\u592a\u725b\u4e86",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=100001559&idx=1&sn=7434f60eec168d9b418b8b821461d242&chksm=1b3f97cf2c481ed9ca3b9110814aea957b4b126cae60259f6f36de08240428037322a1b0751d#rd",
+        "thumb_url": "http://mmbiz.qpic.cn/mmbiz_jpg/KdvL5MRnFBSt8nwq0lZGXBoEcrdnWPNVcceX6X4XVVUGtr3ibZuIZ9Gn2UibXRzVUNI1psko4shZicGFxDswcGNtA/0?wx_fmt=jpeg"
+    },
+    {
+        "repo": "StepfenShawn/Cantonese",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u96f7\u7334\u554a\uff0c\u4eca\u5929\u4f60\u5199 Bug \u4e86\u561b",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=100001547&idx=1&sn=fec2c6e660592a29c893511cc3aa3583&chksm=1b3f97d32c481ec52b69c34dde988ccf968f4b4eeaa85f69d66b94fdf7a6a9fd6304d37ce6b8#rd",
+        "thumb_url": "http://mmbiz.qpic.cn/mmbiz_jpg/KdvL5MRnFBRdFiaHf14zBSDMSV4BSkT5N9QPugU2lQGZKjrI9RLaNqFYGiacVlK7UkATx78k0qiaxeo04jm0RicqUg/0?wx_fmt=jpeg"
+    },
+    {
+        "repo": "spipm/Depix",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u9707\u60ca\uff0c\u88ab\u9a6c\u8d5b\u514b\u7684\u56fe\u7247\u7adf\u7136\u8fd8\u53ef\u4ee5\u6062\u590d",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=100001536&idx=1&sn=a5e1474fc5e553e784db4d2eea53a5e0&chksm=1b3f97d82c481ece21b9ba939dfac903d9ce4b7c00e785d72f625d12b1a3470185c0e216b0ec#rd",
+        "thumb_url": "http://mmbiz.qpic.cn/mmbiz_jpg/KdvL5MRnFBRdFiaHf14zBSDMSV4BSkT5NOeHHhpXRLibSAbkeiaicqaY4Jnxg5HfibNkNwlzQ6YMZ76KXiahe6b1UNTA/0?wx_fmt=jpeg"
+    },
+    {
+        "repo": "geohot/minikeyvalue",
+        "website": "wechat",
+        "type": "text",
+        "title": "YYDS\uff0c\u53ea\u6709 1000 \u884c\u4ee3\u7801\u7684\u5206\u5e03\u5f0f\u6570\u636e\u5e93",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=100001529&idx=1&sn=fa85bfad10e0deb404ec0a7e79b24c5e&chksm=1b3f96212c481f3744e591042a6b14a6d04463b742b52d6fca8f7b2c9d4a3cca359383115df4#rd",
+        "thumb_url": "http://mmbiz.qpic.cn/mmbiz_jpg/KdvL5MRnFBRdFiaHf14zBSDMSV4BSkT5N7mQBHf2woibneCVwgOicibVFzlV0MggkowZniaBWkiafk6EW0icuLNibDUCSw/0?wx_fmt=jpeg"
+    },
+    {
+        "repo": "chenjiandongx/mandodb",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4ece\u96f6\u5f00\u59cb\u5b66\u4e60\u7cfb\u5217\u4e4b\u65f6\u95f4\u5e8f\u5217\u6570\u636e\u5e93",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=100001520&idx=1&sn=45d21449329361a020e41ffe93a4a3e5&chksm=1b3f96282c481f3e6e3f3b528b146ef46b0c14b789b8766969828485949cc8d32570b7ae5fa2#rd",
+        "thumb_url": "http://mmbiz.qpic.cn/mmbiz_jpg/KdvL5MRnFBRdFiaHf14zBSDMSV4BSkT5NRI5D5XqD32VsEcyic3Ej8WicROZsobSbCDa0Y3YL9FoEiaRa9iczOBm5Cw/0?wx_fmt=jpeg"
+    },
+    {
+        "repo": "typesense/typesense",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u6bd4 ElasticSearch \u66f4\u5bb9\u6613\u63a5\u5165\u4f7f\u7528\u7684\u5f00\u6e90\u641c\u7d22\u5f15\u64ce",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=100001513&idx=1&sn=6d23fe3cf2aff235a2f472a41f1f61e5&chksm=1b3f96312c481f27e3500ca12cc9943f88b4a8a27ad285bd01fdc6661a71376a3ee9d3821060#rd",
+        "thumb_url": "http://mmbiz.qpic.cn/mmbiz_jpg/KdvL5MRnFBRdFiaHf14zBSDMSV4BSkT5NQ2A5mrqGgmqvp1wF2NibZYdzu76ojySyhqcmOlvoZIicx49gWbYxg6AQ/0?wx_fmt=jpeg"
+    },
+    {
+        "repo": "alex/what-happens-when",
+        "website": "wechat",
+        "type": "text",
+        "title": "GitHub \u661f\u6807 30.4K\uff01\u8d85\u7ecf\u5178\u9762\u8bd5\u9898\u89e3\u8bfb\uff01",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=100001497&idx=1&sn=525641e11c2b3c4ac347321ea9cb5b18&chksm=1b3f96012c481f178e7821908fb564bd371ab95cfaed736c27ff4705492521fd01ef34fefa6c#rd",
+        "thumb_url": "http://mmbiz.qpic.cn/mmbiz_jpg/KdvL5MRnFBTB3CeMH6ichYsA14ucDvxf93qaXHnTNjnumOr4fKCAtKxNMpJh8nqhhnCSu8libd9CEsIBciace1EWg/0?wx_fmt=jpeg"
+    },
+    {
+        "repo": "tone-row/flowchart-fun",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u91cd\u78c5\u63a8\u8350\uff0c\u53ef\u80fd\u662f\u6700\u7b80\u5355\u7684\u6d41\u7a0b\u56fe\u5236\u4f5c\u5de5\u5177",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=100001489&idx=1&sn=d610dd4464080454678566f79567103d&chksm=1b3f96092c481f1fa7444603d6d427dd48a7036d2c7ece7d3a4fb17c9b76c23d268c8827404a#rd",
+        "thumb_url": "http://mmbiz.qpic.cn/mmbiz_jpg/KdvL5MRnFBQzKFRtpibvcoczIUpbbP2YI6p4XNBHibyEYLAGTaYIQAKMc5SqnGqol1ddKKSM69uGmseOHeqcKVrA/0?wx_fmt=jpeg"
+    },
+    {
+        "repo": "semgrep/semgrep",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u63a8\u8350\uff01\u5f00\u6e90\u8f7b\u91cf\u5316\u9759\u6001\u4ee3\u7801\u626b\u63cf\u5de5\u5177",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=100001481&idx=1&sn=d676ae87a03e85f85ea7987a37585f20&chksm=1b3f96112c481f079b2150c7ab9832e2bc2564e16fb6f373c7fbc19be514865e43c741cfba73#rd",
+        "thumb_url": "http://mmbiz.qpic.cn/mmbiz_jpg/KdvL5MRnFBQ51qOPZiaygIlEkzk1RmaecAfiaDWMtyzavm6wNlW253Up7Tm92v87SQ7eibqTegAL6Wwew0l6X0osA/0?wx_fmt=jpeg"
+    },
+    {
+        "repo": "fastai/fastmac",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u00e5\u20ac\u0178\u00e5\u0160\u00a9 GitHub Actions \u00e8\ufffd\u00b7\u00e5\ufffd\u2013\u00e5\u2026\ufffd\u00e8\u00b4\u00b9 MacOS \u00e4\u00bd\u00bf\u00e7\u201d\u00a8\u00e6\u2014\u00b6\u00e9\u2022\u00bf",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=100001316&idx=1&sn=31ba148e4eb70d127702218ebfef5b57&chksm=1b3f96fc2c481fea17f591bba7108cc2b602ae5b9159daedae0e7c4f8defb1c10fa2568593a7#rd",
+        "thumb_url": "http://mmbiz.qpic.cn/mmbiz_jpg/KdvL5MRnFBSQibmO4HmBD7mqSsZexMLDjU2L1WXjibr2KN33LrZPjsdsLxn93icNWPqywgDXh2qRfnBvtEUjZ4R0g/0?wx_fmt=jpeg"
+    },
+    {
+        "repo": "inancgumus/learngo",
+        "website": "wechat",
+        "type": "text",
+        "title": "Go \u8bed\u8a00\u5b66\u4e60\u5b9e\u8df5\u6837\u4f8b\u5f00\u6e90\u5e93\u63a8\u8350",
+        "url": "http://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=100000770&idx=1&sn=da89f5ff9d4c97437aaa136fc4d83872&chksm=1b3f94da2c481dccc475cc47982856f2007f00831174c2572c0ac6333651ab9db2368823ab61#rd",
+        "thumb_url": "http://mmbiz.qpic.cn/mmbiz_jpg/KdvL5MRnFBS3IP6qg1yolWJAPoALKkiaTVpV2Ks9Kbg8Bpicdrx1ic19WdQtWaZyLWAPh9AOxaYdbHv2ibcyB6JBIw/0?wx_fmt=jpeg"
+    },
+    {
+        "repo": "thomiceli/opengist",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u4e2a\u5f00\u6e90\u53ef\u66ff\u4ee3 GitHub Gist \u7684\u4ee3\u7801\u7247\u6bb5\u5206\u4eab\u5de5\u5177",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488725&idx=1&sn=edac4d9f9a9ac08983218d4f3af71f52&chksm=9b3f840dac480"
+    },
+    {
+        "repo": "thomiceli/opengist",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e00\u4e2a\u5f00\u6e90\u53ef\u66ff\u4ee3 GitHub Gist \u7684\u4ee3\u7801\u7247\u6bb5\u5206\u4eab\u5de5\u5177",
+        "url": "https://www.bilibili.com/video/BV16c411t7jU/"
+    },
+    {
+        "repo": "OpenBMB/ChatDev",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u4e2a\u57fa\u4e8e\u5927\u578b\u8bed\u8a00\u6a21\u578b\u7684\u865a\u62df\u8f6f\u4ef6\u516c\u53f8",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488846&idx=1&sn=4239ab2a975985059ff271a726d9fad0&chksm=9b3f8596ac48"
+    },
+    {
+        "repo": "OpenBMB/ChatDev",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e00\u4e2a\u57fa\u4e8e\u5927\u578b\u8bed\u8a00\u6a21\u578b\u7684\u865a\u62df\u8f6f\u4ef6\u516c\u53f8",
+        "url": "https://www.bilibili.com/video/BV1w64y1K79R/"
+    },
+    {
+        "repo": "a-h/templ",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u79cd\u66f4\u597d\u7684\u7ba1\u7406 HTML \u6a21\u677f\u7684 Go \u8bed\u8a00\u6846\u67b6",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488924&idx=1&sn=77abbb697438c603e1a16a5958ba11af&chksm=9b3f8544ac48"
+    },
+    {
+        "repo": "a-h/templ",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e00\u79cd\u66f4\u597d\u7684\u7ba1\u7406 HTML \u6a21\u677f\u7684 Go \u8bed\u8a00\u6846\u67b6",
+        "url": "https://www.bilibili.com/video/BV1p64y1K7jJ/"
+    },
+    {
+        "repo": "AykutSarac/jsoncrack.com",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5f00\u53d1\u8005\u6548\u7387\u63d0\u5347\u5de5\u5177\u4e4b JSON \u53ef\u89c6\u5316",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485868&idx=1&sn=b02a2be49077d3e3000cb0ff2ba6bb72&chksm=9b3f9974ac4"
+    },
+    {
+        "repo": "AykutSarac/jsoncrack.com",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u5f00\u53d1\u8005\u6548\u7387\u63d0\u5347\u5de5\u5177\u4e4b JSON \u53ef\u89c6\u5316",
+        "url": "https://www.bilibili.com/video/BV1ta4y1B7Sz/"
+    },
+    {
+        "repo": "gildas-lormeau/SingleFile",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u79bb\u7ebf\u4fdd\u5b58\u7684\u7f51\u9875\u6253\u4e0d\u5f00\uff0c\u8fd9\u4e2a\u63d2\u4ef6\u63a8\u8350\u7ed9\u4f60",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485806&idx=1&sn=7d68e049bc960e327aefa48588983404&chksm=9b3f99b6ac4"
+    },
+    {
+        "repo": "gildas-lormeau/SingleFile",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u79bb\u7ebf\u4fdd\u5b58\u7684\u7f51\u9875\u6253\u4e0d\u5f00\uff0c\u8fd9\u4e2a\u63d2\u4ef6\u63a8\u8350\u7ed9\u4f60",
+        "url": "https://www.bilibili.com/video/BV1vK41187e8/"
+    },
+    {
+        "repo": "nadermx/backgroundremover",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u4e2a\u5de5\u5177\u548c\u4e00\u6bb5\u5f00\u6e90\u6545\u4e8b\uff0c\u4e00\u952e\u667a\u80fd\u62a0\u56fe\u5de5\u5177",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485283&idx=1&sn=005aba6ad7de7deeb241acdd85ad1cca&chksm=9b3f97bbac48"
+    },
+    {
+        "repo": "nadermx/backgroundremover",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e00\u4e2a\u5de5\u5177\u548c\u4e00\u6bb5\u5f00\u6e90\u6545\u4e8b\uff0c\u4e00\u952e\u667a\u80fd\u62a0\u56fe\u5de5\u5177",
+        "url": "https://www.bilibili.com/video/BV1Nj411n7ds/"
+    },
+    {
+        "repo": "tableflowhq/tableflow",
+        "website": "wechat",
+        "type": "text",
+        "title": "TableFlow - \u4e00\u4e2a\u5f00\u6e90\u7684 CSV \u6570\u636e\u5bfc\u5165\u7ba1\u7406\u5e73\u53f0",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488951&idx=1&sn=8634ddd2b712fe5a412a9419ed0e7fbb&chksm=9b3f856fac480c7970b66bfb4591a24120deb9a067f28f7dda5148feacf9ec75d69c882fed67&token=1240254177&lang=zh_CN#rd"
+    },
+    {
+        "repo": "tableflowhq/tableflow",
+        "website": "bilibili",
+        "type": "video",
+        "title": "TableFlow - \u4e00\u4e2a\u5f00\u6e90\u7684 CSV \u6570\u636e\u5bfc\u5165\u7ba1\u7406\u5e73\u53f0",
+        "url": "https://www.bilibili.com/video/BV1CQ4y1E7FY/"
+    },
+    {
+        "repo": "arc53/DocsGPT",
+        "website": "wechat",
+        "type": "text",
+        "title": "DocsGPT - \u65e8\u5728\u7b80\u5316\u9879\u76ee\u6587\u6863\u641c\u7d22\u4f53\u9a8c",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489031&idx=1&sn=e7b13352e91e45b5d02069957c5eeac2&chksm=9b3f86dfac48"
+    },
+    {
+        "repo": "arc53/DocsGPT",
+        "website": "bilibili",
+        "type": "video",
+        "title": "DocsGPT - \u65e8\u5728\u7b80\u5316\u9879\u76ee\u6587\u6863\u641c\u7d22\u4f53\u9a8c",
+        "url": "https://www.bilibili.com/video/BV1Sg4y1k75P/"
+    },
+    {
+        "repo": "dolthub/dolt",
+        "website": "wechat",
+        "type": "text",
+        "title": "Git \u548c MySQL \u7684\u7ed3\u5408\u4f53\uff0c\u63d0\u4f9b\u7248\u672c\u63a7\u5236\u7684\u6570\u636e\u7ba1\u7406\u5de5\u5177",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488950&idx=1&sn=5e834dfa29b8459d119ee0c5f1d155ef&chksm=9b3f856eac480"
+    },
+    {
+        "repo": "dolthub/dolt",
+        "website": "bilibili",
+        "type": "video",
+        "title": "Git \u548c MySQL \u7684\u7ed3\u5408\u4f53\uff0c\u63d0\u4f9b\u7248\u672c\u63a7\u5236\u7684\u6570\u636e\u7ba1\u7406\u5de5\u5177",
+        "url": "https://www.bilibili.com/video/BV1zw411G7pV/"
+    },
+    {
+        "repo": "charmbracelet/log",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u4e2a\u7b80\u6d01\u4e14\u591a\u5f69\u7684 Go \u8bed\u8a00\u65e5\u5fd7\u5e93",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488530&idx=1&sn=f7d15a81ad11313ac67eed9bd5fba636&chksm=9b3f84caac480d"
+    },
+    {
+        "repo": "charmbracelet/log",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e00\u4e2a\u7b80\u6d01\u4e14\u591a\u5f69\u7684 Go \u8bed\u8a00\u65e5\u5fd7\u5e93",
+        "url": "https://www.bilibili.com/video/BV1Qp4y197L2/"
+    },
+    {
+        "repo": "ublue-os/fleek",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u4e2a\u5168\u80fd\u7684\u7535\u8111 Home \u73af\u5883\u7ba1\u7406\u5de5\u5177\uff0c\u5df2\u9002\u914d\u4e3b\u6d41\u64cd\u4f5c\u7cfb\u7edf",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488845&idx=1&sn=e5beaffe3d175f847e704351e588be0b&chksm=9b3f8595ac48"
+    },
+    {
+        "repo": "ublue-os/fleek",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e00\u4e2a\u5168\u80fd\u7684\u7535\u8111 Home \u73af\u5883\u7ba1\u7406\u5de5\u5177\uff0c\u5df2\u9002\u914d\u4e3b\u6d41\u64cd\u4f5c\u7cfb\u7edf",
+        "url": "https://www.bilibili.com/video/BV1xt4y1Z7Cv/"
+    },
+    {
+        "repo": "cookieY/Yearning",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5f00\u53d1\u8005\u5fc5\u5907\u7684 SQL \u5de5\u5177",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485696&idx=1&sn=8890c9e30b04020d11018b8f72b125c0&chksm=9b3f99d8ac48"
+    },
+    {
+        "repo": "cookieY/Yearning",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u5f00\u53d1\u8005\u5fc5\u5907\u7684 SQL \u5de5\u5177",
+        "url": "https://www.bilibili.com/video/BV14X4y1h7Xs/"
+    },
+    {
+        "repo": "pocketbase/pocketbase",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5feb\u901f\u5f00\u53d1\u6846\u67b6 PocketBase\uff0c\u540e\u7aef\u670d\u52a1\u5f00\u53d1\u5168\u5bb6\u6876",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486280&idx=1&sn=f2b12d7002aaaf7d1cdc4f6fabc2dcf0&chksm=9b3f9b90ac481"
+    },
+    {
+        "repo": "pocketbase/pocketbase",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u5feb\u901f\u5f00\u53d1\u6846\u67b6 PocketBase\uff0c\u540e\u7aef\u670d\u52a1\u5f00\u53d1\u5168\u5bb6\u6876",
+        "url": "https://www.bilibili.com/video/BV1S8411f7G7/"
+    },
+    {
+        "repo": "scottrogowski/code2flow",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u9605\u8bfb\u65b0\u9879\u76ee\u4ee3\u7801\u6548\u7387\u4e0d\u9ad8\uff0c\u8fd9\u4e2a\u5de5\u5177\u6765\u5e2e\u4f60",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485750&idx=1&sn=86e9dda1a9b5fad6b52b0c4fedd08040&chksm=9b3f99eeac481"
+    },
+    {
+        "repo": "scottrogowski/code2flow",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u9605\u8bfb\u65b0\u9879\u76ee\u4ee3\u7801\u6548\u7387\u4e0d\u9ad8\uff0c\u8fd9\u4e2a\u5de5\u5177\u6765\u5e2e\u4f60",
+        "url": "https://www.bilibili.com/video/BV1V8411Z72A/"
+    },
+    {
+        "repo": "onceupon/Bash-Oneliner",
+        "website": "wechat",
+        "type": "text",
+        "title": "GitHub \u661f\u6807 7K+\uff0c\u5f00\u6e90\u771f\u7684\u6ca1\u90a3\u4e48\u96be\uff0c\u8fd9\u4e2a\u9879\u76ee\u544a\u8bc9\u4f60\u4e00\u884c\u4ee3\u7801\u53ef\u4ee5\u505a\u4ec0\u4e48\uff1f",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486141&idx=1&sn=d5b08aa4496b5d8df2137bda4389ee5c&chksm=9b3f9a65ac48"
+    },
+    {
+        "repo": "onceupon/Bash-Oneliner",
+        "website": "bilibili",
+        "type": "video",
+        "title": "GitHub \u661f\u6807 7K+\uff0c\u5f00\u6e90\u771f\u7684\u6ca1\u90a3\u4e48\u96be\uff0c\u8fd9\u4e2a\u9879\u76ee\u544a\u8bc9\u4f60\u4e00\u884c\u4ee3\u7801\u53ef\u4ee5\u505a\u4ec0\u4e48\uff1f",
+        "url": "https://www.bilibili.com/video/BV1Ga4y1A7oC/"
+    },
+    {
+        "repo": "x2bool/xlite",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u53c8\u4e00\u4e2a SQLite \u7684\u589e\u5f3a\u6269\u5c55\uff0c\u8ba9\u6570\u636e\u5206\u6790\u66f4\u7b80\u5355",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486254&idx=1&sn=eebe64efc28f3d676cc71acdb1cb4c13&chksm=9b3f9bf6ac4812"
+    },
+    {
+        "repo": "x2bool/xlite",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u53c8\u4e00\u4e2a SQLite \u7684\u589e\u5f3a\u6269\u5c55\uff0c\u8ba9\u6570\u636e\u5206\u6790\u66f4\u7b80\u5355",
+        "url": "https://www.bilibili.com/video/BV1Bu411a76U/"
+    },
+    {
+        "repo": "TheAlgorithms/Python",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u7528 Python \u5b9e\u73b0\u5e38\u89c1\u7b97\u6cd5\uff0c\u6db5\u76d6\u8d85\u591a\u7b97\u6cd5",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485925&idx=1&sn=30f2fb6a1bc232fc48d67739fa87595f&chksm=9b3f993dac4810"
+    },
+    {
+        "repo": "TheAlgorithms/Python",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u7528 Python \u5b9e\u73b0\u5e38\u89c1\u7b97\u6cd5\uff0c\u6db5\u76d6\u8d85\u591a\u7b97\u6cd5",
+        "url": "https://www.bilibili.com/video/BV1Pa4y1c7kA/"
+    },
+    {
+        "repo": "githubocto/repo-visualizer",
+        "website": "wechat",
+        "type": "text",
+        "title": "GitHub Next \u795e\u79d8\u7ec4\u7ec7\uff01\u5f00\u6e90\u9879\u76ee\u6e90\u7801\u7ed3\u6784\u53ef\u89c6\u5316\uff0c\u5feb\u901f\u4e86\u89e3\u5f00\u6e90\u9879\u76ee\u5229\u5668",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486068&idx=1&sn=37a0d478d45088775a863e371875403e&chksm=9b3f9aacac4"
+    },
+    {
+        "repo": "githubocto/repo-visualizer",
+        "website": "bilibili",
+        "type": "video",
+        "title": "GitHub Next \u795e\u79d8\u7ec4\u7ec7\uff01\u5f00\u6e90\u9879\u76ee\u6e90\u7801\u7ed3\u6784\u53ef\u89c6\u5316\uff0c\u5feb\u901f\u4e86\u89e3\u5f00\u6e90\u9879\u76ee\u5229\u5668",
+        "url": "https://www.bilibili.com/video/BV13k4y157cE/"
+    },
+    {
+        "repo": "amitshekhariitbhu/go-backend-clean-architecture",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u6574\u6d01\u67b6\u6784\u540e\u7aef\u5e94\u7528\u5b9e\u8df5",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486479&idx=1&sn=91ea96f3681b9d8e7bf2ed057596b6c1&chksm=9b3f9cd7ac4815c1b9d3f79124230293248cc0ac72d94dcab32cfab1081e3951c5f430f60971"
+    },
+    {
+        "repo": "amitshekhariitbhu/go-backend-clean-architecture",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u6574\u6d01\u67b6\u6784\u540e\u7aef\u5e94\u7528\u5b9e\u8df5",
+        "url": "https://www.bilibili.com/video/BV1Jk4y1K7f8/"
+    },
+    {
+        "repo": "rsaryev/auto-copilot-cli",
+        "website": "wechat",
+        "type": "text",
+        "title": "ChatGPT \u4e0e\u547d\u4ee4\u884c\u7684\u5b8c\u7f8e\u7ed3\u5408\uff0c\u6781\u5927\u63d0\u5347\u5f00\u53d1\u6548\u7387",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487267&idx=1&sn=02baf9301447312b43107e58a0a33d8a&chksm=9b3f9ffbac4816"
+    },
+    {
+        "repo": "rsaryev/auto-copilot-cli",
+        "website": "bilibili",
+        "type": "video",
+        "title": "ChatGPT \u4e0e\u547d\u4ee4\u884c\u7684\u5b8c\u7f8e\u7ed3\u5408\uff0c\u6781\u5927\u63d0\u5347\u5f00\u53d1\u6548\u7387",
+        "url": "https://www.bilibili.com/video/BV1FV411T7aw/"
+    },
+    {
+        "repo": "sourcegraph/conc",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5e76\u53d1\u7f16\u7a0b\u4e5f\u53ef\u4ee5\u5982\u6b64\u7b80\u5355",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486424&idx=1&sn=9aecda413011cfbc8e0361e0b054ae59&chksm=9b3f9b00ac48"
+    },
+    {
+        "repo": "sourcegraph/conc",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u5e76\u53d1\u7f16\u7a0b\u4e5f\u53ef\u4ee5\u5982\u6b64\u7b80\u5355",
+        "url": "https://www.bilibili.com/video/BV1Yh4y167HH/"
+    },
+    {
+        "repo": "gogf/gf",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5927\u5382\u90fd\u5728\u7528\uff0cGo \u8bed\u8a00\u57fa\u7840\u5f00\u53d1\u6846\u67b6\u63a8\u8350",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485962&idx=1&sn=2be29a78682f637619db8d4a53d37ac4&chksm=9b3f9ad2ac48"
+    },
+    {
+        "repo": "gogf/gf",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u5927\u5382\u90fd\u5728\u7528\uff0cGo \u8bed\u8a00\u57fa\u7840\u5f00\u53d1\u6846\u67b6\u63a8\u8350",
+        "url": "https://www.bilibili.com/video/BV1Xj411r77c/"
+    },
+    {
+        "repo": "charmbracelet/gum",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u7528\u4e8e\u6784\u5efa\u4f18\u96c5\u547d\u4ee4\u884c\u7a0b\u5e8f\u7684\u5de5\u5177\u63a8\u8350",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486692&idx=1&sn=18ddb4cb380002ff4d68560b51167ac8&chksm=9b3f9c3cac48"
+    },
+    {
+        "repo": "charmbracelet/gum",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u7528\u4e8e\u6784\u5efa\u4f18\u96c5\u547d\u4ee4\u884c\u7a0b\u5e8f\u7684\u5de5\u5177\u63a8\u8350",
+        "url": "https://www.bilibili.com/video/BV1HN411G744/"
+    },
+    {
+        "repo": "zincsearch/zincsearch",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u8fd8\u6709\u6bd4 ElasticSearch \u66f4\u597d\u7528\u7684\u641c\u7d22\u5de5\u5177\uff1f",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485841&idx=1&sn=4a1b3b8a5f85e21103bf43df9e3f23a5&chksm=9b3f9949ac48105fe8d77907009c9de134752bc1e5b7bb07fd07d51d36e6aeda84f7938890e2&token=548219193&lang=zh_CN#rd"
+    },
+    {
+        "repo": "zincsearch/zincsearch",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u8fd8\u6709\u6bd4 ElasticSearch \u66f4\u597d\u7528\u7684\u641c\u7d22\u5de5\u5177\uff1f",
+        "url": "https://www.bilibili.com/video/BV1Du4y1K766/"
+    },
+    {
+        "repo": "dapr/dapr",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u591a\u8fd0\u884c\u65f6\u8f6f\u4ef6\u67b6\u6784\u4ecb\u7ecd",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486405&idx=1&sn=6a093679aee8eebccb63297a9a4597b2&chksm=9b3f9b1dac4"
+    },
+    {
+        "repo": "dapr/dapr",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u591a\u8fd0\u884c\u65f6\u8f6f\u4ef6\u67b6\u6784\u4ecb\u7ecd",
+        "url": "https://www.bilibili.com/video/BV1P84y1d7xr/"
+    },
+    {
+        "repo": "mli/autocut",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u901a\u8fc7\u6821\u5bf9\u5b57\u5e55\u5c31\u53ef\u4ee5\u5feb\u901f\u526a\u8f91\u89c6\u9891\uff0c\u4f60\u786e\u5b9a\u4e0d\u4e86\u89e3\u4e00\u4e0b",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486384&idx=1&sn=daa5d87fc1b3c0fdffd2407b5d58711b&chksm=9b3f9b68ac481"
+    },
+    {
+        "repo": "mli/autocut",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u901a\u8fc7\u6821\u5bf9\u5b57\u5e55\u5c31\u53ef\u4ee5\u5feb\u901f\u526a\u8f91\u89c6\u9891\uff0c\u4f60\u786e\u5b9a\u4e0d\u4e86\u89e3\u4e00\u4e0b",
+        "url": "https://www.bilibili.com/video/BV1dv4y1p7T7/"
+    },
+    {
+        "repo": "terrastruct/d2",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u7a0b\u5e8f\u5458\u5982\u4f55\u505a\u6d41\u7a0b\u56fe\uff0c\u4e00\u6b3e\u7528\u4e8e\u5c06\u6587\u672c\u8f6c\u5316\u6210\u56fe\u8868\u7684\u73b0\u4ee3\u5316\u811a\u672c\u8bed\u8a00",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486805&idx=1&sn=7d078a2fde28ee4ae88e81b860f42077&chksm=9b3f9d8dac48"
+    },
+    {
+        "repo": "terrastruct/d2",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u7a0b\u5e8f\u5458\u5982\u4f55\u505a\u6d41\u7a0b\u56fe\uff0c\u4e00\u6b3e\u7528\u4e8e\u5c06\u6587\u672c\u8f6c\u5316\u6210\u56fe\u8868\u7684\u73b0\u4ee3\u5316\u811a\u672c\u8bed\u8a00",
+        "url": "https://www.bilibili.com/video/BV1zT411B7zG/"
+    },
+    {
+        "repo": "public-api-lists/public-api-lists",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e2a\u4eba\u5f00\u53d1\u8005\u7684\u798f\u97f3\uff01\u514d\u8d39 API \u5217\u8868\u5927\u5168\uff01",
+        "url": "https://www.bilibili.com/video/BV1no4y1W7xi/"
+    },
+    {
+        "repo": "geekcomputers/Python",
+        "website": "wechat",
+        "type": "text",
+        "title": "GitHub 27.4K Star\uff0c\u53ea\u8981\u4f60\u8db3\u591f\u575a\u6301\u4e5f\u80fd\u6536\u83b7\u9ad8\u8d5e\u5f00\u6e90\u9879\u76ee",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486033&idx=1&sn=15a2c1acc80834461d875a4221b78e17&chksm=9b3f9a89ac48"
+    },
+    {
+        "repo": "geekcomputers/Python",
+        "website": "bilibili",
+        "type": "video",
+        "title": "GitHub 27.4K Star\uff0c\u53ea\u8981\u4f60\u8db3\u591f\u575a\u6301\u4e5f\u80fd\u6536\u83b7\u9ad8\u8d5e\u5f00\u6e90\u9879\u76ee",
+        "url": "https://www.bilibili.com/video/BV1Ws4y1P7nW/"
+    },
+    {
+        "repo": "leetcode-mafia/cheetah",
+        "website": "wechat",
+        "type": "text",
+        "title": "ChatGPT \u90a3\u4e48\u5389\u5bb3\uff0c\u5b83\u80fd\u4e0d\u80fd\u5e2e\u6211\u53bb\u9762\u8bd5\u627e\u4e2a\u5de5\u4f5c\uff1f\u5e74\u85aa\u767e\u4e07\u90a3\u79cd",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487000&idx=1&sn=d15df3fb986290bf752de4be9e93e077&chksm=9b3f9ec0ac4817d69876333e61f17a3f4ed40239760bb07218d3c7eaad6c2ac38e0a6c8d3c92&token=2007205863&lang=zh_CN#rd"
+    },
+    {
+        "repo": "leetcode-mafia/cheetah",
+        "website": "bilibili",
+        "type": "video",
+        "title": "ChatGPT \u90a3\u4e48\u5389\u5bb3\uff0c\u5b83\u80fd\u4e0d\u80fd\u5e2e\u6211\u53bb\u9762\u8bd5\u627e\u4e2a\u5de5\u4f5c\uff1f\u5e74\u85aa\u767e\u4e07\u90a3\u79cd",
+        "url": "https://www.bilibili.com/video/BV1RX4y1q7vC/"
+    },
+    {
+        "repo": "charmbracelet/vhs",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u6781\u5ba2\u8303\u5fc5\u5907\uff0c\u547d\u4ee4\u884c\u6f14\u793a\u89c6\u9891\u751f\u6210\u5de5\u5177",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486746&idx=1&sn=869792f0620be07857f02d5e5f7adbca&chksm=9b3f9dc2ac48"
+    },
+    {
+        "repo": "charmbracelet/vhs",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u6781\u5ba2\u8303\u5fc5\u5907\uff0c\u547d\u4ee4\u884c\u6f14\u793a\u89c6\u9891\u751f\u6210\u5de5\u5177",
+        "url": "https://www.bilibili.com/video/BV1pm4y1C7hv/"
+    },
+    {
+        "repo": "google/python-fire",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u8c37\u6b4c\u5f00\u6e90\uff1a\u7b80\u6d01\u4f18\u96c5\u7684 Python \u547d\u4ee4\u884c\u751f\u6210\u5de5\u5177",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485236&idx=1&sn=5db53155a7f0407261444b4c14b5b435&chksm=9b3f97ecac48"
+    },
+    {
+        "repo": "google/python-fire",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u8c37\u6b4c\u5f00\u6e90\uff1a\u7b80\u6d01\u4f18\u96c5\u7684 Python \u547d\u4ee4\u884c\u751f\u6210\u5de5\u5177",
+        "url": "https://www.bilibili.com/video/BV1oM4y1q7B2/"
+    },
+    {
+        "repo": "m3o/m3o",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u7edf\u4e00\u514d\u8d39 API \u8bbf\u95ee\u7684\u7f51\u5173\uff0c\u8ba9 API \u4f7f\u7528\u66f4\u7b80\u5355",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486157&idx=1&sn=7f5892f95425b77f8470972011208196&chksm=9b3f9a15ac4813"
+    },
+    {
+        "repo": "m3o/m3o",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u7edf\u4e00\u514d\u8d39 API \u8bbf\u95ee\u7684\u7f51\u5173\uff0c\u8ba9 API \u4f7f\u7528\u66f4\u7b80\u5355",
+        "url": "https://www.bilibili.com/video/BV1fM4y1q7qx/"
+    },
+    {
+        "repo": "dzove855/Bash-web-server",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u7528100\u884c\u4ee3\u7801\u8f7b\u677e\u6253\u9020\u81ea\u5df1\u7684Web\u670d\u52a1\u5668",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485783&idx=1&sn=a369385b820655096d5c324ed3c7e1bb&chksm=9b3f998fac4"
+    },
+    {
+        "repo": "dzove855/Bash-web-server",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u7528100\u884c\u4ee3\u7801\u8f7b\u677e\u6253\u9020\u81ea\u5df1\u7684Web\u670d\u52a1\u5668",
+        "url": "https://www.bilibili.com/video/BV1hh411w7V5/"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u4e2a\u7535\u52a8\u8f66\u5145\u7535\u6cbb\u7406\u4e0e\u5bb6\u5ead\u80fd\u6e90\u7ba1\u7406\u7cfb\u7edf",
+        "repo": "evcc-io/evcc",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247491071&idx=1&sn=8e5a88889a8d5cefde898fc2e0d0ad2a&chksm=9b3f8d27ac4804316528d97c1b72cd3cbc962e17bae433e7dd9566523d519c304f50597031fd&token=24835938&lang=zh_CN#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5f00\u7bb1\u5373\u7528\uff0c\u57fa\u4e8e\u5927\u6a21\u578b\u7684\u77e5\u8bc6\u5e93\u95ee\u7b54\u7cfb\u7edf",
+        "repo": "1Panel-dev/MaxKB",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247491050&idx=1&sn=39103ad06e645da2f3596fa8d7c82c7c&chksm=9b3f8d32ac480424c9cd392e719b1ddf07fc4bc01fec6636ece6f111f39d43cb890599046f88#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5f00\u6e90\u7248 Devin: Code Less, Make More",
+        "repo": "OpenDevin/OpenDevin",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247491040&idx=1&sn=afede739ff32c800f153b237c40a116d&chksm=9b3f8d38ac48042e2d307ef758fbe5ba090190e7baa2f8d22153d5a35d280633cd2ef4a73547#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u591a\u6a21\u6001\u89c6\u89c9\u8bed\u8a00\u6a21\u578b Mini-Gemini",
+        "repo": "dvlab-research/MiniGemini",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247491030&idx=1&sn=9a7b93cc6a207911e0c46d3c1d22d08c&chksm=9b3f8d0eac48041803677a63fbd052439d75b6066fd133c56e2a8b6231bdd32e69b659b7e245#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Waveny - \u4e13\u4e3a\u6a21\u62df\u5409\u4ed6\u800c\u8bbe\u8ba1\u7684\u653e\u5927\u5668\u548c\u6548\u679c\u5668",
+        "repo": "nlpodyssey/waveny",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489188&idx=1&sn=55e3666c93bdf8ab0dd11dfdb25ac38a&chksm=9b3f867cac480f6ae80dc1d5fe03b12a9822dd144a4a56a2973a1478c23bd1835b53850fef1f&token=972845602&lang=zh_CN#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u524d\u6cbf\u63a2\u7d22\uff0c\u9002\u7528\u4e8e AI \u8bbe\u5907\u7684\u5f00\u6e90\u751f\u6001\u7cfb\u7edf",
+        "repo": "OpenInterpreter/01",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490919&idx=1&sn=fb691101d22afe9f1dd809e2fd4a2c7d&chksm=9b3f8dbfac4804a91c31e1cb5ea826675949014d7115748ca5bc20c7b42710da2526e878b57d#rd&autoclose"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5168\u8bed\u8a00\u65e0\u5dee\u522b\u5e94\u7528\u6027\u80fd\u5206\u6790\u5668",
+        "repo": "elastic/otel-profiling-agent",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490958&idx=1&sn=8db3ed2484cb8cd6a2055bcb072ef020&chksm=9b3f8d56ac4804409dc127465c2dcf0589f4f85860f57628ce1ffe6404909b71667ad0e3c69d#rd&autoclose"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Devin \u7684\u5f00\u6e90\u7ade\u4e89\u5bf9\u624b\uff0c\u667a\u80fd AI \u8f6f\u4ef6\u5de5\u7a0b\u5e08",
+        "repo": "stitionai/devika",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490938&idx=1&sn=4ab9dae3ed15103ab7da98fb94bd1372&chksm=9b3f8da2ac4804b402d82bca20339df05fe19c37914e5eabc7d827d5864e8d04b27e06b228aa#rd&autoclose"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5b9a\u5236\u5316\u751f\u6210\u4ee3\u7801\u548c\u7ec8\u7aef\u7684\u4ee3\u7801\u56fe\u7247",
+        "repo": "charmbracelet/freeze",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490948&idx=1&sn=1c34485ad59a32b56e83bc06131be129&chksm=9b3f8d5cac48044ab88387c8fba4b50d09d40b56a31d6eebe29964dc98e55f33345cfab97d53#rd&autoclose"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u9ad8\u6027\u80fd\u79bb\u7ebf IP \u5730\u5740\u67e5\u8be2\u7cfb\u7edf",
+        "repo": "lionsoul2014/ip2region",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490808&idx=1&sn=129a4f01e4e758ad99a69bab437abc93&chksm=9b3f8c20ac480536b94d22338df02362ba5fd8b8a27dc3216de64aa2871ddf48b381f3c7dc7a#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5927\u6a21\u578b\u52a0\u6301\u7684\u6d4f\u89c8\u5668\u81ea\u52a8\u5316\u5de5\u5177\uff0c\u62a2\u8305\u53f0\u4e5f\u662f\u53ef\u4ee5\u7684",
+        "repo": "Skyvern-AI/skyvern",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490843&idx=1&sn=a431f9b22a7e6431e148bbb1920de09f&chksm=9b3f8dc3ac4804d5e55cca45d6f2caa5a9d5f53843fd79e6762feeb48a4455526e77a11b151e#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5f00\u6e90 RAG \u5f15\u64ce\uff0c\u5927\u6a21\u578b\u5e94\u7528\u5f00\u53d1\u5fc5\u5907\u6846\u67b6",
+        "repo": "infiniflow/ragflow",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490844&idx=1&sn=4258e65eb5d296d303d1fe670f692e7c&chksm=9b3f8dc4ac4804d2a922212c1c14ac9c40b5aa93b11268908b5131ce47338ef8d17be651be94#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5fae\u8f6f\u4e3b\u5bfc\uff0c\u4e00\u6b3e\u9762\u5411 Kubernetes \u7684\u5206\u5e03\u5f0f\u7f51\u7edc\u53ef\u89c2\u6d4b\u5de5\u5177",
+        "repo": "microsoft/retina",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490900&idx=1&sn=2b51e95648e9fe0d95fc327f4df0641f&chksm=9b3f8d8cac48049a3e5aa03c67c43b92e7ba3a0448b2362c8955c1239863ee5d7410304675a2#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u91cd\u65b0\u5b9a\u4e49\u7f51\u7edc\u6d4f\u89c8\u4f53\u9a8c\uff0c\u901a\u8fc7\u81ea\u7136\u8bed\u8a00\u65e0\u7f1d\u8fdb\u884c\u6d4f\u89c8\u5668\u4ea4\u4e92",
+        "repo": "lavague-ai/LaVague",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490899&idx=1&sn=f469afc9da2ab14d142e0f410956e3a5&chksm=9b3f8d8bac48049d5ea7fc8c5caaab55547e6000f95cc2d979187ec69345cfc6aef2fdcc9364#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5c11\u91cf\u6837\u672c\u5373\u53ef\u8bad\u7ec3\u51fa\u8272\u7684\u6587\u672c\u8f6c\u8bed\u97f3\u6a21\u578b",
+        "repo": "RVC-Boss/GPT-SoVITS",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490709&idx=1&sn=101705765cd8f88c946b97eebb181c74&chksm=9b3f8c4dac48055b3530ef846312048abf7a820c7e1cc63988c9a797a45fffec2cd8dda3b3b5#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u652f\u6301\u8d85\u8fc7 50+ \u7f51\u7ad9\u7684\u8de8\u5e73\u53f0\u5168\u80fd\u8d44\u6e90\u4e0b\u8f7d\u5de5\u5177",
+        "repo": "KurtBestor/Hitomi-Downloader",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490717&idx=1&sn=23f89f3ee63894c77a8dad60b493bd7a&chksm=9b3f8c45ac48055351554d932b0cbd46f2a380257b221bc26bab42f6fdc3dc1dbeaf8ca5b16c#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u65e0\u9700\u524d\u7aef\u6280\u80fd\u5373\u53ef\u5feb\u901f\u521b\u5efa\u673a\u5668\u5b66\u4e60 Web \u5e94\u7528",
+        "repo": "gradio-app/gradio",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490718&idx=1&sn=64d2b9f1a9bba59b6790ad46a9128190&chksm=9b3f8c46ac480550f87ce6103f8d896038fef4da0f5939d7483da1f0bb6fcd5c62ae0ae1d5df#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5f02\u5730\u604b\u795e\u5668\uff0c\u4e00\u4e2a\u5728\u7ebf\u540c\u6b65\u64ad\u653e\u5f71\u7247\u7684\u9879\u76ee",
+        "repo": "synctv-org/synctv",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490627&idx=1&sn=99e69a633367ead6da9a4c4d78eaa1ed&chksm=9b3f8c9bac48058dcaec62108fd678d79e668b547a6fdaade1ebd3f0dc7a6b1a9f533141c19c#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u53ef\u4ee5\u5728\u4efb\u4f55\u5730\u65b9\u8fd0\u884c\u7684\u8d85\u5c0f\u89c6\u89c9\u8bed\u8a00\u6a21\u578b",
+        "repo": "vikhyat/moondream",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490683&idx=1&sn=ef5301a0a6ae24e3334cb27de444aefb&chksm=9b3f8ca3ac4805b5c5bf571b3c34bea4d8ff6c67c1600177ab4717d7bfcbdcbfcd56d19c0276#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u89e3\u51b3 K8S \u4f7f\u7528\u5927\u96be\u9898\u7684\u5305\u7ba1\u7406\u5de5\u5177",
+        "repo": "glasskube/glasskube",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490508&idx=1&sn=6498003e18e7bdb43ccf8b53a2a39525&chksm=9b3f8b14ac4802023a85b94a5849d279d3aecbe4ad8cf33a8e9177b63ba1ae875b1cc2f384b9#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u9002\u7528\u4e8e Kubernetes \u7684\u591a\u96c6\u7fa4\u7ba1\u7406\u7cfb\u7edf",
+        "repo": "kubewharf/kubeadmiral",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490509&idx=1&sn=3f863ec9fdca295dd8f09201439ef417&chksm=9b3f8b15ac48020311ec40f1ff105696aec81ecdb10570c6b31d67d6c0a37b64027288eb1ce0#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u53ef\u4ee5\u672c\u5730\u8fd0\u884c\u7684\u547d\u4ee4\u884c AI \u5de5\u5177",
+        "repo": "yusufcanb/tlm",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490568&idx=1&sn=89ce9a5b1392e5f5297b472255de5063&chksm=9b3f8cd0ac4805c6c756dea2d8fcb3cce122440ffaffcc5a58694880573f048e6c3e193786ff#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u8f7b\u91cf\u7ea7\u3001\u4f4e\u5f00\u9500\u4e14\u529f\u80fd\u5f3a\u5927\u7684\u865a\u62df K8S \u96c6\u7fa4\u89e3\u51b3\u65b9\u6848",
+        "repo": "loft-sh/vcluster",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490415&idx=1&sn=38d2c75e4b8c5bc5438e1a89e9f013a2&chksm=9b3f8bb7ac4802a1c7a0f55e74c8ff55108d62d4132b572416740295e85fa415ab54114ce538#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5728\u535a\u5ba2\u6587\u7ae0\u5d4c\u5165\u4ea4\u4e92\u5f0f\u4ee3\u7801\u7247\u6bb5\u7684\u5e73\u53f0",
+        "repo": "nalgeon/codapi",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490434&idx=1&sn=36c8946fd0a93fd1291687cc5fcbbd57&chksm=9b3f8b5aac48024c7cdb4da23c705f130cc666fde9574bf07d62478effb3dcd65f416f758c83#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u517c\u987e\u672c\u5730\u6570\u636e\u5b89\u5168\u7684\u6570\u636e\u4ea4\u4e92\u534f\u8bae",
+        "repo": "anyproto/any-sync",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490486&idx=1&sn=9c8b588ab2ae0901d41284fd11be80f8&chksm=9b3f8b6eac480278cf5749241ec2f87085e41a1bb7e038d80b50dffd9bc822c0f6702bf877c9#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5f00\u7bb1\u5373\u7528\u7684 Protocol Buffer \u6570\u636e\u9a8c\u8bc1\u5de5\u5177",
+        "repo": "bufbuild/protovalidate",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490505&idx=1&sn=02062c31c7d639a3fc4a2abeb438a4b3&chksm=9b3f8b11ac480207445c55b8364d42b4f87d685e0948567e5be2514e1571ae1e90e457a0e3c8#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u65e0\u4fb5\u5165\u5f0f\u6cbb\u7406\u5fae\u670d\u52a1\u7684\u7cfb\u7edf",
+        "repo": "istio/istio",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490424&idx=1&sn=77ac1321349bfa30a74d7f4a1e7e294f&chksm=9b3f8ba0ac4802b6c8f771abcf4ea4971ecd2c15204ff86711530b9d7e21fdf064f9e23319b6#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4fdd\u6301\u4ee3\u7801\u6574\u6d01\u548c\u89e3\u8026\u7684\u6548\u7387\u5de5\u5177",
+        "repo": "gabotechs/dep-tree",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490312&idx=1&sn=c50187fc3d20570ead7d12e2f77e648e&chksm=9b3f8bd0ac4802c6bc95c2b192dce18ad42119092d275754edb3fdc23471ed36f202110d50f7#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u652f\u6301\u7ec6\u7c92\u5ea6\u8bbf\u95ee\u63a7\u5236\u7684 AI API \u7ba1\u7406\u7f51\u5173",
+        "repo": "bricks-cloud/BricksLLM",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490345&idx=1&sn=aeb633f7a0164459a95f1f2cfbaadc8d&chksm=9b3f8bf1ac4802e718079acaf2bba448b57803afef62bd6504d1724fd2807d7b0b3761014241#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u652f\u6301\u65e5\u5fd7\u6dfb\u52a0\u8272\u5f69\u7684\u8f7b\u91cf\u7ea7\u5de5\u5177\u5e93",
+        "repo": "lmittmann/tint",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490356&idx=1&sn=8dbc91ceb1ceb80ba98a2410abf3c138&chksm=9b3f8becac4802fa7dffa9c5c924e3c02cde81103d1f159958f16ba5f57150368c2d65db8ce0#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u8f6f\u4ef6\u654f\u611f\u4fe1\u606f\u7ba1\u7406\u7684\u5f00\u6e90\u89e3\u51b3\u65b9\u6848",
+        "repo": "openbao/openbao",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490323&idx=1&sn=3ea141bd4834f8e80593c54bb165a4ac&chksm=9b3f8bcbac4802dde7119ff4f613e40864e5a01e0f4895a4d93dda24e5c35e20cd97eed9107c#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u5468\u6784\u5efa\u4e00\u4e2a LSM \u6811\u5b58\u50a8\u5f15\u64ce",
+        "repo": "skyzh/mini-lsm",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490187&idx=1&sn=e676ecf29339c200ee60001054b9b105&chksm=9b3f8a53ac480345a23a63a45ba0da37c5532fc1caa8ddd47ebc71e6332a5061ff5f81bae555#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4f7f\u7528 AI \u4e0d\u662f\u80fd\u529b\u95ee\u9898\uff0c\u800c\u662f\u4e00\u4e2a\u96c6\u6210\u95ee\u9898",
+        "repo": "danielmiessler/fabric",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490273&idx=1&sn=d1eaf91b35ceba6f25c78109876ced0f&chksm=9b3f8a39ac48032fa67e2a740bf286199ec366e0ca528c30c60708bd167a3abbfe30e917e737#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u672c\u5730\u8fd0\u884c\u548c\u7ba1\u7406\u5927\u6a21\u578b\u7684\u5de5\u5177",
+        "repo": "ollama/ollama",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490204&idx=1&sn=d0f839b57b2025373c34684d13f9d093&chksm=9b3f8a44ac4803520dfe9516a384573480c459c6e3d495209dbb9de4d65b20c1364e68715c93#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u65b9\u4fbf\u8bbf\u95ee\u5b89\u5168\u6f0f\u6d1e\u6570\u636e\u5e93\u7684\u5de5\u5177",
+        "repo": "projectdiscovery/cvemap",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490226&idx=1&sn=6f272f2200e44796093ba304c1d94f04&chksm=9b3f8a6aac48037cec73d91d15d6f3f45895b565dfa7f32252cc82cde25560c87b69334df6c6#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u9ed1\u5ba2\u5fc5\u5907\u5de5\u5177\u4e4b\u5b50\u57df\u540d\u679a\u4e3e",
+        "repo": "projectdiscovery/alterx",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490249&idx=1&sn=da35a95aee1693129751b46b2ec1c7dc&chksm=9b3f8a11ac480307da913d2b18db8d92e9d197229b27aeb0904d57f158880e50af80bd5b61fa#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u6709\u6548\u8ffd\u8e2a\u548c\u68c0\u6d4b Go \u4ee3\u7801\u4e2d\u7684\u6f5c\u5728 panic",
+        "repo": "uber-go/nilaway",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490072&idx=1&sn=21fe8ccda07629d5b1073d5dc01e4d3a&chksm=9b3f8ac0ac4803d67557f0732f9f6ab272349e864b57d533d7e9a352234d15b3789c3140d08f#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5fae\u8f6f\u5f00\u6e90\u7684\u6570\u636e\u5206\u6790\u4efb\u52a1\u5904\u7406\u7cfb\u7edf",
+        "repo": "microsoft/TaskWeaver",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490134&idx=1&sn=9afd14c3d3e83eb6cad41317318fc558&chksm=9b3f8a8eac480398541c1cfae5152860436fb57b82d3298708c0223f5ae4569ccdc90cb53d14#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u7f51\u6613\u6709\u9053\u5f00\u6e90\u7684\u672c\u5730\u5316\u77e5\u8bc6\u5e93\u95ee\u7b54\u7cfb\u7edf\uff0c\u652f\u6301 PDF\u3001Word \u7b49\u81ea\u7531\u68c0\u7d22",
+        "repo": "netease-youdao/QAnything",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490151&idx=1&sn=8d70ea5471e4bfe09bd72c8b4787ae28&chksm=9b3f8abfac4803a94ad69e752110b20ff3a03f5f213b5082a68b65f4e327347e5e8a060af98b#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u57fa\u4e8e Go/eBPF \u7684\u5f00\u6e90\u4e91\u539f\u751f\u8d1f\u8f7d\u5747\u8861\u5668",
+        "repo": "loxilb-io/loxilb",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490089&idx=1&sn=be8ffdf4e4707fc36a34c28dd679ba00&chksm=9b3f8af1ac4803e712221608f2d0deddb9179a268f1c5f2c61d78109dfdfeafc23247405f7fe#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e13\u4e3a\u4f01\u4e1a\u7ea7\u5927\u6a21\u578b\u5f00\u53d1\u7684\u6846\u67b6\u3001\u5de5\u5177\u548c\u6a21\u578b",
+        "repo": "llmware-ai/llmware",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489967&idx=1&sn=b3b201e6b91c0a2ceab1b267eb1e6eca&chksm=9b3f8977ac480061ec5631468e56cf1507aaec9134aac4b232be9af5fd70d924ff97b53c920f#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u8fd0\u884c\u901f\u5ea6\u5feb\u53ef\u9760\u7684\u540e\u53f0\u4efb\u52a1\u6267\u884c\u7cfb\u7edf",
+        "repo": "riverqueue/river",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490058&idx=1&sn=5922e901d8e2698c4e5ef06f3639fa6e&chksm=9b3f8ad2ac4803c48b82d910019ad9b8cb0b4bc52812b038d9ba1fe6e50302acd0ec248d79ea#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u7f51\u6613\u4e91/QQ\u97f3\u4e50\u6b4c\u5355\u8de8\u5e73\u53f0\u8fc1\u79fb",
+        "repo": "Bistutu/GoMusic",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489996&idx=1&sn=62a4b4cc6c05b8353f45934bd4e8cd7b&chksm=9b3f8914ac480002ae0c4d7801f34649d494412b9f9f3cafa61c751f1a6d2cd36efceca9bab0#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e91\u539f\u751f\u6bd5\u4e1a\u9879\u76ee\uff0c\u4e8b\u4ef6\u9a71\u52a8\u7684\u8d44\u6e90\u6269\u7f29\u5bb9\u7ec4\u4ef6",
+        "repo": "kedacore/keda",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490012&idx=1&sn=74d0a0829fccc511470fb407a404081a&chksm=9b3f8904ac480012ee2e23c9337178db003fb935b39dc15a212a2d8d3f0f6f0b8b2ad0c10d12#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u66f4\u5feb\u66f4\u5b89\u5168\u7684\u5168\u65b0 SSH3 \u534f\u8bae",
+        "repo": "francoismichel/ssh3",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490013&idx=1&sn=89fdcec334ff1a8d83b3da7070b60150&chksm=9b3f8905ac480013ba6b99a5e1f8fab2e09ccbc5c8534c0835e300a5e413173161f091ebe778#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u4e2a\u4e91\u539f\u751f\u79d8\u94a5\u7ba1\u7406\u7cfb\u7edf",
+        "repo": "tellerops/teller",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489968&idx=1&sn=dfc060e1964e9828828f0f8ab65a3cd0&chksm=9b3f8968ac48007eb6ccd7e8b17bf3500fe9ed4365e380b0ed667665dff6fbd6c0d4ed1b6f50#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u9891\u7e41\u7528\u5230\u7684\u8ba1\u7b97\u673a\u89c6\u89c9\u5de5\u5177\u96c6\u5408",
+        "repo": "roboflow/supervision",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489860&idx=1&sn=458099156fdfed136f26d66fef6c3370&chksm=9b3f899cac48008af7cf994ffa2a3233b64df2cf573f69eced7f72b212553176cf80b40434d4#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "NeurIPS \u5b98\u65b9\u63a8\u8350\u7684\u5f00\u6e90\u5927\u6a21\u578b\u542f\u52a8\u5957\u4ef6",
+        "repo": "Lightning-AI/lit-gpt",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489861&idx=1&sn=8a8cd6a8f42caa133b3032ac8ed91735&chksm=9b3f899dac48008b0e920b683aff18c6f8ae503966c0923a9c0b5e05a2320409ce8664a60f0b#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u9762\u5411 DevOps \u5de5\u7a0b\u5e08\u7684 AWS 30 \u5929\u6559\u5b66\u8bfe\u7a0b",
+        "repo": "iam-veeramalla/aws-devops-zero-to-hero",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489893&idx=1&sn=7dfbaed01a95fd9d811674067846f88c&chksm=9b3f89bdac4800abb2969ba38f3298944191530f6d428fe389d4541921b507121966af3daf51#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u6b3e\u66f4\u597d\u7684\u4e0e\u79c1\u6709\u6570\u636e\u4ea4\u4e92\u7684\u5927\u6a21\u578b\u6846\u67b6",
+        "repo": "embedchain/embedchain",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489892&idx=1&sn=3bb3cfd07e2d9e6d13d76343917b5b89&chksm=9b3f89bcac4800aa49aa460127e179e62cb6204fe1cb41c8d112a8b71892bc60551e64a621d5#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5c06\u5fae\u4fe1\u8bfb\u4e66\u5212\u7ebf\u540c\u6b65\u5230 Notion",
+        "repo": "malinkang/weread_to_notion",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489956&idx=1&sn=2a4bb93e1636e9c93f2b0798c680df73&chksm=9b3f897cac48006abfcd94956172a77d82225d5d92406fef64db29a92368faf77e808e4c541a#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5c11\u91cf\u8d44\u6e90\u5373\u53ef\u8fd0\u884c\u7684\u5927\u6a21\u578b",
+        "repo": "jzhang38/TinyLlama",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489894&idx=1&sn=d306c1facaabc78950369dcedd247675&chksm=9b3f89beac4800a8319d7b6050bdbc8c540453f116334d035d75bc2ce4314c7cdacf7cb8a7df#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u4e2a\u6846\u67b6\u8f7b\u677e\u5fae\u8c03\u5404\u79cd AI \u5927\u6a21\u578b",
+        "repo": "OpenAccess-AI-Collective/axolotl",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489760&idx=1&sn=ae46af108f0b74442164a44ce82f67f3&chksm=9b3f8838ac48012ea1f336523512a24e3fe413090b65918e14a4a4e8f37c9224acacbde8a9ec#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u751f\u6210\u6570\u5b57\u5b6a\u751f\u753b\u50cf\u7684\u6df1\u5ea6\u5b66\u4e60\u5de5\u5177\u94fe",
+        "repo": "modelscope/facechain",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489761&idx=1&sn=fbc5ad5843d4df1a21532096c9531c7c&chksm=9b3f8839ac48012f7adf36737f11cebfed34025255bef5c68938a58ce0b7a3beffdc091e9632#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5b66\u751f\u515a\u6253\u5de5\u4eba\u7684\u798f\u97f3\uff0c\u5bf9\u4efb\u610f\u4e3b\u9898\u81ea\u52a8\u5316\u751f\u6210\u8c03\u7814\u62a5\u544a",
+        "repo": "assafelovic/gpt-researcher",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489827&idx=1&sn=e4cfd097d9c373e3ee9130668f00fa94&chksm=9b3f89fbac4800ed2c07770889b7679add55db4028a20fffc71acdfb817e4083bd98d32cdf63#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5fae\u8f6f\u5f00\u6e90\u7684\u7edf\u4e00\u5927\u6a21\u578b\u8bc4\u4f30\u6846\u67b6",
+        "repo": "microsoft/promptbench",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489828&idx=1&sn=52dde90787ff298544930c275699acc1&chksm=9b3f89fcac4800ea0370a1db0d62e9ecf1a05e96b54c1612f77259cda492d9d7fe816bad78b8#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u6253\u9020\u5b9e\u65f6\u91d1\u878d\u5927\u6a21\u578b\u54a8\u8be2\u7cfb\u7edf",
+        "repo": "iusztinpaul/hands-on-llms",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489795&idx=1&sn=8cb555516aa82c3bbf512b42bcf44dfd&chksm=9b3f89dbac4800cd049398bb3d966de57fc0e96854f38938e884d92c8aeab78a9affda100569#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u57fa\u4e8e Python \u7684 LLM \u63a8\u65ad\u548c\u670d\u52a1\u6846\u67b6",
+        "repo": "ModelTC/lightllm",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489829&idx=1&sn=1c445b0764af404525c02be6c9908281&chksm=9b3f89fdac4800eb7afbf3fba7b15945b11358ead8cd2625bd215630b79f2b8cd040d2988710#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "3 \u5206\u949f\u4ece\u56fe\u50cf\u91cd\u5efa\u8be6\u7ec6\u7eb9\u7406\u7684 3D \u6a21\u578b",
+        "repo": "xxlong0/Wonder3D",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489762&idx=1&sn=1c77bcd4b5d1be1db7bb2e06942f8868&chksm=9b3f883aac48012c373a1e3bbe514949302b688490b9568a4efbb832ce9bbdd98efa3747902a#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u9488\u5bf9\u4e2d\u6587\u7279\u6b8a\u4f18\u5316\u7684\u5927\u8bed\u8a00\u6a21\u578b",
+        "repo": "ymcui/Chinese-LLaMA-Alpaca",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489794&idx=1&sn=91e0aaea83c3c7a64f6c9f3b239ce955&chksm=9b3f89daac4800cc8e1e71984125c91ce8d1b1e4dd35ae2c40fba947b9f4b000015a46bbb481#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u6ce8\u91cd\u9690\u79c1\u3001\u8f7b\u91cf\u7ea7\u7684\u8bb0\u4e8b\u672c\u670d\u52a1",
+        "repo": "usememos/memos",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489648&idx=1&sn=71e2b5e7b96e50b5410641e30ce18e8f&chksm=9b3f88a8ac4801beb370ed18943be9b2e120e6b1750d00b43cee4b89a70c8ea13601ccdc72dc#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u4e2a\u9762\u5411\u6570\u636e\u5e93\u7684 DevOps \u53ca CI/CD \u5de5\u5177",
+        "repo": "bytebase/bytebase",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489698&idx=1&sn=2bde62a93ecf89fb62396f49d8f2d277&chksm=9b3f887aac48016c231514351119c75de8ee0e996fe821a0451b8ce39edf62fe500a9a7a785a#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u6761\u547d\u4ee4\u5feb\u901f\u751f\u6210\u6570\u636e\u5e93\u6587\u6863",
+        "repo": "k1LoW/tbls",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489678&idx=1&sn=04c860f606f5a7017a76207d67355dd3&chksm=9b3f8856ac48014019349ceaff98a6d20f0a7864ec2bb78b4f421fffec9f4ed4a795ec34bb96#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u751f\u6210 3D \u753b\u9762\u539f\u6765\u53ef\u4ee5\u8fd9\u4e48\u7b80\u5355",
+        "repo": "threestudio-project/threestudio",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489677&idx=1&sn=7c18b4c2679ee1a1eb3cf4858bda09e7&chksm=9b3f8855ac4801432c295fa9b8af966dd3d456d0743761d14d1b4ff495314fa5bb20261b8cb4#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u666e\u901a\u4eba\u4e5f\u53ef\u4ee5\u5feb\u901f\u8fdb\u884c\u97f3\u4e50\u521b\u4f5c",
+        "repo": "facebookresearch/audiocraft",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489697&idx=1&sn=83d7f286c249ed9f57814d3b26ef5fec&chksm=9b3f8879ac48016f2abd3c06cdd19ec9a59318064f9ea5051c4899d8d0634296b959a17d6c41#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5fae\u8f6f\u5f00\u6e90\u4e13\u6ce8\u52a0\u5feb\u5927\u6a21\u578b\u63a8\u65ad\u901f\u5ea6",
+        "repo": "microsoft/LLMLingua",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489651&idx=1&sn=9e64038182256ecb13cc1adbc8c3a06a&chksm=9b3f88abac4801bd92859d9ed199b353525f16a21e6622ae53ac469b41bd71aa922f7fa1eafd#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5f00\u6e90\u7684\u4f01\u4e1a\u7ea7\u95ee\u7b54\u7cfb\u7edf",
+        "repo": "danswer-ai/danswer",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489650&idx=1&sn=019c9870242f5ba06f6dc90bcf3c5b82&chksm=9b3f88aaac4801bcedc6069717077c17efe9a4d22ccee605d80128ffd474e5e276829ec1f2b4#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u8bad\u7ec3\u6258\u7ba1\u548c\u8bc4\u4f30\u5927\u8bed\u8a00\u6a21\u578b\u7684\u5f00\u653e\u5e73\u53f0",
+        "repo": "lm-sys/FastChat",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489526&idx=1&sn=bdeaa701b5fe2944754dced63e526739&chksm=9b3f872eac480e38a28230bfcd131cec5a22eb8ae461d7fd629beae76defc6d606381d104b89#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u6570\u636e\u5e93\u9886\u57df\u7684\u5927\u578b\u8bed\u8a00\u6a21\u578b\u5f00\u6e90\u6846\u67b6",
+        "repo": "eosphoros-ai/DB-GPT",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489548&idx=1&sn=fe3b3821fb436b603c6fda7182072375&chksm=9b3f88d4ac4801c27e13df3b2dac7f9cc6f666aa77f984a01905b158ecb94edd2c6d149383cd#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Kubernetes \u96c6\u7fa4\u7ef4\u62a4\u5fc5\u5907\u5de5\u5177\u4e4b\u4e00",
+        "repo": "DataDog/KubeHound",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489604&idx=1&sn=f7ea93135d3a713d9daeeeeded6b0d04&chksm=9b3f889cac48018ad5b0d47a997f35351ddfb8461e8566c2c19c01801ba68000fd24adabfd16#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Meta \u5f00\u6e90\u7684\u4ee3\u7801\u5927\u6a21\u578b",
+        "repo": "facebookresearch/codellama",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489550&idx=1&sn=279b8a9699b9312c3029c19ff0ca7890&chksm=9b3f88d6ac4801c060d3cf5b5b2755be2dae24ad83f0302e40fd869a027d9bd03bcca83e359f#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5c0f\u7ea2\u4e66\u56fe\u6587/\u89c6\u9891\u4f5c\u54c1\u91c7\u96c6\u5de5\u5177",
+        "repo": "JoeanAmier/XHS_Downloader",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489589&idx=1&sn=b82f01d12fa364e023c46753f89fac24&chksm=9b3f88edac4801fbead3afb89fe4e912607b18596a1aa6d2f701efa473f306aeae6657be27e5#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u73b0\u4ee3\u5316 PHP \u5e94\u7528\u670d\u52a1\u5668\uff0c\u81ea\u52a8\u652f\u6301 HTTPS/HTTP2/HTTP3 \u7b49",
+        "repo": "dunglas/frankenphp",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489551&idx=1&sn=435b39da5138145fbf7b361bcaae8961&chksm=9b3f88d7ac4801c1a1087c4c5f06d3f350c71894caf74b70c002d6858246cf8eaceb64bafe18#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5c11\u6709\u4eba\u77e5\u9053\u7684 Go \u5b9e\u7528\u5de5\u5177\u96c6\u4ecb\u7ecd",
+        "repo": "nikolaydubina/go-recipes",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489549&idx=1&sn=9eb7f081a83464bb350ba0d383b59639&chksm=9b3f88d5ac4801c3dae1c6d1eeb3332b5291522941ab8998a8cf6641df2a5c99db3bb9658211#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u7279\u6027\u5f00\u5173\u6807\u51c6\u5e93\uff0c\u9002\u914d\u6240\u6709\u8bed\u8a00",
+        "repo": "open-feature/spec",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489588&idx=1&sn=7261baa65356c4ad46965ab06424241e&chksm=9b3f88ecac4801fa3aeec3b44445137a334c90f8476efcd29ed96602e79b4635d751e0bec1ba#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u57fa\u4e8e\u6811\u5f62\u7ed3\u6784\u7684\u5199\u4f5c\u754c\u9762\u63a8\u8350",
+        "repo": "socketteer/loom",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489429&idx=1&sn=af4c70dd08f945660226e70d1a74da97&chksm=9b3f874dac480e5b9f0c7b085cfd5c2d3d3c8f80d00f459686fb01f3ed7d9b8a037a0db2a350#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "ComfyUI - \u6a21\u5757\u5316\u7684 stable diffusion \u6d41\u7a0b\u5316\u7f16\u6392\u754c\u9762",
+        "repo": "comfyanonymous/ComfyUI",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489430&idx=1&sn=4e9a7ede22deaf087ec49c7931a64251&chksm=9b3f874eac480e58df2200553de3af96eb4fdf75e59f0d898cf3abd508e5f6e207ab1b6ebd40#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "vLLM - \u4e00\u4e2a\u9ad8\u541e\u5410\u91cf\u3001\u5185\u5b58\u9ad8\u6548\u7684\u8bed\u8a00\u6a21\u578b\u63a8\u7406\u548c\u670d\u52a1\u5f15\u64ce",
+        "repo": "vllm-project/vllm",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489476&idx=1&sn=fcea221298a819ae0e0b05361610fedd&chksm=9b3f871cac480e0ab3043d0e5729ae65dd62c06f165a591f32d178dbe1b6a8d30fdbba7ba21c#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Gofr - \u7b80\u5316\u5fae\u670d\u52a1\u5f00\u53d1\u7684\u7f16\u7a0b\u6846\u67b6",
+        "repo": "gofr-dev/gofr",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489465&idx=1&sn=a08fc9031a84bdad5921ab4def4179d5&chksm=9b3f8761ac480e779775dda2edbc929cb71253998bc3274097c4795b0c6ae8611445550cc8f1#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "nanoGPT - \u6bcf\u4e00\u4e2a\u56e2\u961f\u90fd\u9700\u8981\u8bad\u7ec3\u4e00\u4e2a\u5927\u89c4\u6a21\u8bed\u8a00\u6a21\u578b\u561b\uff1f",
+        "repo": "karpathy/nanoGPT",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489464&idx=1&sn=95b4a2bd8954e4ff3c2a3a9a99090a53&chksm=9b3f8760ac480e7634376099cb52b4238531173a19925578d65ffa7e64490fbbd9bcafecdb5a#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4f7f\u7528\u5c11\u91cf\u8bed\u97f3\u6570\u636e\u5373\u53ef\u8bad\u7ec3\u4f18\u79c0\u7684\u53d8\u58f0\u6a21\u578b",
+        "repo": "RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489431&idx=1&sn=41f501ebc4ab059d2648721c49eef516&chksm=9b3f874fac480e59f377c6c9057ac7203e863e9c35a67ad5803e313dfa3a51bd2191244bf4f1#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "OpenChat - \u4e00\u6b3e\u501f\u9274\u4e86\u79bb\u7ebf\u5f3a\u5316\u5b66\u4e60\u7b56\u7565\u7684\u5f00\u6e90\u8bed\u8a00\u6a21\u578b\u5e93",
+        "repo": "imoneoi/openchat",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489466&idx=1&sn=ca6423991c6cc1bd747b0b8a255701bc&chksm=9b3f8762ac480e74e4d3f62801790b4e45706869034926d8e038c045bd8e9ce8d0b861103fde#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Kubestack - \u4e00\u4e2a Terraform \u4ee3\u7801\u5e93\u4e2d\u5b9a\u4e49\u6574\u4e2a\u4e91\u539f\u751f\u6280\u672f\u6808",
+        "repo": "kbst/terraform-kubestack",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489432&idx=1&sn=20e66df723c7a910541d91f1436b9d99&chksm=9b3f8740ac480e56d3c9e56d63a3da85d095ba38dae4a1c6812b31b58afe5e057a6271459953#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Kubeshark - \u4e00\u4e2a\u4e13\u4e3a Kubernetes \u8bbe\u8ba1\u7684 API \u6d41\u91cf\u5206\u6790\u5668",
+        "repo": "kubeshark/kubeshark",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489285&idx=1&sn=e35942f536054bacbf76716e7fe579b8&chksm=9b3f87ddac480ecbe0d9a615c8dfb3458edca8d280182424b97beec4287a2e9d3c8b237c19c3#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "tRPC-Go - \u4e00\u4e2a\u7075\u6d3b\u3001\u9ad8\u6027\u80fd\u7684 RPC \u6846\u67b6",
+        "repo": "trpc-group/trpc-go",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489286&idx=1&sn=f7109ba84d15d41d785aa4c3244e7aac&chksm=9b3f87deac480ec8b8c246859992d26787b770d6fd8e42b76abec39f55514726a2ef65887cd7#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Polaris - \u4e00\u6b3e\u6a21\u5757\u5316\u7684 EVM \u5b9e\u73b0\u65b9\u6848\uff0c\u7b80\u5316\u533a\u5757\u94fe\u5e94\u7528\u5f00\u53d1\u7684\u590d\u6742\u5ea6",
+        "repo": "berachain/polaris",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489347&idx=1&sn=43dfe92bed5d31f4505176189ef9be1b&chksm=9b3f879bac480e8da577d8e6f9b7195b8a54f15ef0e6e15a14e9fd037440b2b06ca6bf3532a9#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "LatentConsistencyModels - \u901a\u8fc7\u5c11\u91cf\u6b65\u9aa4\u751f\u6210\u9ad8\u5206\u8fa8\u7387\u56fe\u50cf\u7684\u5f3a\u5927\u5de5\u5177",
+        "repo": "luosiallen/latent-consistency-model",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489322&idx=1&sn=f22192be3a211eae53eb8c5242cd92b7&chksm=9b3f87f2ac480ee4db9f006f1cee3699639630b1e5c3f5dad95c5fe2ef1b90cc369d28376e3c#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "esm.sh - \u4e00\u4e2a\u4e3a\u73b0\u4ee3\uff08es2015+\uff09Web \u5f00\u53d1\u8bbe\u8ba1\u7684\u5feb\u901f\u3001\u667a\u80fd\u3001\u5168\u7403\u8986\u76d6\u7684 CDN",
+        "repo": "esm-dev/esm.sh",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489323&idx=1&sn=02bade56d37feaea48b4d42b073fb852&chksm=9b3f87f3ac480ee5ae5bb122abda4128a1b35dc0df9f04f4079b6f5766c137f615cd7b87f630#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Open Assistant - \u5728\u5f3a\u5316\u7684\u6570\u636e\u9690\u79c1\u4fdd\u62a4\u4e0b\u66f4\u597d\u7684\u4f7f\u7528\u5927\u6a21\u578b",
+        "repo": "YORG-AI/Open-Assistant",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489324&idx=1&sn=5a6ef20046009b0c669bf644f187fdef&chksm=9b3f87f4ac480ee2a401acacaf3473a88ace19fbe13f6a949c7e7ee133358002215ee1c46f5b#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "XAgent - \u5927\u578b\u8bed\u8a00\u6a21\u578b\uff08LLM\uff09\u9a71\u52a8\u7684\u81ea\u4e3b\u4ee3\u7406\u9879\u76ee\uff0c\u65e8\u5728\u81ea\u52a8\u89e3\u51b3\u5404\u79cd\u590d\u6742\u4efb\u52a1",
+        "repo": "OpenBMB/XAgent",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489325&idx=1&sn=c7ffcd7a36869441781cb543f417ceff&chksm=9b3f87f5ac480ee3f99075eee8650e75f7ee9805ac5ccfb7b873be0855a93f6e7313db29bff6#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "GraphCast - Google DeepMind \u5f00\u6e90\u7684\u6c14\u8c61\u9884\u6d4b\u6a21\u578b\uff0c\u4e13\u4e3a\u5168\u7403\u4e2d\u8fdc\u671f\u5929\u6c14\u9884\u6d4b\u8bbe\u8ba1",
+        "repo": "google-deepmind/graphcast",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489287&idx=1&sn=db31cd657ffce830cdedfbfae2921a1a&chksm=9b3f87dfac480ec9f00688e761c315b76fcaad40da7be145a2e960c9e8a3d24ffe2214f4773e#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "GoMock - Google \u5f00\u6e90\u5e76\u7531 Uber \u6301\u7eed\u7ef4\u62a4\u7684 Go \u6d4b\u8bd5 Mock \u6846\u67b6",
+        "repo": "uber-go/mock",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489134&idx=1&sn=b18a432301bd0ac4accb8451ee7f4ebf&chksm=9b3f86b6ac480fa07bcca030724f9fd48f3cd925fa7803a9eada372a2ea8127c65fa952cbc58#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Oapi-codegen - \u9002\u914d OpenAPI 3.0 \u7684 Go \u8bed\u8a00\u6a21\u677f\u4ee3\u7801\u751f\u6210\u5668",
+        "repo": "deepmap/oapi-codegen",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489138&idx=1&sn=9ea50d6df04e14fd22c057943c8206ac&chksm=9b3f86aaac480fbc5b5951f9ae9282790b337aaa88cd0e5393f8d580cb074c283986054a58ac#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Go-blueprint - \u4e00\u6b3e\u5e2e\u52a9 Go \u5f00\u53d1\u8005\u8f7b\u677e\u542f\u52a8\u65b0\u9879\u76ee\u7684\u811a\u624b\u67b6\u5de5\u5177",
+        "repo": "Melkeydev/go-blueprint",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489229&idx=1&sn=86be328e9bbb31620c77fadde774aa94&chksm=9b3f8615ac480f035aeaeae691842a0346833e1b6596956ab5a9c5c1c76871702a739035fb33#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Whisper - \u4e00\u4e2a OpenAI \u5f00\u6e90\u7528\u4e8e\u8bed\u97f3\u8bc6\u522b\u7684\u901a\u7528\u6a21\u578b",
+        "repo": "openai/whisper",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489186&idx=1&sn=56492ec8526ab06e9a21d5be234a4de4&chksm=9b3f867aac480f6c5776741be0ad03694e339e306e1708faa6a5911ec78bbb4015fb84e5b90d#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "OpenAI_Agent_Swarm - \u5229\u7528 OpenAI \u521b\u5efa\u81ea\u7ec4\u7ec7\u3001\u9075\u5faa\u9053\u5fb7\u89c4\u5219\u7684 AI \u4ee3\u7406\u751f\u6001\u7cfb\u7edf",
+        "repo": "daveshap/OpenAI_Agent_Swarm",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489187&idx=1&sn=db7761e860dd954bce816ec2de8b7309&chksm=9b3f867bac480f6dd5dff9d8366d9100c05a9c3d80c15115e2b497dc17e168c9859afaa48843#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "The Alignment Handbook - \u5927\u8bed\u8a00\u6a21\u578b\u8bad\u7ec3\u6700\u4f73\u5b9e\u8df5\u624b\u518c",
+        "repo": "huggingface/alignment-handbook",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489228&idx=1&sn=fccfecb8998bcff853b3da82148c1e2e&chksm=9b3f8614ac480f022dccf20d4c9262fd898be053eddc1ba8ed0b5a43cb02fe28e005a8b12d69#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "vimGPT - \u91c7\u7528 GPT-4V \u89c6\u89c9\u6a21\u578b\uff0c\u914d\u5408 Vimium \u4e92\u8054\u7f51\u6d4f\u89c8",
+        "repo": "ishan0102/vimGPT",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489175&idx=1&sn=6020909c0c03eb23d5200a98851ae87a&chksm=9b3f864fac480f59b14026b5912fcf153d5bb1471c7168ac84f82dc9bbe2226c3197e2deb138#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Numaflow - \u57fa\u4e8e Kubernetes \u7684\u5e73\u53f0\uff0c\u7528\u4e8e\u8fd0\u884c\u5927\u89c4\u6a21\u5e76\u884c\u7684\u6570\u636e/\u6d41\u5904\u7406\u4f5c\u4e1a\u5e73\u53f0",
+        "repo": "numaproj/numaflow",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489017&idx=1&sn=ba2f2ac8d6442792ce14563a2ef886d0&chksm=9b3f8521ac480c37a0cca2866b37f2e7f4918d987974410c75abbe23be5ed38db69db27489ab#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Immich - \u4e00\u6b3e\u9ad8\u6027\u80fd\u7684\u81ea\u6258\u7ba1\u7167\u7247\u3001\u89c6\u9891\u5907\u4efd\u89e3\u51b3\u65b9\u6848",
+        "repo": "immich-app/immich",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489126&idx=1&sn=debfd6e9dfc23d278370f13986b0acd4&chksm=9b3f86beac480fa865c1c55ed7715baec1c6dcad8c2cdff4f497ccf72e767469170c5cf65479#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "DeepSpeed - \u5fae\u8f6f\u5f00\u6e90\u7684\u5f3a\u5927\u6df1\u5ea6\u5b66\u4e60\u4f18\u5316\u5e93",
+        "repo": "microsoft/DeepSpeed",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489063&idx=1&sn=df2895b247c579cdad42887987d5bc5a&chksm=9b3f86ffac480fe90eae32f3e550ef4747c6e09bbaf1077653a87fde7ce2fb0ccba2128043a2#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Warrant - \u4e00\u4e2a\u9ad8\u5ea6\u53ef\u6269\u5c55\u7684\u3001\u96c6\u4e2d\u5f0f\u7684\u6743\u9650\u63a7\u5236\u670d\u52a1",
+        "repo": "warrant-dev/warrant",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488949&idx=1&sn=eb330b374516fc39bd93f23409908294&chksm=9b3f856dac480c7b21eb3b1bf3dc4ab1f12a774b1a65d53125271b4e493a7c0059e6895bd4e1#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "GPT Academic - \u4e13\u95e8\u4e3a\u5b66\u672f\u7814\u7a76\u800c\u4f18\u5316\u7684\u5927\u6a21\u578b\u5b9e\u7528\u5316\u4ea4\u4e92\u9879\u76ee",
+        "repo": "binary-husky/gpt_academic",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488723&idx=1&sn=ad20cd85bd1eea6ae68ca6c9275ac046&chksm=9b3f840bac480d1dac4a46e9c30cd987dc9400700feae0d94000eb28444e0eb4f4d8668e2855#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5927\u8bed\u8a00\u6a21\u578b\u7684\u7814\u7a76\u548c\u5e94\u7528\u5f00\u53d1\u8005\u7684\u5fc5\u5907\u5de5\u5177",
+        "repo": "oobabooga/text-generation-webui",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488809&idx=1&sn=d95e8bb058bc9bc542499b86a035383e&chksm=9b3f85f1ac480ce71ed70a5e6dd40696d4d36374f7f44f62145b08681aa9cdf4137bec48f3f9#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Evilginx - \u4e00\u4e2a\u7528\u4e8e\u9493\u9c7c\u653b\u51fb\u7684\u4e2d\u95f4\u4eba\u653b\u51fb\u6846\u67b6",
+        "repo": "kgretzky/evilginx2",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488762&idx=1&sn=8513b142947a9959b11841f409f20e55&chksm=9b3f8422ac480d345cbb82348caa9e5d9770c7c17b453d805f081454d1acea4f76ac08844873#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "RedPajama-Data - \u4e13\u95e8\u7528\u4e8e\u51c6\u5907\u8bad\u7ec3\u5927\u578b\u8bed\u8a00\u6a21\u578b\u7684\u5927\u6570\u636e\u96c6",
+        "repo": "togethercomputer/RedPajama-Data",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488844&idx=1&sn=33229c1334a48e5d4ec8878a2ca16824&chksm=9b3f8594ac480c820fa9032c39b98b3cf08940ffdbdbb8e742aa3c9b3086a38dc92aa75c67ce#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "VideoReTalking - \u6839\u636e\u8f93\u5165\u7684\u97f3\u9891\u7f16\u8f91\u771f\u5b9e\u4e16\u754c\u4e2d\u7684\u8bb2\u8bdd\u4eba\u89c6\u9891\u7684\u9762\u90e8\u8868\u60c5",
+        "repo": "OpenTalker/video-retalking",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488761&idx=1&sn=b8b23dc0c2a5a129f07403e3311982ba&chksm=9b3f8421ac480d37c0219e061a7f7aefa51fdb25fa947424e089b4c8b86a8e9a00c52783718c#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "CodeGPT - \u5e2e\u52a9\u7f16\u5199 git commit \u4fe1\u606f\u6216\u8fdb\u884c\u4ee3\u7801\u5ba1\u67e5\u7684\u547d\u4ee4\u884c\u5de5\u5177",
+        "repo": "appleboy/CodeGPT",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488593&idx=1&sn=4bdc389db9426ddfc92f12eca157946c&chksm=9b3f8489ac480d9f285bd4641f7e53d9dfd67d3f13442da4306e1c5995ab643b6f24ee14f014#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "kubectl-ai - \u5feb\u901f\u751f\u6210\u5e76 Kubernetes manifests \u7684 AI \u5e94\u7528",
+        "repo": "sozercan/kubectl-ai",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488607&idx=1&sn=b893fc17c0902442b2163ae4991dc209&chksm=9b3f8487ac480d91394c7c684363cbb1c46a0e9e3edb424f8942efc130b6462c466fd76f5226#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "pgroll - \u4e3a PostgreSQL \u63d0\u4f9b\u5b89\u5168\u96f6\u5b95\u673a\u4e14\u53ef\u9006\u7684\u6570\u636e\u5e93\u8fc1\u79fb\u65b9\u6848",
+        "repo": "xataio/pgroll",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488659&idx=1&sn=5d580beab251fb204eba9b2beaa73afe&chksm=9b3f844bac480d5d621d7977067c4e77be510e954073253e407a75b33b0568656dac347c1d13#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Digger - \u5141\u8bb8\u4f60\u5728\u73b0\u6709\u7684 CI \u6d41\u6c34\u7ebf\u7ba1\u9053\u4e2d\u8fd0\u884c IaC \u7684\u7f16\u6392\u5de5\u5177",
+        "repo": "diggerhq/digger",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488619&idx=1&sn=3dc588e030bbc849187d462931c5ff86&chksm=9b3f84b3ac480da5dc537839eceab22424e74d22954170ffe037e18a947e06fded8ffe13f10f#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "ScratchDB - \u4e00\u4e2a\u7b80\u5355\u6613\u7528\u53ef\u76f4\u63a5\u5904\u7406 JSON \u6570\u636e\u7684\u6570\u636e\u5e93\u7cfb\u7edf",
+        "repo": "scratchdata/ScratchDB",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488674&idx=1&sn=c03584a5bdd3328c599d86e698926f20&chksm=9b3f847aac480d6c9cf2b6464d8cc67a3e2b1aa18c3a2d06066ee96a23bfa7d850110159ec7b#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Copacetic - \u57fa\u4e8e buildkit \u7684\u5bb9\u5668\u955c\u50cf\u6f0f\u6d1e\u4fee\u8865\u5de5\u5177",
+        "repo": "project-copacetic/copacetic",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488620&idx=1&sn=186033083d965273c20fe91bc50b7af1&chksm=9b3f84b4ac480da285909cb83de31a4ab2ef51e1f3a27b63dddff02c7e1b18e408ede723746d#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Invoice - \u4e00\u4e2a\u547d\u4ee4\u884c\u5feb\u901f\u6d88\u8d39\u6536\u636e\u751f\u6210\u5668",
+        "repo": "maaslalani/invoice",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488618&idx=1&sn=60e8391429a8fd68034ad17ed8ec3752&chksm=9b3f84b2ac480da42a4863032367d6238c771adf4edc3a178a556a6dcdaf8e3b27227af1a75b#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "OpenMeter - \u4e00\u4e2a\u5b9e\u65f6\u3001\u53ef\u6269\u5c55\u7684\u4e91\u4ea7\u54c1\u4f7f\u7528\u8ba1\u91cf\u89e3\u51b3\u65b9\u6848",
+        "repo": "openmeterio/openmeter",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488472&idx=1&sn=6c5644cf2d1a1da70db571e82c2bc0d3&chksm=9b3f8300ac480a16a2ebe8fea4eaa9b7f50c1368a9e07d8fd30b7c3bedec68acdba4e8fd2af2#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Suo5 - \u4e00\u6b3e\u9ad8\u6027\u80fd HTTP \u4ee3\u7406\u96a7\u9053\u5de5\u5177",
+        "repo": "zema1/suo5",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488485&idx=1&sn=7dd865fbe3c4366e4fac2e5c5f7c17cb&chksm=9b3f833dac480a2b431a6e376627b852c6c206024a36c60a2ff5b8b658b3b79fb68e11595b83#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "tssh - \u4e00\u4e2a\u652f\u6301\u6279\u91cf\u9009\u62e9/\u767b\u5f55\u670d\u52a1\u5668\u7684 ssh \u5ba2\u6237\u7aef",
+        "repo": "trzsz/trzsz-ssh",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488488&idx=1&sn=694f2fc720d0ae0733ecd5bb6d1f697f&chksm=9b3f8330ac480a261cf9ecad76b014e6f3b6fa5a146c48176c8362f8c5512de033bf5963022f#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Higress - \u963f\u91cc\u5df4\u5df4\u57fa\u4e8e\u5185\u90e8\u4e24\u5e74\u591a\u5b9e\u8df5\u6c89\u6dc0\u7684\u4e0b\u4e00\u4ee3\u4e91\u539f\u751f\u7f51\u5173",
+        "repo": "alibaba/higress",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488531&idx=1&sn=9cac8ba5c481db54b37a5f4e12eed777&chksm=9b3f84cbac480ddd8e8f405f79337b617c7ce23f42d4fada5d61b7ecec9dc28d0e64755268fb#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Hanko - \u4e00\u4e2a\u5f00\u6e90\u7684\u8eab\u4efd\u9a8c\u8bc1\u548c\u7528\u6237\u7ba1\u7406\u89e3\u51b3\u65b9\u6848",
+        "repo": "teamhanko/hanko",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488487&idx=1&sn=2f84eb7b37e2ff07b200453b0d596644&chksm=9b3f833fac480a29edc3d68fc521be55496034f3263a9a3887f806ddc83f441e9135f8f530ba#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "obligator - \u4e13\u4e3a\u81ea\u6258\u7ba1\u8005\u8bbe\u8ba1\u4e14\u7b80\u5355\u7684 OpenID Connect (OIDC) \u670d\u52a1\u5de5\u5177",
+        "repo": "anderspitman/obligator",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488486&idx=1&sn=b3359c148de20156659498aebe10ab3a&chksm=9b3f833eac480a28b01aab2d08197b9bb980fde80a96169214bbd93bc6baf5449566f5ad115a#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Incus - \u4e00\u4e2a\u73b0\u4ee3\u5316\u3001\u5b89\u5168\u4e14\u5f3a\u5927\u7684 Linux \u7cfb\u7edf\u5bb9\u5668\u548c\u865a\u62df\u673a\u7ba1\u7406\u5668",
+        "repo": "lxc/incus",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488313&idx=1&sn=bd5f54821b4f1c511498951c3eedf9b8&chksm=9b3f83e1ac480af7a65aa4bf598f0295169c6949b0f849bd3b27deff7ba43cb15eaf995b8e54#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Pop - \u4e00\u4e2a\u53ef\u4ee5\u5728\u547d\u4ee4\u884c\u7ec8\u7aef\u4e0b\u53d1\u9001\u90ae\u4ef6\u7684\u5f00\u6e90\u9879\u76ee",
+        "repo": "charmbracelet/pop",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488351&idx=1&sn=3fc63c9f7cbe0cbf1b592951eab260e2&chksm=9b3f8387ac480a91c851031b0f59ed346fe03985c77a2a4a055196c8b35d692f07b135936d74#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "azure-openai-proxy - \u4e00\u4e2a\u5c06 OpenAI \u5b98\u65b9 API \u8f6c\u6362\u4e3a Azure API \u7684\u4ee3\u7406\u5de5\u5177",
+        "repo": "stulzq/azure-openai-proxy",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488374&idx=1&sn=2bf017f318a057d4fcbd1fd86de11844&chksm=9b3f83aeac480ab862daf18940b4ae77b76ad5c43857384850c18204bb96027debc2c3f90477#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "SQLedge - \u4e00\u4e2a\u53ef\u4ee5\u5728\u8fb9\u7f18\u8bbe\u5907\u4e0a\u8fd0\u884c\u7684\u6570\u636e\u540c\u6b65\u89e3\u51b3\u65b9\u6848",
+        "repo": "zknill/sqledge",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488372&idx=1&sn=cac876a2fc8db3431b3613f25f4f70ae&chksm=9b3f83acac480abaeb7af07a5c11cfd5e9337d05b08017ef297a46796017e7827e72ac9a0575#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Rig.dev - \u4e00\u4e2a\u4e13\u4e3a Kubernetes \u8bbe\u8ba1\u7684\u5f00\u53d1\u8005\u4e2d\u5fc3\u5316\u5e94\u7528\u5e73\u53f0",
+        "repo": "rigdev/rig",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488373&idx=1&sn=2dddf655f636e7dc8d17613190b93c00&chksm=9b3f83adac480abba06fd3165ba9afc0726a1048259ba89c229a82ce9b075bdf8acfcf55b4fe#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "HackBrowserData - \u4e00\u6b3e\u53ef\u5168\u5e73\u53f0\u8fd0\u884c\u7684\u6d4f\u89c8\u5668\u6570\u636e\u5bfc\u51fa\u89e3\u5bc6\u5de5\u5177",
+        "repo": "moonD4rk/HackBrowserData",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488185&idx=1&sn=d16b3490f2b6420a1d4aa275eb705c23&chksm=9b3f8261ac480b77f37e6f25446146ae9ae5b96a84e757ca592cbf60251ee38fcae4c57fdba5#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "WuKongIM - \u4e00\u6b3e\u7ecf\u8fc7 8 \u5e74\u79ef\u7d2f\u6c89\u6dc0\u51fa\u6765\u7684\u9ad8\u6027\u80fd\u901a\u7528\u5b9e\u65f6\u901a\u8baf\u670d\u52a1",
+        "repo": "WuKongIM/WuKongIM",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488198&idx=1&sn=9aad9e1f17cced77c0ecddc20ff3ccd0&chksm=9b3f821eac480b08a5da8658b1d067b1ac8f3ef82a3dac3777f1740c575e73f999be39e75e87#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Terminal GPT - \u4e00\u4e2a\u8de8\u5e73\u53f0\u7684\u547d\u4ee4\u884c\u754c\u9762\u804a\u5929\u5de5\u5177",
+        "repo": "aandrew-me/tgpt",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488289&idx=1&sn=cd1b11a94c5d9525590027982b245bd3&chksm=9b3f83f9ac480aef4e31c1978b190976c331ff87bf7f944a3d8f44728934b81922b15fabc589#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "OpenTF - Terraform \u7684\u771f\u6b63\u5f00\u6e90\u7248\u672c",
+        "repo": "opentffoundation/opentf",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488235&idx=1&sn=57ef24dc2bdb6b0176b4f61edc6fa90a&chksm=9b3f8233ac480b259beb12321ffe7620bf871a0ab34b0255ef33385cc5c0598c3fbad324318e#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Timoni - \u4e00\u4e2a\u7531 CUE \u9a71\u52a8\uff0c\u53d7 Helm \u542f\u53d1\u7684 Kubernetes \u5305\u7ba1\u7406\u5668",
+        "repo": "stefanprodan/timoni",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488246&idx=1&sn=a09071a9888de7720e70e4fb85b4c5ff&chksm=9b3f822eac480b381a1c3fd1402623574b4c8c32dadae812588c1231b7b234563dc0f849af30#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Nightingale - \u53ef\u66ff\u4ee3 Grafana/Prometheus \u7684\u4f01\u4e1a\u7ea7\u4e91\u539f\u751f\u53ef\u89c2\u5bdf\u6027\u89e3\u51b3\u65b9\u6848",
+        "repo": "ccfos/nightingale",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488247&idx=1&sn=7178a47e45cc624aed0bfbdbed624882&chksm=9b3f822fac480b39286e54107580e0ce02d8ba0663905dd06a51047bc9cbdd6d88e8ee7e18d9#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u8be5\u8003\u8651\u5927\u6a21\u578b\u5728\u4f01\u4e1a\u843d\u5730\u4e86\uff0c\u4e00\u6b3e\u4f01\u4e1a\u7ea7LLMOps\u5f00\u6e90\uff01",
+        "repo": "dataelement/bisheng",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488290&idx=1&sn=e856b7f3af68b02798e85e38f8486b0f&chksm=9b3f83faac480aec3f6870cf77bc33f3ac3b1aac5036176a57e8ff0a70672dcb622f97492160#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u4e2a\u9006\u5411\u5de5\u7a0b\u7684 Obsidian \u540c\u6b65\u548c\u53d1\u5e03\u670d\u52a1\u5668",
+        "repo": "acheong08/rev-obsidian-sync",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488063&idx=1&sn=1ae02af60570359cc66297db94e0cf00&chksm=9b3f82e7ac480bf1bbd7ecb5a1cfd44dfa5e073c5d64f652f15f00da47e73a14dee791537b54#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5f00\u6e90\u514d\u8d39\u7684\u4e2a\u4eba\u8bb0\u8d26\u89e3\u51b3\u65b9\u6848",
+        "repo": "getmoneynote/moneynote-api",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488095&idx=1&sn=54b9a20d703effb62053086e04bc46e4&chksm=9b3f8287ac480b912b169e29102670a26b6011c71e7f04f9e9ebeb3f920083a2693e83b50e01#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Ollama - \u672c\u5730\u8fd0\u884c\u3001\u521b\u5efa\u548c\u5171\u4eab\u5927\u578b\u8bed\u8a00\u6a21\u578b",
+        "repo": "jmorganca/ollama",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488144&idx=1&sn=e46dbd6e8dd556c941084996ed520c51&chksm=9b3f8248ac480b5e02bfcb75525cbdc27072f28ce0837dadc1ae7cba0a5a05a9163c9e335f8f#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5fae\u4fe1\u804a\u5929\u8bb0\u5f55\u6301\u4e45\u5316\u5907\u4efd\u672c\u5730\u786c\u76d8\uff0c\u91ca\u653e\u624b\u673a\u5b58\u50a8\u7a7a\u95f4",
+        "repo": "greycodee/wechat-backup",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488097&idx=1&sn=26982326391b9620d878c0f447c48869&chksm=9b3f82b9ac480bafbd8334c5bde19a55216e3e2df2d3a76036b8383b72ab6f862bc6b2f3a562#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "PeerDB - \u4e00\u4e2a\u4e13\u4e3a Postgres \u8bbe\u8ba1\u7684\u6570\u636e\u8fc1\u79fb\u5e73\u53f0",
+        "repo": "PeerDB-io/peerdb",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488096&idx=1&sn=93582ac2ba134e893278a2b5a88bf775&chksm=9b3f82b8ac480bae496338a9d1355ced9692f20b70c5f4d8faa7fe140c752eef270ff4a24a85#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "CloudFox - \u5e2e\u52a9\u6e17\u900f\u6d4b\u8bd5\u4eba\u5458\u627e\u5230\u4e91\u57fa\u7840\u8bbe\u65bd\u4e2d\u5b89\u5168\u95ee\u9898",
+        "repo": "BishopFox/cloudfox",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488108&idx=1&sn=b8597ffa6175086154e28b72d66c783e&chksm=9b3f82b4ac480ba26390225f4943f1b702f701ae8357a492e23047e704cbc112a5fb9077df9b#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "ntfy - \u4e00\u4e2a\u57fa\u4e8e HTTP \u7684\u7b80\u5355\u53d1\u5e03\u8ba2\u9605\u901a\u77e5\u670d\u52a1",
+        "repo": "binwiederhier/ntfy",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488127&idx=1&sn=09dfe2f6c86ba71c6f1cf927bb4c6f77&chksm=9b3f82a7ac480bb1cc8dbf3f0224f7a661f252187e781bf5d83c1071c5d2eaf793568377f6ba#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Walk - \u4e00\u4e2a\u7b80\u5355\u597d\u7528\u7684\u7ec8\u7aef\u6587\u4ef6\u7ba1\u7406\u5668",
+        "repo": "antonmedv/walk",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487960&idx=1&sn=167ebc0ed70c65e78aef29d36b9b8231&chksm=9b3f8100ac48081626325f9101f2f254b320386ba13c719dc53cc7c528c145b605e759427bb5#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Capslock - Google \u5f00\u6e90 Go \u8bed\u8a00\u8f6f\u4ef6\u4f9b\u5e94\u94fe\u5b89\u5168\u8bc4\u4f30\u5de5\u5177",
+        "repo": "google/capslock",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488006&idx=1&sn=d41b80d04eeada3133a554fe0bddee1d&chksm=9b3f82deac480bc897e8a69542007ad78314d05aaef7c939c595c2638ea5e3135b463972d542#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "goev - \u4e00\u6b3e\u57fa\u4e8e Go \u8bed\u8a00\u7684\u9ad8\u6027\u80fd\u3001\u8f7b\u91cf\u7ea7\u3001\u975e\u963b\u585e\u3001I/O \u4e8b\u4ef6\u9a71\u52a8\u7f51\u7edc\u6846\u67b6",
+        "repo": "shaovie/goev",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488008&idx=1&sn=e453f5f9c340d1a38f7373647b433c73&chksm=9b3f82d0ac480bc63734a6397916f031eca41894d7b3bed72a4418bdb6ddd9af2a46f4c05cf1#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "k8sgpt - Kubernetes \u96c6\u7fa4\u667a\u80fd\u626b\u63cf\u548c\u8bca\u65ad\u5de5\u5177",
+        "repo": "k8sgpt-ai/k8sgpt",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487962&idx=1&sn=f69f9647c7ed1d22c82e25656caa53b9&chksm=9b3f8102ac4808143e5815f6e161d011fb84ef2bc5ce5c6c44bd62939e9ac9f7705121501186#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "GodMode - \u4e00\u4e2a\u4e13\u95e8\u4e3a\u667a\u80fd\u804a\u5929\u673a\u5668\u4eba\u8bbe\u8ba1\u7684\u6d4f\u89c8\u5668",
+        "repo": "smol-ai/GodMode",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488007&idx=1&sn=0b32f47140f24759037bf6bad2439eac&chksm=9b3f82dfac480bc91466a9ab80c30cd338743ca1a4fe2c2265828ac7e0ba1c6210b7728cbb9e#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "GPT-Migrate - AI \u5e2e\u4f60\u505a\u9879\u76ee\u8bed\u8a00\u8fc1\u79fb\u91cd\u6784",
+        "repo": "0xpayne/gpt-migrate",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487808&idx=1&sn=67480413cf780d1699c48de98625ec19&chksm=9b3f8198ac48088e3223d0f03c4c13ff6a28bf0ce8ed4060d48afd7e64d6ce32e5753a19c947#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "OneAPI - \u5927\u6a21\u578b API Token \u7ba1\u7406\u7cfb\u7edf\uff0c\u652f\u6301\u8d85\u591a\u6a21\u578b",
+        "repo": "songquanpeng/one-api",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487936&idx=1&sn=966b0445ffd4b45a610a7ee49a62cc88&chksm=9b3f8118ac48080eb898d609c995601d2084fc05267f8aa6df9ad4b7d3a6157d5853f391b45c#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "S.A.T.U.R.D.A.Y - \u6784\u5efa\u4f18\u96c5\u8bed\u97f3\u63a5\u53e3\u7684\u5de5\u5177\u7bb1",
+        "repo": "GRVYDEV/S.A.T.U.R.D.A.Y",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487835&idx=1&sn=229fdc686f86668723b198da346f2fef&chksm=9b3f8183ac480895b553a9a60fb83127203500567eb2d31ca98197cf2c53771eb46887648896#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Quai Network - Go \u5b98\u65b9\u5b9e\u73b0\u63a8\u8350",
+        "repo": "dominant-strategies/go-quai",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487891&idx=1&sn=2fef83b3ce8da01107ebe7e59b211d5e&chksm=9b3f814bac48085d31734cbe4f1815a72b918084619acc43c1103ae32405f5efc694f5720310#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "GPT Engineer - AI \u5de5\u7a0b\u5e08\u5927\u884c\u5176\u9053\uff0c\u81ea\u5df1\u52a8\u624b\u5199\u4ee3\u7801",
+        "repo": "AntonOsika/gpt-engineer",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487892&idx=1&sn=9bd5fdd560bce222c1fdc52d4ff5fd8f&chksm=9b3f814cac48085a1bbacd9a6930e8142cf9b6fd0843ea579b3eee92d1e22bd38d48d94da01e#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "PMail - \u4e00\u79cd\u5feb\u901f\u3001\u7b80\u5355\u3001\u5b89\u5168\u642d\u5efa\u79c1\u4eba\u90ae\u4ef6\u670d\u52a1\u5668\u7684\u89e3\u51b3\u65b9\u6848",
+        "repo": "Jinnrry/PMail",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487901&idx=1&sn=59779c20c7c3003a9ed82afa3e04985e&chksm=9b3f8145ac480853a054c8e34536e4b5b2a82bb0f31f86c4deac02046a3f287de9512c54a380#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "MetaGPT - \u4e00\u4e2a\u591a\u667a\u80fd\u4f53\u5143\u7f16\u7a0b\u6846\u67b6\uff0cAI \u6253\u9020\u7684\u8f6f\u4ef6\u5916\u5305\u516c\u53f8",
+        "repo": "geekan/MetaGPT",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487836&idx=1&sn=2b6c4659199a7d80b39aba484f52a259&chksm=9b3f8184ac4808922a03b93945a229a70ee2202e999128c7fcd96d43409f01b6257c5dbf018f#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "RuoYi-Vue-Pro - \u529f\u80fd\u4e30\u5bcc\u7684\u5f3a\u5927\u540e\u53f0\u7ba1\u7406\u7cfb\u7edf\uff0c\u53ef\u5feb\u901f\u6784\u5efa\u5fae\u4fe1\u5c0f\u7a0b\u5e8f",
+        "repo": "YunaiV/ruoyi-vue-pro",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487837&idx=1&sn=c805e43c952dd17a4c584d8883d20e7d&chksm=9b3f8185ac480893815254ced784d8ed85ada7630677e27c7ed884a3e48d0d8aef145c66f713#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "ChatGLM-6B\uff1a\u53ef\u672c\u5730\u90e8\u7f72\u7684\u5f00\u6e90\u53cc\u8bed\u5bf9\u8bdd\u8bed\u8a00\u6a21\u578b",
+        "repo": "THUDM/ChatGLM-6B",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487621&idx=1&sn=791d0480a469ca8f658c60261b0f9ee7&chksm=9b3f805dac48094b004541994271d0d436acd9f2a709c3952c398bedcdd717840147dac197c4#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Giskard - \u673a\u5668\u5b66\u4e60\u6a21\u578b\u6d4b\u8bd5\u6846\u67b6\u63a8\u8350",
+        "repo": "Giskard-AI/giskard",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487622&idx=1&sn=df3d99be25f3b081dcf81a357097177f&chksm=9b3f805eac4809485bf34450a3fb7c97c26a7077357c6081f2b57e6004d419b00e139d13e329#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "BlockSuite - \u4e00\u6b3e\u5f00\u6e90\u4e13\u6ce8\u56e2\u961f\u534f\u4f5c\u7684\u7f16\u8f91\u5668",
+        "repo": "toeverything/blocksuite",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487681&idx=1&sn=1551823e6ba67ff07d450c48bec9f5f6&chksm=9b3f8019ac48090faa26fce286095613a955f86d6eb31463e4aaa47c01a0b4423856aef03fe6#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "TypeScript Book - \u4e00\u672c\u5168\u9762\u800c\u7b80\u6d01\u7684 TypeScript \u6307\u5357",
+        "repo": "gibbok/typescript-book",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487775&idx=1&sn=e22c0176f7cb3ae0dba4e3962761415d&chksm=9b3f81c7ac4808d13c1dfd3ea60ef61b810528bd4621cddbb81cc105e16b2773764c9ded19f6#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Sourcegraph - \u4e00\u4e2a\u4ee3\u7801\u667a\u80fd\u5e73\u53f0\uff0c\u5e2e\u52a9\u4f60\u9ad8\u6548\u9605\u8bfb\u548c\u7f16\u5199\u4ee3\u7801",
+        "repo": "sourcegraph/sourcegraph",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487680&idx=1&sn=1150e799adf318acc6bc90455b418ec6&chksm=9b3f8018ac48090e638e6569a40575833f715809e7f4538e01a226c25ccafdb99798550c7d10#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "langchain-ChatGLM - \u57fa\u4e8e\u672c\u5730\u77e5\u8bc6\u5e93\u7684 ChatGLM \u95ee\u7b54",
+        "repo": "imClumsyPanda/langchain-ChatGLM",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487641&idx=1&sn=77162290467267661dfa6c887db717e5&chksm=9b3f8041ac480957371a6a7c2987664351bb62eeab9b1d400ec8ef9ce73bffddc57316211064#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "milvus - \u4e0b\u4e00\u4ee3 AI \u5e94\u7528\u5b58\u50a8\u7cfb\u7edf\uff0c\u4e91\u539f\u751f\u5411\u91cf\u6570\u636e\u5e93",
+        "repo": "milvus-io/milvus",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487725&idx=1&sn=e1bca199a0b32c3c0c809f8a4149cd43&chksm=9b3f8035ac480923aa965b0e6c8a63294b6d96fc19f2e422a7de8c9b2499e42da885491d6d72#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "privateGPT - \u65e0\u6570\u636e\u6cc4\u9732\u5b89\u5168\u7684\u4f7f\u7528 GPT \u4e0e\u79c1\u6709\u6587\u6863\u4ea4\u4e92",
+        "repo": "imartinez/privateGPT",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487462&idx=1&sn=ba6b72e816c3937b84c2579e618db86e&chksm=9b3f9f3eac481628add3428c07249f0c0b0e87c742503f97c6be0ad9589ad8d27f01794cfa58#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u6f58\u591a\u62c9\uff0c\u4e00\u4e2a\u8ba9\u4f60\u66f4\u987a\u7545\u4f7f\u7528 ChatGPT \u7684\u5de5\u5177",
+        "repo": "pengzhile/pandora",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487560&idx=1&sn=84c3446777f791cfb17cd031d2843377&chksm=9b3f8090ac480986fb03f3b4a6a6716f44dabf5d6a25e02661ce838ad700d9e65537f18d1cc1#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "JunoDB - PayPal \u81ea\u7814\u7684\u5b89\u5168\u9ad8\u53ef\u7528 KV \u6570\u636e\u5e93",
+        "repo": "paypal/junodb",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487482&idx=1&sn=33fe861519fd74a104bbc6c9f7a2b3d3&chksm=9b3f9f22ac481634a9811259165117ddd5ed5de3a5663096d3269856a9ecec90cc3d2d013ced#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "MidJourney-proxy\uff1a\u4ee3\u7406 MJ \u7684 discord \u9891\u9053\uff0c\u5b9e\u73b0 API \u5f62\u5f0f\u8c03\u7528 AI \u7ed8\u56fe",
+        "repo": "novicezk/midjourney-proxy",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487538&idx=1&sn=edc9e1bc85bc4097ff5965b7a5a87021&chksm=9b3f80eaac4809fc5cc6b33345e3999449110c5be0ece23343162963fcd2d3025998ebb0773a#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "OpenChat\uff1a\u5feb\u901f\u5f00\u53d1\u5927\u6a21\u578b\u804a\u5929\u673a\u5668\u4eba",
+        "repo": "openchatai/OpenChat",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487516&idx=1&sn=6e60379847c132538b8f52c336bf3e11&chksm=9b3f80c4ac4809d2aeb609384fb4ffcaf2c10ce178da2cc52bc74ce23d94b2ea74dbe0d020be#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u952e\u62e5\u6709\u4f60\u81ea\u5df1\u7684\u8de8\u5e73\u53f0 ChatGPT \u5e94\u7528",
+        "repo": "Yidadaa/ChatGPT-Next-Web",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487581&idx=1&sn=cd7c48f5043c1dbf6514a01ae877d23d&chksm=9b3f8085ac480993c01fcc339b82939c4798ca05a318b31d0dc86bf4aaead116bdbd46f51888#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Otter - \u4e00\u4e2a\u57fa\u4e8e\u591a\u6a21\u6001\u6307\u4ee4\u8c03\u6574\u7684\u6a21\u578b",
+        "repo": "Luodian/Otter",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487505&idx=1&sn=f604b2be7de86e1632910f8d860b9806&chksm=9b3f80c9ac4809dff02daf9e3b0c8e2ba7f22c45efd77c927f682c9a624501ba65cadb17aa88#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Tier - \u7ed9\u4f60\u7684SaaS\u5e94\u7528\u6dfb\u52a0\u5b9a\u4ef7\u7684\u6700\u7b80\u5355\u65b9\u5f0f",
+        "repo": "tierrun/tier",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487373&idx=1&sn=85eefdd563ff3ed17c6ed6998a583537&chksm=9b3f9f55ac4816432e2fa065cd559eb7dfad5cf526015e830ce4b25a9ea0e0864626d808aaba#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "AI \u65f6\u4ee3\u5df2\u7ecf\u5230\u6765\uff0c\u4f46\u79bb\u666e\u53ca\u8fd8\u5f88\u8fdc",
+        "repo": "microsoft/AI-For-Beginners",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487374&idx=1&sn=6be5d86c4828537e4d1a523e51406e01&chksm=9b3f9f56ac481640196476dc2b56cfd25e718bb1aa3c0a1d2b332b522801ba885017778ee1fc#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Terramate - \u589e\u5f3a\u4f60\u7684 Terraform \u4f53\u9a8c",
+        "repo": "terramate-io/terramate",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487396&idx=1&sn=5d49963f7d2726ff7b0edbb7d139c46b&chksm=9b3f9f7cac48166aa272aa3501bdaaa116afc4b3a0ea348887b03e6074050811c81c8fbec0b1#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u667a\u80fd\u7684\u901a\u7528\u6570\u636e\u5e93SQL\u5ba2\u6237\u7aef\u548c\u62a5\u8868\u5de5\u5177",
+        "repo": "alibaba/Chat2DB",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487375&idx=1&sn=13329101d4391ea916d0949809ce1bdc&chksm=9b3f9f57ac481641600836b3d4f66bcaecfc683af5678ad80ef9c79c36aa888deccdec80bba6#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u53d7 Google Zanzibar \u542f\u53d1\uff0c\u4e00\u4e2a\u4e3a\u5f00\u53d1\u4eba\u5458\u6784\u5efa\u7684\u9ad8\u6027\u80fd\u3001\u7075\u6d3b\u7684\u6388\u6743/\u6743\u9650\u5f15\u64ce",
+        "repo": "openfga/openfga",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487376&idx=1&sn=0bb9e460a37f3a3d768cf5953f80d8fe&chksm=9b3f9f48ac48165e444c75343ab0e9d3cacb890e06b02721bdd17244daaaabfe731fd6c12ddd#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u7b80\u5355\u6613\u7528\u7684\u4e00\u952e\u6362\u8138\u5de5\u5177",
+        "repo": "s0md3v/roop",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487395&idx=1&sn=68050814d2cbfddf235c1ee489f9e73e&chksm=9b3f9f7bac48166d3230fd9c9a5a0b0df45f6e5f5225f4ce10c7a759dee82ee2698aa78845ad#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Mailpit - \u4e3a\u5f00\u53d1\u8005\u63d0\u4f9b\u7684\u7535\u5b50\u90ae\u4ef6\u548c SMTP \u6d4b\u8bd5\u5de5\u5177",
+        "repo": "axllent/mailpit",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487226&idx=1&sn=27845eccf8978a0aa70ef037b132716a&chksm=9b3f9e22ac4817345eee16f2717e966cf57e2ea705d9f6fde9da5a905e2ba8ae6bb04471878e#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u300aHello \u7b97\u6cd5\u300b\uff1a\u52a8\u753b\u56fe\u89e3\u3001\u53ef\u8fd0\u884c\u3001\u53ef\u63d0\u95ee\u7684\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5\u5165\u95e8\u4e66",
+        "repo": "krahets/hello-algo",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487227&idx=1&sn=236cf67b6982bd2d990b5e5ba61bc05a&chksm=9b3f9e23ac4817356d815858e4cc1325f3786ce17153508cffbf701f06886ae229984ee0a4f7#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "LocalAI: \u81ea\u6258\u7ba1\u3001\u793e\u533a\u9a71\u52a8\u7684\u672c\u5730 OpenAI API \u517c\u5bb9\u66ff\u4ee3\u65b9\u6848",
+        "repo": "go-skynet/LocalAI",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487329&idx=1&sn=bab3ebd55314f50c3e917a23c3fb4905&chksm=9b3f9fb9ac4816af3e278cabf1602096cb1a57d8e808b8e5ae538a83f56af5511509012b604d#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u89e3\u51b3\u5b9e\u65f6\u6d41\u5a92\u4f53\u670d\u52a1\u5668\u548c\u4ee3\u7406\u96be\u9898\u7684\u5f00\u6e90\u5de5\u5177",
+        "repo": "bluenviron/mediamtx",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487228&idx=1&sn=9f61101450b5bdd453c3713b7a517eea&chksm=9b3f9e24ac481732bd6c4abe9e0e8f5b614f5af7afacb0d4d6d5b3030d997e0b96d34a096242#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "LangChain: \u901a\u8fc7\u7ec4\u5408\u6027\u6784\u5efa\u57fa\u4e8e\u5927\u6a21\u578b\u7684\u5e94\u7528\u7a0b\u5e8f",
+        "repo": "hwchase17/langchain",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487328&idx=1&sn=75cda78dda5f35448d007f355801c297&chksm=9b3f9fb8ac4816ae2414b53dea2e7b4e4c67a142c6cae049300a72e10d4fb120c4d8593da5f4#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Face Swapper\uff1a\u5b9e\u65f6\u4eba\u8138\u4ea4\u6362\u7684\u5f00\u6e90\u9879\u76ee",
+        "repo": "iperov/DeepFaceLive",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487268&idx=1&sn=e1dd867e71a0ff724e06ac48410721ae&chksm=9b3f9ffcac4816ea775090ef1c31f64579e09f541728554e5fab97cce1de0ac72df7834df1c9#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4f7f\u7528 eBPF \u5b9e\u73b0\u7684\u81ea\u52a8\u76d1\u63a7\u7684\u7cfb\u7edf\uff0c\u65e0\u9700\u524d\u7f6e\u4e8b\u4ef6\u6253\u70b9",
+        "repo": "sustainable-computing-io/kepler",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487115&idx=1&sn=30afb132c0ed91c187094f8f90c7b50a&chksm=9b3f9e53ac481745d49531bf306c101170edc96c2890d3043e62430d9a2e71a877f6dc7a7f0d#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u8de8\u5e73\u53f0\u8fdc\u7a0b\u63a7\u5236\u5176\u4ed6\u7535\u8111\uff0c\u914d\u7f6e\u975e\u5e38\u7b80\u5355",
+        "repo": "XZB-1248/Spark",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487162&idx=1&sn=8274be5991d0e2ff50a266a362ec61d0&chksm=9b3f9e62ac481774ea4a1bafd95b0240ae37d552f8c310afd702186ca1e8791c6735242b8b17#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u61d2\u4eba Git\uff08Lazygit\uff09",
+        "repo": "jesseduffield/lazygit",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487190&idx=1&sn=522958262078f07e191fe47f065f468c&chksm=9b3f9e0eac48171860c2e4d4f0fefd8919c1d15afcd634a6f9234f5e3227d4a2736cbf1da377#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Excelize-wasm\uff1a\u5728\u6d4f\u89c8\u5668\u4e2d\u64cd\u4f5c Excel \u7684\u5de5\u5177",
+        "repo": "xuri/excelize-wasm",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487161&idx=1&sn=748c686f192eb33b3a274f44232fd58d&chksm=9b3f9e61ac4817770ca89f21755b159353d00f976e81e3a3c962bb7fddd50a70689e8af7e87c#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u53ef\u672c\u5730\u642d\u5efa\u7684 Stable Diffusion Web \u5e94\u7528",
+        "repo": "AUTOMATIC1111/stable-diffusion-webui",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487160&idx=1&sn=135eb5c8c5094fa4b47407a4f5557fba&chksm=9b3f9e60ac481776cf513d856757e0225e145db27200074417ae0f996d67896ea8e1fb3302af#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u7528\u4e8e\u751f\u6210 Go \u6d4b\u8bd5\u6570\u636e\u7684\u751f\u6210\u5668\u63a8\u8350",
+        "repo": "go-faker/faker",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487127&idx=1&sn=697b575790f354184e4bf0947c89a5fb&chksm=9b3f9e4fac4817595bde88415aedfa97b8d5b029bfc06dcf1a50275cc1a08b05b0000be67ed8#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e91\u539f\u751f\u64cd\u4f5c\u7cfb\u7edf Kubernetes \u6559\u7a0b\u53ca\u793a\u4f8b\u4ee3\u7801",
+        "repo": "guangzhengli/k8s-tutorials",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487053&idx=1&sn=8515840ed98372b033e6f31c0ccd4292&chksm=9b3f9e95ac481783377677a429258845bb0602923c568b5f937ea804f5ac32e0a97f0d898c93#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u652f\u6301\u5feb\u901f\u751f\u6210\u5e72\u51c0\u4e14\u9694\u79bb\u7684\u5f00\u53d1\u73af\u5883\u63d0\u6548\u5de5\u5177",
+        "repo": "jetpack-io/devbox",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487081&idx=1&sn=4fe995b759c58bfd420b80590a0faaf6&chksm=9b3f9eb1ac4817a737746a69fc8bf5863faaffe56b659cd35100fc2be28ef4abf173d7557e6a#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u518d\u4e5f\u4e0d\u7528\u4e3a\u5b66\u4e60\u5f3a\u56fd\u79ef\u5206\u53d1\u6101\u4e86",
+        "repo": "sjkhsl/study_xxqg",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487033&idx=1&sn=3da134c6d0e2442bb4348264c56c6790&chksm=9b3f9ee1ac4817f7858faae3e413cdea23600ebee17a153568e6af634ff65a80ab8be1c9f288#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u9762\u5411\u4e91\u539f\u751f\u5f00\u53d1\u8005\uff0c\u57fa\u4e8e eBPF \u7684\u5e94\u7528\u53ef\u89c2\u6d4b\u6027\u5e73\u53f0",
+        "repo": "deepflowio/deepflow",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487034&idx=1&sn=a76654603ce323e7bc5353020353428b&chksm=9b3f9ee2ac4817f4d7c78d1188387fceb0bbe45bae5ec67c6852edf9807f47bd1668d96379a7#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Go \u4f9d\u8d56\u6ce8\u5165\u6846\u67b6\uff0c\u5e2e\u52a9\u5f00\u53d1\u8005\u6784\u5efa\u5e94\u7528",
+        "repo": "alibaba/IOC-golang",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247487080&idx=1&sn=3765e16dd28cfa8d2b0f1404b6003bd9&chksm=9b3f9eb0ac4817a6bec390de3972ed630585da200e23e7fbb9552d2b0625406c1bf488206cae#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u53ef\u72ec\u7acb\u8fd0\u884c\u7684 KubeVela \u58f0\u660e\u5f0f\u5de5\u4f5c\u6d41\u5f15\u64ce",
+        "repo": "kubevela/workflow",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486905&idx=1&sn=acf5eeecd85942a95d8e64a682a5f524&chksm=9b3f9d61ac48147706ea5cdcc8ba1707897e95c1f19b8ddea23a6fefc6b5df17d6fef4c418f6#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u652f\u6491 SQLite \u6570\u636e\u5e93\u7684\u8de8\u591a\u673a\u590d\u5236\u7684 FUSE \u6587\u4ef6\u7cfb\u7edf",
+        "repo": "superfly/litefs",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486923&idx=1&sn=dd0fbe09969f22fdabfafddc1605c722&chksm=9b3f9d13ac481405024b9f3ae48396a098c2b8f612b4829da15727f4554a9f06ea3aa9371ec6#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u6b3e\u7b80\u5355\u7684 Socks5 \u8d1f\u8f7d\u5747\u8861\u4ee3\u7406\u5de5\u5177",
+        "repo": "mingcheng/socks5lb",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486989&idx=1&sn=b394965c7271b065cdfbdfc3a3556692&chksm=9b3f9ed5ac4817c3332e12ff0dbb78185abfa4f7ac827b76973e6eb42aee126f6d37dacac3e4#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u6b3e\u4e3a\u5fae\u670d\u52a1\u67b6\u6784\u800c\u8bbe\u8ba1\u7684\u76d1\u63a7\u548c\u6545\u969c\u6392\u67e5\u5de5\u5177",
+        "repo": "coroot/coroot",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486959&idx=1&sn=436b2d112fccca7dc47c1b41950b6bea&chksm=9b3f9d37ac4814214aee16039ea40cb13c9c510538d3f48f369a8ad2ecfc341df361c54fadb8#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Go \u8bed\u8a00 JSON \u8fc7\u6ee4\u5668\uff0c\u8ba9\u7ed3\u6784\u4f53\u4e2d\u7684\u6570\u636e\u5b57\u6bb5\u6309\u9700\u4f7f\u7528",
+        "repo": "liu-cn/json-filter",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486988&idx=1&sn=e608486251706bb6fc55e1aa171cb994&chksm=9b3f9ed4ac4817c26e74cc43034760e32ff5d986890b20e8e885946e061472a4dc9a976200e6#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u6b3e\u5f00\u6e90\u53ef\u89c6\u5316\u7684\u8def\u7531\u8ffd\u8e2a\u5de5\u5177",
+        "repo": "sjlleo/nexttrace",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486924&idx=1&sn=9e0cb553308c11fa30e2295de4414887&chksm=9b3f9d14ac481402cfd5a114e766debb1f69a0a13d141d728b09c167186b0fcaee709660518c#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u8fd9\u4e2a\u8c03\u5ea6\u7cfb\u7edf\u8ba9 Kubernetes \u96c6\u7fa4\u8d1f\u8f7d\u66f4\u5747\u8861",
+        "repo": "gocrane/crane-scheduler",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486977&idx=1&sn=dcdef880b6fd75ebd837285f46bf28bb&chksm=9b3f9ed9ac4817cf51d340d6c384dee7984a6f0ce87e403d4ebc0d64104f202a8b562947919e#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4ee3\u7801\u662f\u6700\u91cd\u8981\u7684\u8d44\u4ea7\uff0c\u4efb\u4f55\u6d89\u53ca\u4ee3\u7801\u7684\u98ce\u9669\u90fd\u5e94\u5c3d\u65e9\u4fee\u590d",
+        "repo": "Legit-Labs/legitify",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486821&idx=1&sn=7181080b84e50b1fc422fe0adc5f2f36&chksm=9b3f9dbdac4814ab539e5c6892cce814574ef65b24378197e4b5d3519c710de735ef1b0f2fb7#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u66f4\u65e9\u5730\u53d1\u73b0\u548c\u4fee\u590d\u5b89\u5168\u95ee\u9898\uff0c\u5e2e\u52a9\u4f01\u4e1a\u5b9e\u73b0 DevSecOps \u7684\u76ee\u6807",
+        "repo": "DevSecOpsDocs/nuclearpond",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486865&idx=1&sn=bd3105757b87a165e9f492870339cea0&chksm=9b3f9d49ac48145f026c298cb0c457fcdf361e9990084929a182a094def10464892bf4ac4e01#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u66f4\u6613\u4e8e Go \u96c6\u6210\u7684\u53cd\u5411\u4ee3\u7406\u5de5\u5177",
+        "repo": "ngrok/ngrok-go",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486857&idx=1&sn=ec3ff8426b16c7f4e1d5f2dde56e9271&chksm=9b3f9d51ac481447a2c8e4740f0f5e7e7f0b4ed230091608986014ae76b9a3be6ba27394a19f#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u66f4\u597d\u5730\u7ec4\u7ec7\u548c\u7ba1\u7406\u590d\u6742 Kubernetes \u96c6\u7fa4\u90e8\u7f72\u7684\u5de5\u5177",
+        "repo": "helmfile/helmfile",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486849&idx=1&sn=cf363a63c105dfb5a39fd18a32d34c72&chksm=9b3f9d59ac48144fdff3079ee0c81b0276125625e970f3c4b1ea5005775269f45adc56fb2e23#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u6b3e\u66f4\u597d\u7684\u6a21\u62df\u7f51\u7edc\u653b\u51fb\u7684\u6846\u67b6",
+        "repo": "fin3ss3g0d/evilgophish",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486842&idx=1&sn=76bd4b78533ddbf305a516c1f8d8915e&chksm=9b3f9da2ac4814b4915dd2d0bd44eded3284a7d32167e7c3dc8c09a699eb4cdd26af7113b4c7#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u4e2a\u57fa\u7840\u8bbe\u65bd\u5373\u4ee3\u7801\uff08IaC\uff09\u7684 AI \u4ee3\u7801\u751f\u6210\u5668",
+        "repo": "gofireflyio/aiac",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486887&idx=1&sn=d94003a2a7746f516168bebe6a19c505&chksm=9b3f9d7fac4814693f994af04a8c95b1ea6b9e5e558883abbe9172836ded7d2adfde3213cf55#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u6b3e\u4e91\u73af\u5883\u5229\u7528\u6846\u67b6\uff0c\u652f\u6301\u5feb\u901f\u7684\u547d\u4ee4\u884c\u4e91\u8d44\u6e90\u8bbf\u95ee",
+        "repo": "teamssix/cf",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486856&idx=1&sn=adac01d8fc3fa855e664b5f6e472eb37&chksm=9b3f9d50ac481446c8615d1cf2806f28d77df13d9cf2ad9a7250d3ba628ea4022c5b9d54dea1#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u6b3e\u4f7f\u7528 Go \u5f00\u53d1\u7684\u7b80\u5355\u4f46\u529f\u80fd\u5f3a\u5927\u7684\u535a\u5ba2\u5e73\u53f0",
+        "repo": "go-sonic/sonic",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486832&idx=1&sn=0fc1c5d5cf8c491909a202b80dce6e9d&chksm=9b3f9da8ac4814be2ae19873795cf96e95c57349bc807127609a8e512f079b0713bf20bb6d74#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u57fa\u4e8e Go \u6cdb\u578b\u5b9e\u73b0\u7684\u5de5\u5177\u5e93",
+        "repo": "samber/lo",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486722&idx=1&sn=67b8cb8e9a8d5c17c464d1781479a1c0&chksm=9b3f9ddaac4814ccdf3299ed5534ece20d60670740934f451c14dc527debd2a8537304f4d0f2#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u6b3e\u4f7f\u7528 Go \u5f00\u53d1\u7684\u6f0f\u6d1e\u626b\u63cf\u5de5\u5177",
+        "repo": "google/osv-scanner",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486735&idx=1&sn=aa5d1fe89d3224a07d9833e5deeb8ea0&chksm=9b3f9dd7ac4814c1a94e7123a4c48f03f9296f48be89281a6b539cc99a3c3059efebe6636dcf#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "ChatGPT \u90fd\u80fd\u667a\u80fd\u56de\u7b54\u95ee\u9898\u4e86\uff0c\u95ee\u7b54\u793e\u533a\u8fd8\u9700\u8981\u5417\uff1f",
+        "repo": "answerdev/answer",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486766&idx=1&sn=670b6bcc85b0f92d67bd95913f49d1c2&chksm=9b3f9df6ac4814e0d5dda7dc475e8d12cfb5aae03cf989eea1c07d9b3c47da1a2ceba0cf1aab#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Caddy \u5b89\u5168\u914d\u7f6e\u63d2\u4ef6\uff0c\u914d\u7f6e\u66f4\u5b89\u5168\u7684 Web \u670d\u52a1",
+        "repo": "greenpau/caddy-security",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486754&idx=1&sn=efa3e3ba23123a253a5ffd7658cbb214&chksm=9b3f9dfaac4814ecab54bf529122de266d23535db52361d17be1c4b2f36b22dd98423db8342a#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u517c\u5bb9 Redis \u7684\u9ad8\u6027\u80fd\u6570\u636e\u5e93 KeyDB",
+        "repo": "Snapchat/KeyDB",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486765&idx=1&sn=fee139583f28c5e0ceda99bce24de7c3&chksm=9b3f9df5ac4814e35fdd543f46906c8e4572b5c436677b8335b1307edba348d76ec1d3f3f52a#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u8ba9 API \u91cd\u6784\u66f4\u6709\u4fe1\u5fc3\uff0c\u6d41\u91cf\u81ea\u52a8\u5f55\u5236\u56de\u653e\u5de5\u5177\u63a8\u8350",
+        "repo": "buger/goreplay",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486480&idx=1&sn=b04b73bc055bf596f9368b6ef61acbc4&chksm=9b3f9cc8ac4815de51d87863a1267842c96ce8f726cf3377beaa54ee63d76156d2bbde2c7c86#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e0b\u4e00\u4ee3\u722c\u866b\u6846\u67b6\uff0c\u652f\u6301\u547d\u4ee4\u884c\u65b9\u5f0f\u4f7f\u7528",
+        "repo": "projectdiscovery/katana",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486559&idx=1&sn=43a74d183bd315973f3d098003e21fcd&chksm=9b3f9c87ac48159121359f2b3c5a6f8d95777a6c16eedb74096c9dffdf908b69f0868f11476f#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u8fd9\u4e2a\u6bd4 ChatGPT \u8fd8\u725b\u903c\u7684 AI\uff0c\u7adf\u7136\u80fd\u76f4\u63a5\u4fee\u590d\u4ee3\u7801 BUG",
+        "repo": "shobrook/adrenaline",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486698&idx=1&sn=ae397d3a4bef8d6e61bcff883583cba6&chksm=9b3f9c32ac481524f18f1008e3b313877f9ee9e36301b8a89a64f0b4b89ee3d111b1d1705aab#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5b89\u88c5\u548c\u4f7f\u7528\u90fd\u5f88\u7b80\u5355\u7684\u538b\u529b\u6d4b\u8bd5\u5de5\u5177",
+        "repo": "ddosify/ddosify",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486501&idx=1&sn=9ffa8f1a4767c27f1ebae23daaf800a7&chksm=9b3f9cfdac4815eb0f6e8bc263f7b7771fa2508f430686b7c79b0a729f4f2ed42cb1c29f6615#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u6613\u4e8e\u96c6\u6210\u5230 GitHub \u4e2d\u7684\u4ee3\u7801\u8d21\u732e\u5361\u7247",
+        "repo": "anuraghazra/github-readme-stats",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486491&idx=1&sn=8ae67643a1b04c294a893033a2dddb8b&chksm=9b3f9cc3ac4815d5a730c5ec3a26cb4558576712abd6952d51231fe244511154525187cff7ea#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u7528\u4e8e\u5feb\u901f\u642d\u5efa\u7f51\u9875\u901a\u77e5\u4e2d\u5fc3\u7684\u5f00\u6e90\u9879\u76ee",
+        "repo": "novuhq/novu",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486538&idx=1&sn=2bc6a938315027ae5e5c86427b32d6d7&chksm=9b3f9c92ac481584833ebaefd8aa16ded15b58d64294a01d752ebe3e5c5fa43d29b80945c13f#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u9a6c\u8d5b\u514b\u540e\u7684\u56fe\u7247\u5230\u5e95\u80fd\u4e0d\u80fd\u6062\u590d\uff1f",
+        "repo": "bishopfox/unredacter",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486383&idx=1&sn=bab184f062a48452be072c413caf4a0d&chksm=9b3f9b77ac48126197213d561de21e066b1c37f54362596160fb6f29fc6b04d326837a83d574#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5b8c\u5168\u5f00\u6e90\u4f7f\u7528 GitHub \u5b58\u50a8\u7684\u7b14\u8bb0\u5e94\u7528",
+        "repo": "batnoter/batnoter",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486404&idx=1&sn=2915a4fe77911e837efef07912da62b9&chksm=9b3f9b1cac48120aed51113bdf63b7de2bfe2dc8522d6a5ac438a8e38470ece8ad6798f6b69e#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5927\u5382\u5f00\u6e90\u529b\u4f5c\uff0cRedis \u6570\u636e\u8fc1\u79fb\u5de5\u5177",
+        "repo": "alibaba/RedisShake",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486326&idx=1&sn=98baada8111290d376f438eaa6df3df4&chksm=9b3f9baeac4812b85122df1b3e5a5996c62e65b9811a7fd09be9d79fe38ee9445d1b2618b34f#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u63d0\u5347\u6548\u7387\u5229\u5668\uff0c\u4e91\u539f\u751f\u591a\u4e91\u5e94\u7528\u7ba1\u7406\u5e73\u53f0",
+        "repo": "goodrain/rainbond",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486298&idx=1&sn=ef0d690aa1cf8ec45cd68fa6224057a8&chksm=9b3f9b82ac481294fda0e566a41289184d487069cba2a021de417dc873f7e9ba5d373cba104d#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u6b3e\u5c06 GitHub Discussion \u8ba8\u8bba\u533a\u76f4\u63a5\u8f6c\u6210\u535a\u5ba2\u7684\u5de5\u5177",
+        "repo": "YeungKC/Hakuba",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486183&idx=1&sn=d2c1e16a6cc9680baeeb9d834f295c51&chksm=9b3f9a3fac481329f36e8d544c1d29ba1eb220eb88152b8c382b11b969f6d67a55c80adbc00e#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e86\u89e3\u9879\u76ee\u7f16\u7801\u5f3a\u5ea6\uff0c\u4ece\u4ee3\u7801\u5206\u6790\u5f00\u59cb",
+        "repo": "hellodigua/code996",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486198&idx=1&sn=1e09d2d9232bf3e6f79d2e9d7305d5e5&chksm=9b3f9a2eac481338ff4b7224c5ed0dfc6a407d522009c2391561ec42a7c12442d34dea0a564f#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5341\u884c\u4ee3\u7801\u5c31\u80fd\u5f00\u53d1\u4e00\u4e2a\u4ea4\u4e92\u5f0f\u547d\u4ee4\u884c\u5de5\u5177",
+        "repo": "fzdwx/infinite",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486245&idx=1&sn=323343a8cdb01fc255c047cb760c55d1&chksm=9b3f9bfdac4812ebf0b054f99086f15c8dc3c47608177143fe0b4c79d1890b938306be262578#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u955c\u50cf\u90e8\u7f72\u8d8a\u6765\u8d8a\u5e7f\u6cdb\u4f7f\u7528\uff0c\u4f46\u955c\u50cf\u5b89\u5168\u4f60\u4e86\u89e3\u5417\uff1f",
+        "repo": "chaitin/veinmind-tools",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486218&idx=1&sn=64b0efd1fc5d3e06e9c73a8da2241d9a&chksm=9b3f9bd2ac4812c4e986b4bc71734ae1e60c49015bb336f27e1f4be77377afd171358b2a21e4#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u666e\u901a\u4eba\u53ef\u4ee5\u4f7f\u7528\u7684\u524d\u6cbf\u4eba\u5de5\u667a\u80fd\u6280\u672f\u63a8\u8350",
+        "repo": "Baiyuetribe/paper2gui",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486229&idx=1&sn=01fb54f10b0cd81c7da3022a93d4b9b7&chksm=9b3f9bcdac4812dbf2b41880ce21b8528a2eb86c09b3c71e38fe2ff313a344fcbb42d3b4c44c#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Excel \u592a\u5927\u6253\u5f00\u592a\u6162\uff1f\u63a8\u8350\u4e07\u80fd SQL \u5206\u6790\u5de5\u5177\uff0c\u975e\u6280\u672f\u4eba\u4e5f\u53ef\u4ee5\u4f7f\u7528",
+        "repo": "multiprocessio/dsq",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486228&idx=1&sn=ad5accd57ccabe306ff7b8f4edb3dff1&chksm=9b3f9bccac4812dad1ffd23f063ca7bc40129f5969f705125bf35607473ae33b4f584ba10f99#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "GitHub \u5f00\u6e90\u9879\u76ee\u7ef4\u62a4\uff0c\u8981\u5148\u53c2\u4e0e\u5230\u5f00\u6e90\u4e2d\u6765",
+        "repo": "eryajf/HowToStartOpenSource",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486217&idx=1&sn=d14b113838dd78893e8210ae3ae876f6&chksm=9b3f9bd1ac4812c713080017a6e72000b4bcfb985a95b7a4380e0a24cec1dc5659ccaef4b0d0#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5728 GitHub \u4e0a Star \u4e86\u51e0\u5343\u4e2a\u9879\u76ee\u4e0d\u77e5\u9053\u600e\u4e48\u7ba1\u7406\uff1f\u770b\u8fd9\u91cc",
+        "repo": "riskers/GithubX",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486238&idx=1&sn=3b628eb7f023687d9e84e9d06c6c1524&chksm=9b3f9bc6ac4812d06f2cd75f16cee13c9c083898147f426b39fe2b0fadec2f7bcd71231e54cb#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u9ad8\u8003\u8003\u7814\u9009\u5b66\u6821\uff0c\u8fd9\u4e9b\u5927\u5b66\u91cc\u7684\u9690\u79d8\u5c0f\u7ec6\u8282\u4f60\u5fc5\u987b\u8981\u77e5\u9053",
+        "repo": "CollegesChat/university-information",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486056&idx=1&sn=ca2aef6458f67e51eb6c3dd29adcf359&chksm=9b3f9ab0ac4813a6d577c4b7a5e74e21a794075c95786f0ec62df799e462cc5309ae06b75b63#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u7a0b\u5e8f\u5458\u4e5f\u5206\u590d\u53e4\u548c\u6f6e\u6d41\u6d3e",
+        "repo": "Swordfish90/cool-retro-term",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486099&idx=1&sn=72f9806a6880dccf53110d15bea92773&chksm=9b3f9a4bac48135dfb0bce2bb9c384367daa47e5bdb5621f7eef5839622e2b5275bbb5488158#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "K8S \u6d41\u91cf\u53ef\u89c2\u6d4b\u6027\u5de5\u5177\u529b\u8350",
+        "repo": "up9inc/mizu",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486130&idx=1&sn=99f3fd4d7cb00849fc57a627505134b2&chksm=9b3f9a6aac48137c779ceb7c5c0430da7ddb461557acae22df18ea70e2881bb46cfcd76d7274#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5173\u6ce8\u534f\u4f5c\u5b89\u5168\u7684\u5f00\u6e90\u7248 Postman API \u5f00\u53d1\u5e73\u53f0\uff0c\u4e0d\u4ec5\u4ec5\u662f\u4e00\u4e2a API \u8c03\u5f0f\u5de5\u5177",
+        "repo": "EsperoTech/yaade",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486083&idx=1&sn=a02988003f0c6d759180035da1621bf3&chksm=9b3f9a5bac48134dd10d9e9e68d00a80b1aa5deb7bf56f557372272c80aaeec5d0faa2abca8f#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u6700\u5c0f\u5316\u65e0\u5916\u90e8\u4f9d\u8d56\u7684\u8c03\u5ea6\u5f00\u6e90\u5e93\uff0c\u975e\u5e38\u503c\u5f97\u5b66\u4e60",
+        "repo": "reugn/go-quartz",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486002&idx=1&sn=d94472d6c0ea8c9d1232de62e0262b4c&chksm=9b3f9aeaac4813fc2f1c5500ce696740a4d14e945d6df56232f818824576fb20cc3df021ec5b#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u6574\u6d01\u67b6\u6784\u5982\u4f55\u843d\u5730\uff0c\u63a8\u8350\u8fd9\u4e2a\u4ee3\u7801\u6a21\u677f",
+        "repo": "evrone/go-clean-template",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486027&idx=1&sn=f2717331d7d212577fd605f32b2eaa2e&chksm=9b3f9a93ac48138500f374eb958c76875f3e5fe67ed50c554cb4078fc3fbb14df3602f5468a2#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u6b3e\u5728\u7ebf\u6e38\u620f\u63a8\u8350\uff0c\u5c45\u5bb6\u529e\u516c\u89e3\u4e4f",
+        "repo": "pengfeiw/rubiks-cube",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485950&idx=1&sn=be30475ee0701a9dd7596c02446fbe84&chksm=9b3f9926ac481030f9dd15b8f6fa9c138ceb73589e4dba69eb961f33283aee349eb30d2ebea8#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u72ec\u7acb\u5f00\u53d1\u8005\u6548\u7387\u63d0\u5347\u5de5\u5177\u4e4b\u7f51\u7ad9\u53cd\u9988\u63d2\u4ef6",
+        "repo": "rowyio/feedbackfin",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485961&idx=1&sn=8935ce53e5cdf1c629a9f13be8342733&chksm=9b3f9ad1ac4813c7b4158404402ee1ae492cd18bae02493f1d143265a6449a53c50ba99c239e#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e07\u80fd\u7684\u6d88\u606f\u63a8\u9001\u5e73\u53f0\u63a8\u8350",
+        "repo": "ZhongFuCheng3y/austin",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247486001&idx=1&sn=27481be1e545d37f5a1a1477e703370c&chksm=9b3f9ae9ac4813ff92c61621eb7ea2d0eefac0327d040e0af8e66837b4b925884155f23e5ed5#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4eb2\u6d4b\u6709\u6548\uff0c\u89e3\u51b3 GitHub \u8bbf\u95ee\u6162\u95ee\u9898",
+        "repo": "521xueweihan/GitHub520",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485989&idx=1&sn=425064363df5bd5ffe11363601cfd260&chksm=9b3f9afdac4813ebfa7a2d7e92becc032b9b541c39db92c769396d7560c6e017b509fbad2daa#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u6b3e\u4f53\u9a8c\u65e0\u654c\u7684\u5927\u91cf\u786c\u76d8\u7167\u7247\u6d4f\u89c8\u5229\u5668",
+        "repo": "photoview/photoview",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485853&idx=1&sn=5db4f828cfd8e9def7341cc383729f01&chksm=9b3f9945ac481053c044bccb130af5092673cb2e8b7711aa7e0f4305697a07ca07efc8f524a0#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u7a0b\u5e8f\u5458\u5c45\u5bb6\u529e\u516c\uff0c\u8fd9\u4e2a\u6280\u80fd\u5fc5\u987b\u8981\u4f1a",
+        "repo": "LeeJim/HowToCookOnMiniprogram",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485867&idx=1&sn=95754bab1c63b5d933ae01b670d17916&chksm=9b3f9973ac4810655327c044ebf7888da7edad7360499702157847ce5d33de64552fea92eb2f#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u4e2a\u5e94\u5bf9\u4e0b\u4e00\u4e2a\u5341\u5e74\u7684\u9ad8\u6027\u80fd JSON \u5e93",
+        "repo": "alibaba/fastjson2",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485915&idx=1&sn=9ef3c5d6316eab5cbcf9c06584a2f5f7&chksm=9b3f9903ac481015f33dbcfddff7913dda60a583023d214555875a6d331b139a12c5a75cfbe3#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u6253\u7834\u8f6f\u4ef6\u754c\u9650\uff0c\u684c\u9762\u81ea\u52a8\u5316\u5b9a\u5236\u5de5\u5177",
+        "repo": "RaiMan/SikuliX1",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485898&idx=1&sn=1b1d3a312478f734791d34c966637dcc&chksm=9b3f9912ac4810040b818099f5e1aea3fa2f5f983ea13b5b9ca85c75ac4e69b1503840dc5086#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5927\u91cf\u9ad8\u8d28\u91cf\u516c\u5f00\u8bfe\u5217\u8868\uff0c\u6301\u7eed\u6536\u96c6\u4e2d...",
+        "repo": "xioacd99/study-is-wonderful",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485889&idx=1&sn=2e642756814957d165ddf5fae1e32913&chksm=9b3f9919ac48100fc7419d2d95de958521db949958fc9e46768cab13c96214a84d91cbf62ced#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5f00\u53d1\u8005\u6548\u7387\u63d0\u5347\u5de5\u5177\u4e4b JSON \u53ef\u89c6\u5316",
+        "repo": "AykutSarac/jsonvisio.com",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485868&idx=1&sn=b02a2be49077d3e3000cb0ff2ba6bb72&chksm=9b3f9974ac48106206a05b512e888e19dc2a44175bcde9ff5e75b278525c7af6174ccce3ba7c#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u7a0b\u5e8f\u5458\u505a\u81ea\u5a92\u4f53\u7684\u4e00\u79cd\u65b9\u5f0f",
+        "repo": "remotion-dev/remotion",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485764&idx=1&sn=c12e7b66e56b66db2c2cc488ffcb699c&chksm=9b3f999cac48108ab54bf51c4780dc7e9f2374872f95f8400afa8e2e999917900e13ef139333#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5b9e\u65f6\u4e2d\u6587\u8bed\u97f3\u514b\u9686\uff0c\u58f0\u97f3\u6a21\u4eff\u5982\u6b64\u7b80\u5355",
+        "repo": "babysor/MockingBird",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485781&idx=1&sn=e940be76ea7a863461f31d4d6ebd19d1&chksm=9b3f998dac48109be04797990eeb3f4dfd81ab8ab18978f99538c8de6289aa2f9132da85ccfd#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Linux top \u547d\u4ee4\u5347\u7ea7\u7248\u5de5\u5177",
+        "repo": "aristocratos/btop",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485611&idx=1&sn=286f59740fc092c78dcde62750f1b13b&chksm=9b3f9873ac48116556be7cca7a0a4a067991657f9151c94e785c1d679415c52c6149552d6310#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4efb\u6027\uff0c\u73b0\u6709\u5de5\u5177\u4e0d\u6ee1\u8db3\u8981\u6c42\u90a3\u5c31\u5f00\u6e90\u9020\u4e00\u4e2a",
+        "repo": "AppFlowy-IO/appflowy",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485714&idx=1&sn=c015589fc1c8705e570bc2658fccc632&chksm=9b3f99caac4810dc6e43be5188988a48de528b01f7798bb95ee22514df7a4502d53fb46d9120#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "GitHub \u5f00\u6e90\u81ea\u5efa\u7684\u5b89\u5168\u6f0f\u6d1e\u4fee\u590d\u5efa\u8bae\u6570\u636e\u5e93",
+        "repo": "github/advisory-database",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485671&idx=1&sn=68b4253a4871b254e124271aa9048178&chksm=9b3f983fac481129771136c997eddc4b5e7b96a6df25d976614a958dec48c434020f78ac39e2#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5fae\u4fe1\u8bfb\u4e66\u5fc5\u5907\u63d2\u4ef6\uff0c\u5c55\u793a\u8c46\u74e3\u53ef\u8bfb\u4e66\u7c4d",
+        "repo": "Sorosliu1029/weReaDou",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485645&idx=1&sn=0070cff9109db94b08775d898da120da&chksm=9b3f9815ac4811034efca0d5416023b81a518eb54e2940f75447111843a48aa060e0b3e09dcf#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u6478\u9c7c\u5229\u5668\uff01\u547d\u4ee4\u884c\u7248\u672c GitHub Trending",
+        "repo": "ryo-ma/lazyhub",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485515&idx=1&sn=2162bf9d03738a35e972943717c01fd8&chksm=9b3f9893ac481185279283060fc9d1c2ceeef0e08cbb385946b6c4b297761317a2de5bbdcdfd#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u72ec\u5c5e\u4e8e\u7a0b\u5e8f\u5458\u7684\u6d6a\u6f2b\uff0c\u771f\u7684\u5f3a\uff01",
+        "repo": "bencbartlett/3D-printed-mirror-array",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485533&idx=1&sn=27872c98348fb4878fec1782c9d702fc&chksm=9b3f9885ac481193e27c302d5c40c8fd8f5caa88af5a008b01e0826fcfff972297855a5ee9f7#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "GitHub Actions \u5999\u7528\uff1aHackerNews TOP10 \u8bdd\u9898\u751f\u6210",
+        "repo": "headllines/hackernews-daily",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485575&idx=1&sn=8f5cffcbede28e58692c70c0fb3f42e9&chksm=9b3f985fac4811491123690f40d4eda41c1776026bde59596b318bfe446d2428c2885bc8d1fc#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "WebSocket \u7adf\u7136\u5982\u6b64\u7b80\u5355",
+        "repo": "joewalnes/websocketd",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485559&idx=1&sn=9d3d273bd1e6214ee9e3bb6e35c9447a&chksm=9b3f98afac4811b9a03af3d5362175d46020f69eb4f6e382798dfa0f9157d9806bf0ac65132d#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u7528 Python \u5c55\u793a\u6570\u5b66\u4e4b\u7f8e\uff0c\u771f\u7684\u7edd\uff01",
+        "repo": "neozhaoliang/pywonderland",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485544&idx=1&sn=10aaa84650b9e52cfb6148bc8798d25d&chksm=9b3f98b0ac4811a645f0049a7bd1fdee0cd639a1722066710229d4b1dc3525d742bfd9144a50#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u641e\u79d1\u7814\uff01\u6211\u7684\u5bfc\u5e08\u662f B \u7ad9 UP \u4e3b\uff01",
+        "repo": "mli/paper-reading",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485428&idx=1&sn=7b91ffda1054f4a51b62312ab0544a05&chksm=9b3f972cac481e3a9a1f63e7c02a566eb812bfa78806fde86f3d2552444abcd7526a321a6867#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u8fd8\u8bb0\u5f97\u4f60\u7684\u7b2c\u4e00\u4e2a GitHub \u4ee3\u7801\u63d0\u4ea4\u5417\uff1f",
+        "repo": "amitmerchant1990/your-first-commit-ever",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485481&idx=1&sn=1d691dd1322da466a0e6d7df7c30d81d&chksm=9b3f98f1ac4811e76b1e2167c56c284865c72a786744d522975e70f7516e2fdc696b17ab8ac7#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "2021 \u5e74 GitHub \u5f00\u6e90\u5e74\u7ec8\u62a5\u544a",
+        "repo": "avgupta456/github-trends",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485492&idx=1&sn=a07a5183bf16cefbf0e3d8d7091f18a8&chksm=9b3f98ecac4811fa083b94ae9feea5671faf2b2986ecbe0bbe01d9560fd270ee53db6e810132#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u54ea\u4e9b\u4eba\u8fd8\u5728\u575a\u6301\u66f4\u65b0\u535a\u5ba2\uff1f\u770b\u8fd9\u91cc",
+        "repo": "alaskasquirrel/Email-newsletter-RSS",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485447&idx=1&sn=51f36ffe1a2530de09c8a00778f9b6d1&chksm=9b3f98dfac4811c987ec66c8366432b90d79b767a76275378aeb0875d56c5d7f58a13ce9152c#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u6b3e\u7f51\u9875\u4e0a\u4e0b\u6587\u5173\u8054\u7684\u8bb0\u7b14\u8bb0\u5de5\u5177",
+        "repo": "betterRunner/context-note",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485472&idx=1&sn=c77ff25cd6e8af1e0d9df118edd8ff46&chksm=9b3f98f8ac4811eec3b5fb3e8a124ed8eecf252ca16db981a4c8827eebcc5a4d7798469cd83c#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u7b80\u5355\u597d\u7528\u7684\u5f00\u6e90 SQLite \u67e5\u8be2\u5de5\u5177",
+        "repo": "lana-k/sqliteviz",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485463&idx=1&sn=dd220104cba66825296982cba6b3df79&chksm=9b3f98cfac4811d99275b83b29ba027fba1d1efe72eb0d64aafe3ddf7239da0639f2f5d9b846#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u7b80\u76f4\u6781\u5ba2\uff01\u5bf9\u547d\u4ee4\u884c\u53cb\u597d\u7684\u5f00\u653e\u670d\u52a1\u5217\u8868\uff01",
+        "repo": "chubin/awesome-console-services",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485401&idx=1&sn=fafa080da83f2b60e7883abc63b23f0c&chksm=9b3f9701ac481e17642b036c41a15b772f2dc0379734d12aff1ae090e8745d5315b4edd2a18d#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u7ef4\u62a4\u5386\u53f2\u9057\u7559\u9879\u76ee\uff0c\u8fd9\u4e2a\u529e\u6cd5\u6548\u7387\u5947\u9ad8\uff01",
+        "repo": "jendrikseipp/vulture",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485390&idx=1&sn=f52ba3036d05d0d7fc7cf11b8f0245f7&chksm=9b3f9716ac481e000ee307bdbd65517162e48a68c4833bca54a3997e2983b22448be0612bdbd#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u597d\u5947\uff01GitHub \u516c\u53f8\u5728\u5f00\u6e90\u793e\u533a\u5f00\u6e90\u4e86\u4ec0\u4e48\uff1f",
+        "repo": "github",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485379&idx=1&sn=370fbf97acd2ffc3124872a57904a569&chksm=9b3f971bac481e0de1b0e9674d3ec70bc4699fe010a6d7d1307e5d2530a8d1a00803191af252#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4f60\u60f3\u77e5\u9053\u7684\u5143\u5b87\u5b99\u4fe1\u606f\uff0c\u8fd9\u91cc\u5168\u90fd\u6709\uff01",
+        "repo": "shadowcz007/awesome-metaverse",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485354&idx=1&sn=0611cb32dbe9d9d4726985beb4be83ff&chksm=9b3f9772ac481e64bcf41168a4b7e04736285aa41b079371a56a5e5b5017379cafeef1607007#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5148\u6536\u85cf\u4e86\uff01\u514d\u8d39\u5f00\u653e API \u5927\u5168\uff01",
+        "repo": "public-api-lists/public-api-lists",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485355&idx=1&sn=9a4d792a35c3548a4d9243469e2b8744&chksm=9b3f9773ac481e655592a9366dcad80679891627e269b20278c7e684ef15002b2e6d8bd122cf#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "GitHub \u63d0\u4ea4\u70ed\u529b\u56fe\uff01\u8fd8\u53ef\u4ee5\u8fd9\u4e48\u73a9\uff01",
+        "repo": "yihong0618/GitHubPoster",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485303&idx=1&sn=a65449a681e56d34b602323ccbd6fee1&chksm=9b3f97afac481eb9124b91309fbe3197725816e8b0b08d01f4bb62064f0d7014bdeb6b56ac38#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u767b\u9646\u706b\u661f\u7684\u65e0\u4eba\u673a\u5f00\u6e90\u4ee3\u7801",
+        "repo": "nasa/fprime",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485282&idx=1&sn=efb7c4dc35c7cf1d94506c16eeb8b510&chksm=9b3f97baac481eacd6d6e53cd47290505e4a63c604281ebe63fdfdfd4b663b7b445ee8855526#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u725b\u903c\uff0c\u8fd9\u4e2a\u5de5\u5177\u8ba9 YouTube-DL \u66f4\u597d\u7528\uff01",
+        "repo": "jely2002/youtube-dl-gui",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485293&idx=1&sn=10f9db62c0b609e885e55c9320764aab&chksm=9b3f97b5ac481ea3e2349da238597ff1bd6cc4cb60aada3ee06eb9b3d38fadcdc4aaa81bfda7#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5feb\u901f\u8bd5\u9519\u5feb\u901f\u8fed\u4ee3\uff0c\u8fd9\u4e2a GitHub \u5de5\u5177\u522b\u9519\u8fc7\uff01",
+        "repo": "nektos/act",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485268&idx=1&sn=e1991fec921ca9f0e1622a2cbf557317&chksm=9b3f978cac481e9ad45e48f7b595e44ed818e4c7760375168bafa4eaf87dbfbbdf9d29d57597#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u725b\u903c\uff01\u7b80\u5355\u70ab\u9177\u7684\u8fdb\u5ea6\u6761\u5f00\u6e90\u5e93\uff01",
+        "repo": "rsalmei/alive-progress",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485246&idx=1&sn=162b5987236800d6fcaff77e292ad0a5&chksm=9b3f97e6ac481ef0a82679aa517a0758b884301b592e0ee559f66fe97fba4342d580f0aaef98#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u9524\u5b50\u4fbf\u7b7e\u98ce\u683c\u7684 Markdown \u4e3b\u9898",
+        "repo": "nihaojob/markdown-css-smartisan",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485260&idx=1&sn=d4629a77286a7cb493355d24e3811ced&chksm=9b3f9794ac481e82d4175e6050eb7d578df25b15df8144109b1903e30df0ef2aa90be0dcf8d4#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u9707\u60ca\uff0c\u88ab\u9a6c\u8d5b\u514b\u7684\u56fe\u7247\u7adf\u7136\u8fd8\u53ef\u4ee5\u6062\u590d",
+        "repo": "beurtschipper/Depix",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485210&idx=1&sn=84130065e1322503cbb641d2d2b1a7a3&chksm=9b3f97c2ac481ed4dcdaf0d92b13c800b8e60848a08104b375a4649bcb6b299ecf4d03603cd4#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u725b\u903c\uff0c\u5728 Mac \u7684\u952e\u76d8\u89e6\u6478\u5c4f\u4e0a\u5b9e\u73b0\u4e00\u4e2a\u76d1\u63a7\u7cfb\u7edf",
+        "repo": "spagnuolocarmine/touchbar-systemmonitor",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485219&idx=1&sn=f4dfa3ed77a00b37d2c880b205bd6850&chksm=9b3f97fbac481eed1da52c3495d3ca30ab0fe9997ce26f60e7fea86724fb480066dcbc953719#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u63a8\u8350\uff01\u5f00\u6e90\u8f7b\u91cf\u5316\u9759\u6001\u4ee3\u7801\u626b\u63cf\u5de5\u5177",
+        "repo": "returntocorp/semgrep",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247485130&idx=1&sn=9c374a9a6d57f54129ac7395b3b22a58&chksm=9b3f9612ac481f041782d633399494bbab5e5b9884333dc56a67e241471d415ea3dae53d3232#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u4e2a\u56fd\u5916\u5f00\u6e90\u9879\u76ee\u63cf\u8ff0\u4e2d\u6709\u4e2d\u6587\u201c\u8c22\u8c22\u201d\uff0c\u5230\u5e95\u53d1\u751f\u4e86\u4ec0\u4e48\uff1f",
+        "repo": "kataras/iris",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247484701&idx=1&sn=cd8e691f4e960b559478dd3d7d019fe0&chksm=9b3f95c5ac481cd3235548052f67febc98d1d287f166cdf52d7b10e8a721b4c157347e812e8e#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Go \u95ee\u9898\u96c6\u9526\u5f00\u6e90\u9879\u76ee\u63a8\u8350",
+        "repo": "qcrao/Go-Questions",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247484582&idx=1&sn=3df02683d45453dd333e6fc884f18695&chksm=9b3f947eac481d68db5a7efdf002ed87ed66e8dec32dca9951ae83a1f57d6d57ba4df3bf0ce3#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5982\u4f55\u4ece\u96f6\u5f00\u59cb\u5b9e\u73b0\u5168\u6587\u641c\u7d22\u5f15\u64ce\uff1f",
+        "repo": "akrylysov/simplefts",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247484679&idx=1&sn=0d5c330e10bdd84e8b991e8a0158ce6e&chksm=9b3f95dfac481cc9aad5feaefd4e802692bdf08988c732167ea536477cd0de3f668af513c48e#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4ece 0 \u5f00\u59cb\u5237 LeetCode \u7684\u5957\u8def",
+        "repo": "greyireland/algorithm-pattern",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247484544&idx=1&sn=4ffdb2729f598c410e887d2728a7737e&chksm=9b3f9458ac481d4e3664f9579b9efc6078a846a09161085f764b9c756b963af3f80facf1859f#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u6570\u5b57\u6e38\u6c11\uff1a\u5728\u5bb6\u6216\u8005\u65c5\u6e38\u5c31\u628a\u94b1\u8d5a\u4e86",
+        "repo": "greatghoul/remote-working",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247484542&idx=1&sn=201cd1ecc606a7469bd081963b9274ea&chksm=9b3f94a6ac481db0738c3caafadc821c1dd68cec2fc2440f101f5dec7083e3fce90e1bc578a5#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u7b80\u76f4\u725b\u903c\uff0c\u90a3\u4e9b\u5bf9\u8f6f\u4ef6\u5f00\u53d1\u4eba\u5458\u6709\u7528\u7684\u5b9a\u5f8b\u3001\u7406\u8bba\u3001\u539f\u5219\u548c\u6a21\u5f0f",
+        "repo": "nusr/hacker-laws-zh",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247484517&idx=1&sn=51ab6bc9138069fe653d6ddb026ae295&chksm=9b3f94bdac481dab74f94b7427ae26ef5fd973be07f22bf9a844b22658952a7dd6e6ed739bb1#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Go \u8bbe\u8ba1\u6a21\u5f0f\u7b14\u8bb0",
+        "repo": "senghoo/golang-design-pattern",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247484408&idx=1&sn=4a83212b45a96a2d6fe7c8c9cf62536e&chksm=9b3f9320ac481a3668c75b03054a7f3a5e9ff92b96e10ab59f6c74e6f011347eada115085db8&token=24835938&lang=zh_CN#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "7 \u5929\u7528 Go \u4ece\u96f6\u5b9e\u73b0\u5f00\u6e90\u9879\u76ee\u7cfb\u5217\u63a8\u8350",
+        "repo": "geektutu/7days-golang",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247484363&idx=1&sn=5b61037d481d3dab7e6d0a7a2acbb6c2&chksm=9b3f9313ac481a05f9b58ac359146149e921258dfd4e696fb078ea6a99683e75d822df0bb5f1#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u63d0\u95ee\u7684\u667a\u6167\uff0c\u5de5\u7a0b\u5e08\u4fee\u70bc\u57fa\u672c\u529f",
+        "repo": "ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247484373&idx=1&sn=e5712cf6da254e0fbff5a69a18f9af1e&chksm=9b3f930dac481a1bf7e5b7c3271aaf1e828068ea88086cdcc1e900ebfdd4d5e99ef9650b7809#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5f00\u6e90 Books \u5c0f\u7a0b\u5e8f\u4e4b\u5f00\u6e90\u8bb8\u53ef License \u8bf4\u660e",
+        "repo": "ZhuPeng/mp-githubtrending",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247484240&idx=1&sn=b63474fc92a4a262a600a53a29756639&chksm=9b3f9388ac481a9ecd2d4d1c47912d9e61a113d9e50d568e9356504f5d1eb60a399862eea95f#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "NeurIPS 2023\uff5cAI Agents \u5148\u884c\u8005 CAMEL\uff1a\u7b2c\u4e00\u4e2a\u57fa\u4e8e\u5927\u6a21\u578b\u7684\u591a\u667a\u80fd\u4f53\u6846\u67b6",
+        "repo": "camel-ai/camel",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247488948&idx=1&sn=2e85bb0d93dc81c353d92f1fa6f502aa&chksm=9b3f856cac480c7a21e67487715695c6730b6a058c704b5fb08e3a35c78fda48128a15730d41#rd"
+    },
+    {
+        "repo": "seaweedfs/seaweedfs",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u9ad8\u6548\u5904\u7406\u5c0f\u6587\u4ef6\u7684\u5206\u5e03\u5f0f\u5b58\u50a8\u7cfb\u7edf",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490274&idx=1&sn=78a9bf9445df75d7e9240004449a5705&chksm=9b3f8a3aac48032c6ab99db7a4c67ec94b58ce15f7631af58b88e9899e21713d42308f08b534#rd"
+    },
+    {
+        "repo": "seaweedfs/seaweedfs",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u9ad8\u6548\u5904\u7406\u5c0f\u6587\u4ef6\u7684\u5206\u5e03\u5f0f\u5b58\u50a8\u7cfb\u7edf",
+        "url": "https://www.bilibili.com/video/BV1ry411a7zy/"
+    },
+    {
+        "repo": "gabotechs/dep-tree",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4fdd\u6301\u4ee3\u7801\u6574\u6d01\u548c\u89e3\u8026\u7684\u6548\u7387\u5de5\u5177",
+        "url": "https://www.bilibili.com/video/BV1bs421w7NM/"
+    },
+    {
+        "repo": "kubewharf/kubeadmiral",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u9002\u7528\u4e8e Kubernetes \u7684\u591a\u96c6\u7fa4\u7ba1\u7406\u7cfb\u7edf",
+        "url": "https://www.bilibili.com/video/BV14T421U79z/"
+    },
+    {
+        "repo": "netease-youdao/QAnything",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u7f51\u6613\u6709\u9053\u5f00\u6e90\u7684\u672c\u5730\u5316\u77e5\u8bc6\u5e93\u95ee\u7b54\u7cfb\u7edf\uff0c\u652f\u6301 PDF\u3001Word \u7b49\u81ea\u7531\u68c0\u7d22",
+        "url": "https://www.bilibili.com/video/BV1uU411Z7Qs/"
+    },
+    {
+        "repo": "bricks-cloud/BricksLLM",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u652f\u6301\u7ec6\u7c92\u5ea6\u8bbf\u95ee\u63a7\u5236\u7684 AI API \u7ba1\u7406\u7f51\u5173",
+        "url": "https://www.bilibili.com/video/BV13i421Q7NT/"
+    },
+    {
+        "repo": "glasskube/glasskube",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u89e3\u51b3 K8S \u4f7f\u7528\u5927\u96be\u9898\u7684\u5305\u7ba1\u7406\u5de5\u5177",
+        "url": "https://www.bilibili.com/video/BV1X7421o7u6/"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u73b0\u4ee3\u5316\u7684 API \u548c\u8de8\u8bed\u8a00\u811a\u672c\u5f15\u64ce\uff0c\u66f4\u597d\u7684\u652f\u6491 CICD",
+        "repo": "dagger/dagger",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247491177&idx=1&sn=a3f914520730c23e6427e2a96878e168&chksm=9b3f8eb1ac4807a76dffa631441bf11745e34342643db4fbd680ad6184e49ca6f30a6ec4f659#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u591a\u4e2a\u5927\u5382\u80cc\u4e66\uff0c\u4e00\u4e2a\u9ad8\u6027\u80fd\u4e8b\u4ef6\u9a71\u52a8\u6846\u67b6",
+        "repo": "panjf2000/gnet",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247491095&idx=1&sn=90f0ec563541b239905dda828b0e2f1a&chksm=9b3f8ecfac4807d961249c5008bec5223b28ecaa9f9edcdb857ab6fea6b0ea658866c4a8c649#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4f7f\u7528\u5e38\u7528\u7f16\u7a0b\u8bed\u8a00\u5feb\u901f\u6784\u5efa\u4e91\u57fa\u7840\u8bbe\u65bd",
+        "repo": "pulumi/pulumi",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247491155&idx=1&sn=1a7428af01ac20df8bd5dd54ba90dba0&chksm=9b3f8e8bac48079d1c3cecf5bcac54c97f435bc6c76db377f0ae467c406f4a4137e8448a8508#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u975e Docker\uff0c\u65e0\u5b88\u62a4\u8fdb\u7a0b\u7684\u5bb9\u5668\u7ba1\u7406\u5de5\u5177",
+        "repo": "containers/podman",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247491165&idx=1&sn=2be6c22087a33b3499836dbcaaa13d32&chksm=9b3f8e85ac480793eeabb4f6658cf297fc4093be7b5440b90dbfbaddaaa58546eb8080ad2676#rd"
+    },
+    {
+        "repo": "nikolaydubina/go-recipes",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u5c11\u6709\u4eba\u77e5\u9053\u7684 Go \u5b9e\u7528\u5de5\u5177\u96c6\u4ecb\u7ecd",
+        "url": "https://www.bilibili.com/video/BV19s421u78M/"
+    },
+    {
+        "repo": "bufbuild/protovalidate",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u5f00\u7bb1\u5373\u7528\u7684 Protocol Buffer \u6570\u636e\u9a8c\u8bc1\u5de5\u5177",
+        "url": "https://www.bilibili.com/video/BV1fD421u7mc/"
+    },
+    {
+        "repo": "XenitAB/spegel",
+        "website": "wechat",
+        "type": "text",
+        "title": "K8S \u955c\u50cf\u62c9\u53d6\u901f\u5ea6\u6162\uff1f\u770b\u8fd9\u91cc",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489649&idx=1&sn=9a47e93dec86ffb6138395af57832c27&chksm=9b3f88a9ac4801bf9754c8b2ae54fed871fc819813cd5e02ce75a2fd3e63dfc5a3172a2a7602#rd"
+    },
+    {
+        "repo": "XenitAB/spegel",
+        "website": "bilibili",
+        "type": "video",
+        "title": "K8S \u955c\u50cf\u62c9\u53d6\u901f\u5ea6\u6162\uff1f\u770b\u8fd9\u91cc",
+        "url": "https://www.bilibili.com/video/BV1tn4y1o7xk/"
+    },
+    {
+        "repo": "uber-go/nilaway",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u6709\u6548\u8ffd\u8e2a\u548c\u68c0\u6d4b Go \u4ee3\u7801\u4e2d\u7684\u6f5c\u5728 panic",
+        "url": "https://www.bilibili.com/video/BV1ax4y1n7yD/"
+    },
+    {
+        "repo": "iam-veeramalla/Jenkins-Zero-To-Hero",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u6559\u4f60\u4ece\u96f6\u5f00\u59cb\u5b66\u4e60 Jenkins \u7684\u5f00\u6e90\u9879\u76ee",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489858&idx=1&sn=6c44c4ecbee8d85324aa9aa5beffbf12&chksm=9b3f899aac48008c691e6f5b63ebb6644550506349231245bd91e5b8ec8fa5702005671440f2#rd"
+    },
+    {
+        "repo": "iam-veeramalla/Jenkins-Zero-To-Hero",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u6559\u4f60\u4ece\u96f6\u5f00\u59cb\u5b66\u4e60 Jenkins \u7684\u5f00\u6e90\u9879\u76ee",
+        "url": "https://www.bilibili.com/video/BV1qb421v7Bh/"
+    },
+    {
+        "repo": "gofr-dev/gofr",
+        "website": "bilibili",
+        "type": "video",
+        "title": "Gofr - \u7b80\u5316\u5fae\u670d\u52a1\u5f00\u53d1\u7684\u7f16\u7a0b\u6846\u67b6",
+        "url": "https://www.bilibili.com/video/BV1X7421Z7PH/"
+    },
+    {
+        "repo": "loft-sh/vcluster",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u8f7b\u91cf\u7ea7\u3001\u4f4e\u5f00\u9500\u4e14\u529f\u80fd\u5f3a\u5927\u7684\u865a\u62df K8S \u96c6\u7fa4\u89e3\u51b3\u65b9\u6848",
+        "url": "https://www.bilibili.com/video/BV15t421K7w5/"
+    },
+    {
+        "repo": "anthdm/hollywood",
+        "website": "wechat",
+        "type": "text",
+        "title": "Go \u8d85\u5feb\u5b89\u5168\u8f7b\u91cf\u7ea7\u7684 Actor \u5f15\u64ce",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247489647&idx=1&sn=78b66d76491dc095a7b110ac7a832655&chksm=9b3f88b7ac4801a171535f20a604b0428654262e1f2620ad703821553a19d7793daa6a4a8edb#rd"
+    },
+    {
+        "repo": "anthdm/hollywood",
+        "website": "bilibili",
+        "type": "video",
+        "title": "Go \u8d85\u5feb\u5b89\u5168\u8f7b\u91cf\u7ea7\u7684 Actor \u5f15\u64ce",
+        "url": "https://www.bilibili.com/video/BV1gn4y197Rw/"
+    },
+    {
+        "repo": "francoismichel/ssh3",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u66f4\u5feb\u66f4\u5b89\u5168\u7684\u5168\u65b0 SSH3 \u534f\u8bae",
+        "url": "https://www.bilibili.com"
+    },
+    {
+        "repo": "Bistutu/GoMusic",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u7f51\u6613\u4e91/QQ\u97f3\u4e50\u6b4c\u5355\u8de8\u5e73\u53f0\u8fc1\u79fb",
+        "url": "https://www.bilibili.com/video/BV1Q1421y7HH/"
+    },
+    {
+        "repo": "VikParuchuri/surya",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u652f\u6301 90+ \u8bed\u8a00\u7684\u6587\u6863 OCR \u5de5\u5177\u5305",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490152&idx=1&sn=e2c0510d90fcbc0d51c66d3b279242f4&chksm=9b3f8ab0ac4803a64881b09443e2870bcc710531a4401060b0f489432c9e7d2437ac8b4df480#rd"
+    },
+    {
+        "repo": "VikParuchuri/surya",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u652f\u6301 90+ \u8bed\u8a00\u7684\u6587\u6863 OCR \u5de5\u5177\u5305",
+        "url": "https://www.bilibili.com/video/BV1R4421X7SC/"
+    },
+    {
+        "repo": "istio/istio",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u65e0\u4fb5\u5165\u5f0f\u6cbb\u7406\u5fae\u670d\u52a1\u7684\u7cfb\u7edf",
+        "url": "https://www.bilibili.com/video/BV1Zz421a7t9/"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5feb\u901f\u4e14\u53ef\u5b9a\u5236\u7684\u6f0f\u6d1e\u626b\u63cf\u5668",
+        "repo": "projectdiscovery/nuclei",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247491480&idx=1&sn=d3912e8589d978b1dd0099d8e44ea50b&chksm=9b3f8f40ac480656325b887cebaa90812d373f9d3bf81b84074115e2991ba41e05612f68b08b#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u5957\u5b8c\u6574\u7684\u5373\u65f6\u901a\u8baf\u89e3\u51b3\u65b9\u6848",
+        "repo": "openimsdk/open-im-server",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247491414&idx=1&sn=17e42747b16f3f79c20f0e7052fcef51&chksm=9b3f8f8eac480698e8886315e26ec9fecc6702973aa8e714ff7e0e395a33787382915aa67713#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u73b0\u4ee3\u548c\u70ab\u9177\u7684\u7ec8\u7aef\u6587\u4ef6\u7ba1\u7406\u5668",
+        "repo": "yorukot/superfile",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247491424&idx=1&sn=f317f91467438c06aab07001c43eb0e5&chksm=9b3f8fb8ac4806ae5f67a0445771b34b90ad18efadb7f5c1341acf97e5640bc54fc491903e65#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e3a\u4e91\u539f\u751f\u7f51\u7edc\u548c\u7f51\u7edc\u5b89\u5168\u63d2\u4e0a\u7fc5\u8180",
+        "repo": "projectcalico/calico",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247491423&idx=1&sn=0413427e3cc7591e22ab155297dd2638&chksm=9b3f8f87ac480691a32089fda84900a37ee8fc04a99492d03322730ee4abb73f9ab3d9d9ca34#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e13\u4e3a Go \u8bed\u8a00\u8bbe\u8ba1\u7684 Redis \u5ba2\u6237\u7aef\u5e93",
+        "repo": "redis/go-redis",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247491281&idx=1&sn=1169c0934dba2810273fec8b60e82b75&chksm=9b3f8e09ac48071f43b8011c462b995b9c8aa12f6a87e8be070484b3ac5e112964fe2225997c#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u4e2a\u5f00\u6e90\u7684\u3001\u4e91\u539f\u751f\u7684\u3001\u5206\u5e03\u5f0f SQL \u6570\u636e\u5e93",
+        "repo": "pingcap/tidb",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247491280&idx=1&sn=b77e96517bf1649e6905ad07904126dd&chksm=9b3f8e08ac48071e0c087490d1b83c9c480a710afd4a70c32a883454da19cf33996fc3c83ef6#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "Go \u8bed\u8a00 LeetCode \u7b97\u6cd5\u9898\u89e3",
+        "repo": "halfrost/LeetCode-Go",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247491221&idx=1&sn=36a8af318ffd8e771b1efcdc09330cb6&chksm=9b3f8e4dac48075ba5cb934daac5d8aba31dbe0652790c8ad4496e878ceae8ccf9ba6c34393b#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u4e2a\u5f00\u6e90\u7684\u8fde\u7eed\u6587\u4ef6\u540c\u6b65\u7a0b\u5e8f",
+        "repo": "syncthing/syncthing",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247491209&idx=1&sn=357dfae84674398027a8a5c8e559c08e&chksm=9b3f8e51ac48074715f67f06a874f82064e051842ed8462b098f4d83c530db455b5da49aa9ca#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u4e2a\u8f7b\u91cf\u7ea7\u3001\u5206\u5e03\u5f0f\u7684\u5173\u7cfb\u578b\u6570\u636e\u5e93",
+        "repo": "rqlite/rqlite",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247491185&idx=1&sn=389a475fb412fce4a21db415dd75ccba&chksm=9b3f8ea9ac4807bfc954244105b66d79e78e3d189f08fb9a2765fc72ece4166d1a43aa619f3a#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u6784\u5efa\u7b80\u5355\u3001\u9ad8\u6548\u534f\u540c\u7684\u79c1\u6709\u7f51\u7edc\u5de5\u5177",
+        "repo": "tailscale/tailscale",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247491223&idx=1&sn=d26a3c0fa2d3618d988b527055bda89e&chksm=9b3f8e4fac480759efba1084c2488da9fe9a264178ad8f08f15fb1abcdc3d2f968c9b67c07ff#rd"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u63a2\u7d22\u751f\u6d3b\u4e2d\u7684\u6bcf\u4e00\u5e27\uff0c\u4e00\u6b3e AI \u9a71\u52a8\u7684\u7167\u7247\u5e94\u7528",
+        "repo": "photoprism/photoprism",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247491093&idx=1&sn=16390e7e8324ed0a017020e523eb8eb0&chksm=9b3f8ecdac4807db03f20759d9cd4cb064c9c2defcc9a1afdfc08f9b2b4e7c2033399725fa72#rd"
+    }
+]
