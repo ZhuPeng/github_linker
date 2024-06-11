@@ -198,7 +198,7 @@ function getTags () {
 }
 
 function searchRelatedInfo(reponame) {
-	var key = 'github-data-500' 
+	var key = 'github-data-600' 
 	var cached = localStorage.getItem(key) || false;
     if (cached !== false) {
 		var c = JSON.parse(cached)
