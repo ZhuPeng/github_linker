@@ -2,7 +2,7 @@
   "name": "GitHub Linker",
   "description": "Show repo related info on GitHub page, like blog, video, similar project etc.",
   "author": "https://github.com/ZhuPeng/github_linker",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "manifest_version": 3,
   "permissions": ["tabs"],
   "background": {
