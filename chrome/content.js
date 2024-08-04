@@ -198,7 +198,8 @@ function getTags () {
 }
 
 function searchRelatedInfo(reponame) {
-	var key = 'github-data-600' 
+	var dt = new Date();
+	var key = dt.getFullYear() + '-' + (dt.getMonth() + 1) + '-github-data' 
 	var cached = localStorage.getItem(key) || false;
     if (cached !== false) {
 		var c = JSON.parse(cached)
@@ -211,8 +212,8 @@ function searchRelatedInfo(reponame) {
     return result
 	}
 
-	fetch(chrome.runtime.getURL('/assert/data.json'))
-  // fetch('https://raw.githubusercontent.com/ZhuPeng/github_linker/master/chrome/assert/data.json')
+	// fetch(chrome.runtime.getURL('/assert/data.json'))
+  fetch('https://raw.githubusercontent.com/ZhuPeng/github_linker/master/chrome/assert/data.json')
      .then(response => response.json())
      .then(data => {
          console.log('fetch data:', data)
