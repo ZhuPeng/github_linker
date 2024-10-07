@@ -103,6 +103,7 @@ function addRelatedBlogInTrending() {
         var rname = repo.querySelector("h2 > a").innerText.replace(/ /g, '')
         console.log('repo name:', rname)
         var bar = repo.querySelector("div:nth-child(4)")
+        if (bar.innerText.includes('Related Blogs')) {continue}
 
         var blogs = searchRelatedInfo(rname)
         if (blogs.length == 0) {continue}
