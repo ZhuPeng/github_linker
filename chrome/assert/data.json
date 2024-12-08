@@ -4070,5 +4070,553 @@
         "repo": "qax-os/excelize",
         "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247492153&idx=1&sn=9fbaaf87b78717237730e51646c435c5&chksm=9b3c72e1ac4bfbf74d9ea69c7797d8f9ea2168a261b2e8dee715ad396ee1f31d215503dd76ad#rd",
         "intro": "Excelize \u662f\u4e00\u4e2a\u7528\u7eaf Go \u8bed\u8a00\u7f16\u5199\u7684\u5e93\uff0c\u5b83\u4e3a\u8bfb\u5199 Microsoft Excel (XLAM / XLSM / XLSX / XLTM / XLTX) \u6587\u4ef6\u63d0\u4f9b\u4e86\u4e00\u5957\u529f\u80fd\u4e30\u5bcc\u7684 API\u3002"
+    },
+    {
+        "repo": "qax-os/excelize",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u7eaf Go \u7f16\u5199\u7684 Excel \u5de5\u5177\u5e93",
+        "url": "https://www.bilibili.com/video/BV1HT12Y9EKT/"
+    },
+    {
+        "repo": "oauth2-proxy/oauth2-proxy",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u63d0\u4f9b\u591a\u79cd\u8eab\u4efd\u9a8c\u8bc1\u7684\u53cd\u5411\u4ee3\u7406\u5de5\u5177",
+        "url": "https://www.bilibili.com/video/BV1ng12YQENN/"
+    },
+    {
+        "repo": "DiceDB/dice",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u5f15\u5165 SQL \u5b9e\u65f6\u54cd\u5e94\u6269\u5c55 Redis \u529f\u80fd",
+        "url": "https://www.bilibili.com/video/BV1Hu12YpEci/"
+    },
+    {
+        "repo": "DATA-DOG/go-sqlmock",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u9488\u5bf9 Go \u5f00\u53d1\u7684 SQL \u9a71\u52a8\u6a21\u62df\u5e93",
+        "url": "https://www.bilibili.com/video/BV1Fb26YuESp/"
+    },
+    {
+        "repo": "chaitin/SafeLine",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e00\u4e2a\u81ea\u6258\u7ba1\u7684\u7f51\u7ad9\u5e94\u7528\u9632\u653b\u51fb\u9632\u706b\u5899",
+        "url": "https://www.bilibili.com/video/BV1Nc2rY7ENu/"
+    },
+    {
+        "repo": "kubernetes/autoscaler",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e13\u4e3a Kubernetes \u8bbe\u8ba1\u7684\u81ea\u52a8\u4f38\u7f29\u7ec4\u4ef6\u96c6\u5408",
+        "url": "https://www.bilibili.com/video/BV1c426Y6EKe/"
+    },
+    {
+        "repo": "GoogleContainerTools/kaniko",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u5728 Kubernetes \u4e2d\u6784\u5efa\u5bb9\u5668\u955c\u50cf",
+        "url": "https://www.bilibili.com/video/BV11PCfY4Ey2/"
+    },
+    {
+        "repo": "gotify/server",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u57fa\u4e8e WebSocket \u7684\u7b80\u6d01\u5b9e\u65f6\u6d88\u606f\u670d\u52a1\u5668",
+        "url": "https://www.bilibili.com/video/BV1TcCfY8Eqt/"
+    },
+    {
+        "repo": "Permify/permify",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u8ba9\u7cbe\u7ec6\u6743\u9650\u7ba1\u7406\u53d8\u5f97\u7b80\u5355",
+        "url": "https://www.bilibili.com/video/BV11NCfYdETa/"
+    },
+    {
+        "repo": "anchore/grype",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5bb9\u5668\u955c\u50cf\u548c\u6587\u4ef6\u7cfb\u7edf\u6f0f\u6d1e\u626b\u63cf\u5668",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247492357&idx=1&sn=fb47a386e9696ed68892102f2e6475d4&chksm=9b3c73ddac4bfacbb25bb6d5fde871cbda2a7c4d2b24601eaf2a65ad017cf86ad6d49aab034d#rd"
+    },
+    {
+        "repo": "anchore/grype",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u5bb9\u5668\u955c\u50cf\u548c\u6587\u4ef6\u7cfb\u7edf\u6f0f\u6d1e\u626b\u63cf\u5668",
+        "url": "https://www.bilibili.com/video/BV1ftyxYREex/"
+    },
+    {
+        "repo": "argoproj/argo-events",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u8ba9 Kubernetes \u81ea\u52a8\u5316\u5904\u7406\u66f4\u52a0\u667a\u80fd\u5316",
+        "url": "https://www.bilibili.com/video/BV1ppyxYFEKi/"
+    },
+    {
+        "repo": "evanw/esbuild",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u8ffd\u6c42\u6781\u81f4\u6784\u5efa\u901f\u5ea6\u7684 Web \u6253\u5305\u5de5\u5177",
+        "url": "https://www.bilibili.com/video/BV1wWyxYbEN1/"
+    },
+    {
+        "repo": "cloudwego/hertz",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u5b57\u8282\u8df3\u52a8\u80cc\u4e66\u4e13\u4e3a Go \u8bbe\u8ba1\u7684 HTTP \u6846\u67b6",
+        "url": "https://www.bilibili.com/video/BV1V6yxYmEK9/"
+    },
+    {
+        "repo": "go-admin-team/go-admin",
+        "website": "bilibili",
+        "type": "video",
+        "title": "3\u5206\u949f\u6784\u5efa\u524d\u540e\u7aef\u5206\u79bb\u6743\u9650\u7ba1\u7406\u7cfb\u7edf",
+        "url": "https://www.bilibili.com/video/BV1RiyxYJE2b/"
+    },
+    {
+        "repo": "TheAlgorithms/Go",
+        "website": "bilibili",
+        "type": "video",
+        "title": "Go \u5b9e\u73b0\u7684\u7b97\u6cd5\u548c\u6570\u636e\u7ed3\u6784\u5b66\u4e60\u8d44\u6e90",
+        "url": "https://www.bilibili.com/video/BV1pnyxYhEPq/"
+    },
+    {
+        "repo": "avelino/awesome-go",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u7cbe\u5fc3\u6574\u7406\u7684 Go \u6846\u67b6\u3001\u5e93\u548c\u8f6f\u4ef6\u96c6\u5408",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247492255&idx=1&sn=6bf6ae1ada5c761299ff95ece9c87fca&chksm=9b3c7247ac4bfb519af2685965a16cfc35c1ecd32dab95a3e1d7bfc66fe271df4d6b76e68933#rd"
+    },
+    {
+        "repo": "avelino/awesome-go",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u7cbe\u5fc3\u6574\u7406\u7684 Go \u6846\u67b6\u3001\u5e93\u548c\u8f6f\u4ef6\u96c6\u5408",
+        "url": "https://www.bilibili.com/video/BV1D6D6YvEC9/"
+    },
+    {
+        "repo": "argoproj/argo-workflows",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u5bb9\u5668\u539f\u751f\u7684\u5de5\u4f5c\u6d41\u5f15\u64ce\u63a8\u8350",
+        "url": "https://www.bilibili.com/video/BV1eE1cYUER3/"
+    },
+    {
+        "repo": "goharbor/harbor",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u503c\u5f97\u4fe1\u8d56\u7684\u4e91\u539f\u751f\u6ce8\u518c\u4e2d\u5fc3\u9879\u76ee",
+        "url": "https://www.bilibili.com/video/BV17L1cYQEKe/"
+    },
+    {
+        "repo": "duke-git/lancet",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5168\u9762\u3001\u9ad8\u6548\u3001\u53ef\u590d\u7528\u7684 Go \u5de5\u5177\u5e93",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247492463&idx=1&sn=44eb49253d9fa3f91f91ec57c520fa0e&chksm=9b3c73b7ac4bfaa18171b35e717ba70333db1a16b5c19b33e838b0314ba26ed05da52d800da4#rd"
+    },
+    {
+        "repo": "duke-git/lancet",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u5168\u9762\u3001\u9ad8\u6548\u3001\u53ef\u590d\u7528\u7684 Go \u5de5\u5177\u5e93",
+        "url": "https://www.bilibili.com/video/BV1vjDCYUEeM/"
+    },
+    {
+        "repo": "runatlantis/atlantis",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u63d0\u5347 Terraform \u6a21\u5757\u7684\u5f00\u53d1\u6548\u7387",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247492448&idx=1&sn=e3991b4e8e4ed196d5f6f565fc3039cf&chksm=9b3c73b8ac4bfaaed807cc885e8d553872c8887d447e4130f5f271363c706d5a923631ad6386#rd"
+    },
+    {
+        "repo": "runatlantis/atlantis",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u63d0\u5347 Terraform \u6a21\u5757\u7684\u5f00\u53d1\u6548\u7387",
+        "url": "https://www.bilibili.com/video/BV1JTDCYdEQf/"
+    },
+    {
+        "repo": "windmill-labs/windmill",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u73b0\u4ee3\u5316\u5de5\u4f5c\u6d41\u5f15\u64ce\uff0c\u5199\u811a\u672c\u5373\u53ef\u751f\u6210\u5de5\u4f5c\u6d41\u7a0b\u548c\u7528\u6237\u754c\u9762",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247492429&idx=1&sn=4bceb54fb30c89a63a6b5b5a007de4f7&chksm=9b3c7395ac4bfa8391eb02bbfaf41a5181988915f8869249df3d45ee5c7960a8fe95d41c0e77#rd"
+    },
+    {
+        "repo": "windmill-labs/windmill",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u73b0\u4ee3\u5316\u5de5\u4f5c\u6d41\u5f15\u64ce\uff0c\u5199\u811a\u672c\u5373\u53ef\u751f\u6210\u5de5\u4f5c\u6d41\u7a0b\u548c\u7528\u6237\u754c\u9762",
+        "url": "https://www.bilibili.com/video/BV1JKDCYxE9v/"
+    },
+    {
+        "repo": "gruntwork-io/terragrunt",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u9488\u5bf9 IaC \u6a21\u5757\u7ba1\u7406\u7684\u7f16\u6392\u5de5\u5177",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247492515&idx=1&sn=293dc99ed3ff7425e7c4b9274d63b198&chksm=9b3c737bac4bfa6dd3a898596f043efe782754606307ae9cb1385a00b0038ade18a8840120ae#rd"
+    },
+    {
+        "repo": "gruntwork-io/terragrunt",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u9488\u5bf9 IaC \u6a21\u5757\u7ba1\u7406\u7684\u7f16\u6392\u5de5\u5177",
+        "url": "https://www.bilibili.com/video/BV1jvUuYDEt2/"
+    },
+    {
+        "repo": "gardener/gardener",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u89c4\u6a21\u5316\u90e8\u7f72 K8S \u96c6\u7fa4\u89e3\u51b3\u65b9\u6848",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247492484&idx=1&sn=bcca3e6ca9f65c9bcbc0495d4d1312d7&chksm=9b3c735cac4bfa4a6bcca643b4592935acb6fa5c01c57099f09bde20c4d5dbcee8d4644401eb#rd"
+    },
+    {
+        "repo": "gardener/gardener",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u89c4\u6a21\u5316\u90e8\u7f72 K8S \u96c6\u7fa4\u89e3\u51b3\u65b9\u6848",
+        "url": "https://www.bilibili.com/video/BV1ntUuYxE8A/"
+    },
+    {
+        "repo": "tinygo-org/tinygo",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e3a\u5fae\u63a7\u5236\u5668\u6253\u9020\u7684 Go \u7f16\u8bd1\u5668",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247492483&idx=1&sn=dabb6e7fb03a6b67cbfdfba8d9f0faa6&chksm=9b3c735bac4bfa4d87e1ff89ed71c2866b4e509100c99322634784718ad5d5324c20cef7c6d8#rd"
+    },
+    {
+        "repo": "tinygo-org/tinygo",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e3a\u5fae\u63a7\u5236\u5668\u6253\u9020\u7684 Go \u7f16\u8bd1\u5668",
+        "url": "https://www.bilibili.com/video/BV1kxUuYoE5F/"
+    },
+    {
+        "repo": "zeromicro/go-zero",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e91\u539f\u751f\u5fae\u670d\u52a1\u6846\u67b6\uff0c\u5185\u7f6e\u5927\u91cf\u5de5\u7a0b\u5b9e\u8df5",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247492599&idx=1&sn=35128ff0ef61b2c5c7683959aa6ee98b&chksm=9b3c732fac4bfa39955d77b5d9937a7e64bf5153236c2cb914974eab72cde2aeb430eca0c2f3#rd"
+    },
+    {
+        "repo": "zeromicro/go-zero",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e91\u539f\u751f\u5fae\u670d\u52a1\u6846\u67b6\uff0c\u5185\u7f6e\u5927\u91cf\u5de5\u7a0b\u5b9e\u8df5",
+        "url": "https://www.bilibili.com/video/BV1sSUxYLEYU/"
+    },
+    {
+        "repo": "go-co-op/gocron",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u57fa\u4e8e Go \u7684\u4efb\u52a1\u8c03\u5ea6\u5de5\u5177\u5e93",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247492553&idx=1&sn=09d8f0d2bd58f4ea707f9107e7b7855b&chksm=9b3c7311ac4bfa07ac181b82316aacb2bff6aeaa66ddd19543089bb79d3f8c4b93ccfd95ac73#rd"
+    },
+    {
+        "repo": "go-co-op/gocron",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u57fa\u4e8e Go \u7684\u4efb\u52a1\u8c03\u5ea6\u5de5\u5177\u5e93",
+        "url": "https://www.bilibili.com/video/BV1xmUxY2ErP/"
+    },
+    {
+        "repo": "go-playground/validator",
+        "website": "wechat",
+        "type": "text",
+        "title": "Gin \u6846\u67b6\u7684\u6570\u636e\u7ed3\u6784\u9a8c\u8bc1\u5668",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247492552&idx=1&sn=c577347d93db1c602a7757db50d45da2&chksm=9b3c7310ac4bfa06ef9dc9ffbded26469595437090699b036eabc4d65e5ae53cdd2cebc3f8d3#rd"
+    },
+    {
+        "repo": "go-playground/validator",
+        "website": "bilibili",
+        "type": "video",
+        "title": "Gin \u6846\u67b6\u7684\u6570\u636e\u7ed3\u6784\u9a8c\u8bc1\u5668",
+        "url": "https://www.bilibili.com/video/BV1yXUxYVE4f/"
+    },
+    {
+        "repo": "pdfcpu/pdfcpu",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u7528 Go \u7f16\u5199\u7684 PDF \u5904\u7406\u5e93",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247492602&idx=1&sn=9076975cb4b0b3c65dfd869ce8c151b8&chksm=9b3c7322ac4bfa34e60f056e2a14d8712cb2b1afc6fa3711be5f5b7cde63e605288fcafbbecb#rd"
+    },
+    {
+        "repo": "pdfcpu/pdfcpu",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u7528 Go \u7f16\u5199\u7684 PDF \u5904\u7406\u5e93",
+        "url": "https://www.bilibili.com/video/BV1RWB2Y4EyL/"
+    },
+    {
+        "repo": "rclone/rclone",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u591a\u4e91\u5b58\u50a8\u63d0\u4f9b\u5546\u7684\u6587\u4ef6\u540c\u6b65\u5de5\u5177",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247492601&idx=1&sn=23110d06a7f24cf5daf13f9442578b2a&chksm=9b3c7321ac4bfa37ab9fae9a9542a292fcf5078b5a591c692118fb497355a1a75aa730d094ef#rd"
+    },
+    {
+        "repo": "rclone/rclone",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u591a\u4e91\u5b58\u50a8\u63d0\u4f9b\u5546\u7684\u6587\u4ef6\u540c\u6b65\u5de5\u5177",
+        "url": "https://www.bilibili.com/video/BV1o7B2YhEUb/"
+    },
+    {
+        "repo": "livekit/livekit",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u4e2a\u7aef\u5230\u7aef WebRTC \u89e3\u51b3\u65b9\u6848",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247492600&idx=1&sn=43479e5ac15d871a9851c5def4bdf12d&chksm=9b3c7320ac4bfa364e73f09c838fd5ae0b0155b6936e95c736f9ceb28a3738d52bf98bf87ea8#rd"
+    },
+    {
+        "repo": "livekit/livekit",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e00\u4e2a\u7aef\u5230\u7aef WebRTC \u89e3\u51b3\u65b9\u6848",
+        "url": "https://www.bilibili.com/video/BV1dHB2YZE8E/"
+    },
+    {
+        "repo": "apache/airflow",
+        "website": "wechat",
+        "type": "text",
+        "title": "Apache \u57fa\u91d1\u4f1a\u9876\u7ea7\u9879\u76ee\uff0c\u6613\u4e8e\u4f7f\u7528\u7684\u5de5\u4f5c\u6d41\u7ba1\u7406\u5de5\u5177",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247492710&idx=1&sn=bb11f4e7cd0efd9a3b8115a13cc51921&chksm=9b3c74beac4bfda8f59909556fa84277ab939bab908e4cecb7a47cbd5d9b8c6f9ff03855ca2a#rd"
+    },
+    {
+        "repo": "apache/airflow",
+        "website": "bilibili",
+        "type": "video",
+        "title": "Apache \u57fa\u91d1\u4f1a\u9876\u7ea7\u9879\u76ee\uff0c\u6613\u4e8e\u4f7f\u7528\u7684\u5de5\u4f5c\u6d41\u7ba1\u7406\u5de5\u5177",
+        "url": "https://www.bilibili.com/video/BV1j4zpYwEL1/"
+    },
+    {
+        "repo": "RSSNext/Follow",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u6700\u8fd1\u706b\u51fa\u5708\u7684\u4e0b\u4e00\u4ee3 RSS \u8ba2\u9605\u5e94\u7528",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247492685&idx=1&sn=f24fe474c5ba2a0b3e76bca53a4d9518&chksm=9b3c7495ac4bfd833d5e6d1aa9eceb7f1c04fffcf93904bafd88ea7549d65c2540ab70d7cd96#rd"
+    },
+    {
+        "repo": "RSSNext/Follow",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u6700\u8fd1\u706b\u51fa\u5708\u7684\u4e0b\u4e00\u4ee3 RSS \u8ba2\u9605\u5e94\u7528",
+        "url": "https://www.bilibili.com/video/BV1jszpYYEiQ/"
+    },
+    {
+        "repo": "OpenBB-finance/OpenBB",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u9762\u5411\u4e2a\u4eba\u7684\u6295\u8d44\u7814\u7a76\u5e73\u53f0",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247492679&idx=1&sn=7bc05dbccc510c84bcf57429d788cd04&chksm=9b3c749fac4bfd894d6bed1edf52b0793179adb8cee871633ba68d05bf07b808785c7eb5dbd7#rd"
+    },
+    {
+        "repo": "OpenBB-finance/OpenBB",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u9762\u5411\u4e2a\u4eba\u7684\u6295\u8d44\u7814\u7a76\u5e73\u53f0",
+        "url": "https://www.bilibili.com/video/BV1c7zpYMEb4/"
+    },
+    {
+        "repo": "langflow-ai/langflow",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u8ba9\u4eba\u5de5\u667a\u80fd\u5e94\u7528\u6784\u5efa\u66f4\u7b80\u5355",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247492607&idx=1&sn=38c056a7274b37193021768bd92b64ff&chksm=9b3c7327ac4bfa3149cab6c006ca092772db00940e69cc8b39a5c75d1783a3ae120fc06b1a78#rd"
+    },
+    {
+        "repo": "langflow-ai/langflow",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u8ba9\u4eba\u5de5\u667a\u80fd\u5e94\u7528\u6784\u5efa\u66f4\u7b80\u5355",
+        "url": "https://www.bilibili.com/video/BV1gkzVYFETN/"
+    },
+    {
+        "repo": "openedx/edx-platform",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5f3a\u5927\u7684\u5728\u7ebf\u5b66\u4e60\u7ba1\u7406\u7cfb\u7edf",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247492606&idx=1&sn=fdbac972f4b077eec9327100aeb2ea0f&chksm=9b3c7326ac4bfa30148c17026c735087f9fbae9a7d11b11ac58f79c9e87a8b4333d4a6156c80#rd"
+    },
+    {
+        "repo": "openedx/edx-platform",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u5f3a\u5927\u7684\u5728\u7ebf\u5b66\u4e60\u7ba1\u7406\u7cfb\u7edf",
+        "url": "https://www.bilibili.com/video/BV1xDzVY9E3h/"
+    },
+    {
+        "repo": "dop251/goja",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5b8c\u5168\u7528 Go \u7f16\u5199\u7684 JS \u5f15\u64ce",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247492604&idx=1&sn=31ffb2b01d6515226c9d0a1ef7105730&chksm=9b3c7324ac4bfa3258b03ee86a51e1f6ef95b56d078d20c29a3803a85d93eb1085e78e38af4f#rd"
+    },
+    {
+        "repo": "dop251/goja",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u5b8c\u5168\u7528 Go \u7f16\u5199\u7684 JS \u5f15\u64ce",
+        "url": "https://www.bilibili.com/video/BV1KSzVYsEaP/"
+    },
+    {
+        "repo": "siderolabs/talos",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e3a Kubernetes \u6784\u5efa\u7684 Linux \u64cd\u4f5c\u7cfb\u7edf",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247492766&idx=1&sn=d62df2f946a822883fedf8e361ecfefb&chksm=9b3c7446ac4bfd50362808fbd73bf8fea034d2c753e183d0266eef42f50bcde137d8ffa29710#rd"
+    },
+    {
+        "repo": "siderolabs/talos",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e3a Kubernetes \u6784\u5efa\u7684 Linux \u64cd\u4f5c\u7cfb\u7edf",
+        "url": "https://www.bilibili.com/video/BV1QeimYQEyx/"
+    },
+    {
+        "repo": "go-gitea/gitea",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u7528\u4e00\u676f\u8336\u7684\u65f6\u95f4\uff0c\u642d\u5efa Git \u670d\u52a1",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247492737&idx=1&sn=7fb6988cce4fdec196bd8baf8f251719&chksm=9b3c7459ac4bfd4f8ffd7344ea54235beaf28607f35e699961359c8a339e5c82c97214578280#rd"
+    },
+    {
+        "repo": "go-gitea/gitea",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u7528\u4e00\u676f\u8336\u7684\u65f6\u95f4\uff0c\u642d\u5efa Git \u670d\u52a1",
+        "url": "https://www.bilibili.com/video/BV1mCimY1EtW/"
+    },
+    {
+        "repo": "juicedata/juicefs",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u53d7\u8c37\u6b4c GFS \u542f\u53d1\u7684\u5206\u5e03\u5f0f\u6587\u4ef6\u7cfb\u7edf",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247492711&idx=1&sn=6473111287bf1f6c4a3b3386235274d3&chksm=9b3c74bfac4bfda94254893badd90b69df7ea274fae846d64985e743f5772cdacfb4f9f07622#rd"
+    },
+    {
+        "repo": "juicedata/juicefs",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u53d7\u8c37\u6b4c GFS \u542f\u53d1\u7684\u5206\u5e03\u5f0f\u6587\u4ef6\u7cfb\u7edf",
+        "url": "https://www.bilibili.com/video/BV1GiimYHETa/"
+    },
+    {
+        "repo": "cockroachdb/cockroach",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e91\u539f\u751f\u7684\u5206\u5e03\u5f0f SQL \u6570\u636e\u5e93",
+        "url": "https://mp.weixin.qq.com/s/zSuFBu71b7myneCCJY3Qqw"
+    },
+    {
+        "repo": "cockroachdb/cockroach",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e91\u539f\u751f\u7684\u5206\u5e03\u5f0f SQL \u6570\u636e\u5e93",
+        "url": "https://www.bilibili.com/video/BV11GqWYkEkS/"
+    },
+    {
+        "repo": "grafana/pyroscope",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u89e3\u51b3\u5e94\u7528\u6027\u80fd\u74f6\u9888\u7684\u5229\u5668",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247492805&idx=1&sn=19a4e9f485d88c61cd63a90ca7a1ec37&chksm=9b3c741dac4bfd0b876c85b35bb7efe8292bf8be59c6c08cb4ad25e1d0e751e7c1108c9cb2b0#rd"
+    },
+    {
+        "repo": "grafana/pyroscope",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u89e3\u51b3\u5e94\u7528\u6027\u80fd\u74f6\u9888\u7684\u5229\u5668",
+        "url": "https://www.bilibili.com/video/BV14eqLYxE1d/"
+    },
+    {
+        "repo": "grafana/k6",
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u4e2a\u73b0\u4ee3\u5316\u8d1f\u8f7d\u538b\u529b\u6d4b\u8bd5\u5de5\u5177",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247492767&idx=1&sn=684bc6217254c0a44e3af3e719f9708b&chksm=9b3c7447ac4bfd519ff16a155be26f308df05d3ec66e3cc5c2db4e9b4ed9f0b511ddf2426b0e#rd"
+    },
+    {
+        "repo": "grafana/k6",
+        "website": "bilibili",
+        "type": "video",
+        "title": "\u4e00\u4e2a\u73b0\u4ee3\u5316\u8d1f\u8f7d\u538b\u529b\u6d4b\u8bd5\u5de5\u5177",
+        "url": "https://www.bilibili.com/video/BV1xBqLYXEFg/"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u7b80\u5316\u4e8b\u4ef6\u9a71\u52a8\u5e94\u7528\u7a0b\u5e8f\u5f00\u53d1\u7684\u6846\u67b6",
+        "repo": "ThreeDotsLabs/watermill",
+        "url": "https://mp.weixin.qq.com/s/gMxJkpbBj-X5Ul2_8UcR_w?autoclose",
+        "intro": "\u6c34\u78e8 (Watermill) \u662f\u4e00\u4e2a\u4e3a Go \u8bed\u8a00\u8bbe\u8ba1\u7684\u5f00\u6e90\u5e93\uff0c\u4e13\u95e8\u7528\u4e8e\u9ad8\u6548\u5904\u7406\u6d88\u606f\u6d41\uff0c\u65e8\u5728\u7b80\u5316\u4e8b\u4ef6\u9a71\u52a8\u5e94\u7528\u7a0b\u5e8f\u7684\u6784\u5efa\u8fc7\u7a0b\u3002\u5b83\u652f\u6301\u5e38\u89c4\u7684\u53d1\u5e03/\u8ba2\u9605\u5b9e\u73b0\uff0c\u4f8b\u5982 Kafka \u6216 RabbitMQ\uff0c\u4e5f\u652f\u6301 HTTP \u6216 MySQL binlog\uff0c\u4ee5\u9002\u5e94\u4e0d\u540c\u7684\u4f7f\u7528\u573a\u666f\u3002Watermill \u7684\u4e3b\u8981\u76ee\u6807\u662f\u4fdd\u6301\u5bb9\u6613\u7406\u89e3\u3001\u901a\u7528\u6027\u3001\u5feb\u901f\u3001\u7075\u6d3b\u5e76\u4e14\u97e7\u6027\u5f3a\u3002\u5f00\u53d1\u8005\u53ef\u4ee5\u4f7f\u7528\u5b83\u8fdb\u884c\u4e8b\u4ef6\u9a71\u52a8\u67b6\u6784\u3001\u6d88\u606f\u4f20\u9012\u3001\u6d41\u5904\u7406\u3001CQRS \u7b49\u591a\u79cd\u9700\u6c42\u7684\u5f00\u53d1\uff0c\u5176\u4e30\u5bcc\u7684\u4e2d\u95f4\u4ef6\u3001\u63d2\u4ef6\u548c\u53d1\u5e03/\u8ba2\u9605\u914d\u7f6e\u63d0\u4f9b\u4e86\u6781\u5927\u7684\u7075\u6d3b\u6027\u548c\u7a33\u5b9a\u6027\u4fdd\u8bc1\u3002"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u7b80\u5316 Docker \u5bb9\u5668\u7ba1\u7406\u7684\u547d\u4ee4\u884c\u5de5\u5177",
+        "repo": "jesseduffield/lazydocker",
+        "url": "https://mp.weixin.qq.com/s/ArGG3pzFesEhvzJCvfbbzQ?autoclose",
+        "intro": "Lazydocker \u662f\u4e00\u4e2a\u7b80\u5316 Docker \u548c Docker-compose \u7ba1\u7406\u7684\u5f00\u6e90\u9879\u76ee\uff0c\u5176\u91c7\u7528 Go \u7f16\u7a0b\u8bed\u8a00\u5f00\u53d1\u5e76\u4f7f\u7528\u4e86\u00a0gocui\u00a0\u5e93\u6765\u521b\u5efa\u7ec8\u7aef\u7528\u6237\u754c\u9762\u3002Lazydocker \u901a\u8fc7\u63d0\u4f9b\u4e00\u4e2a\u7b80\u6d01\u7684\u7ec8\u7aef\u7528\u6237\u754c\u9762\uff08TUI\uff09\uff0c\u4f7f\u5f97\u5bb9\u5668\u3001\u955c\u50cf\u3001\u5377\u7b49\u7684\u7ba1\u7406\u53d8\u5f97\u6613\u5982\u53cd\u638c\u3002\u5b83\u5c06\u5e38\u7528\u64cd\u4f5c\u7b80\u5316\u4e3a\u5355\u952e\u64cd\u4f5c\uff0c\u5e76\u5141\u8bb8\u7528\u6237\u81ea\u5b9a\u4e49\u547d\u4ee4\uff0c\u65e8\u5728\u6781\u5927\u51cf\u8f7b\u5f00\u53d1\u8005\u5728\u4f7f\u7528 Docker \u8fc7\u7a0b\u4e2d\u7684\u8bb0\u5fc6\u8d1f\u62c5\u548c\u64cd\u4f5c\u70e6\u7410\u3002"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u6b3e\u7b80\u5355\u6613\u7528\u7684 Json \u89e3\u6790\u5e93",
+        "repo": "tidwall/gjson",
+        "url": "https://mp.weixin.qq.com/s/308cZ0dZM6QJFTlwSI3WWA?autoclose",
+        "intro": "GJSON\u00a0\u662f\u4e00\u4e2a\u4e3a Go \u8bed\u8a00\u8bbe\u8ba1\u7684\u5f00\u6e90\u5305\uff0c\u5b83\u901a\u8fc7\u63d0\u4f9b\u5feb\u901f\u7b80\u5355\u7684\u65b9\u5f0f\u4ece JSON \u4e2d\u83b7\u53d6\u503c\u6765\u89e3\u51b3\u4e0a\u8ff0\u95ee\u9898\u3002\u5176\u7279\u70b9\u5305\u62ec\uff1a"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u652f\u6301PDF/\u7f51\u9875/\u591a\u683c\u5f0f\u7535\u5b50\u4e66\u7684\u6570\u636e\u63d0\u53d6\u5de5\u5177",
+        "repo": "opendatalab/MinerU",
+        "url": "https://mp.weixin.qq.com/s/gTlU4UimBXriEA5zFTlJkg?autoclose",
+        "intro": "MinerU \u662f\u4e00\u4e2a\u5f00\u6e90\u9ad8\u8d28\u91cf\u6570\u636e\u63d0\u53d6\u5de5\u5177\uff0c\u652f\u6301\u4ece PDF\u3001\u7f51\u9875\u3001\u7535\u5b50\u4e66\u7b49\u591a\u79cd\u683c\u5f0f\u8fdb\u884c\u6570\u636e\u63d0\u53d6\u3002\u9879\u76ee\u5728 InternLM \u7684\u9884\u8bad\u7ec3\u8fc7\u7a0b\u4e2d\u88ab\u5f00\u53d1\u548c\u5b8c\u5584\uff0c\u4e13\u6ce8\u4e8e\u89e3\u51b3\u79d1\u5b66\u6587\u732e\u548c\u6280\u672f\u6587\u4ef6\u4e2d\u7684\u7b26\u53f7\u8f6c\u6362\u95ee\u9898\uff0c\u81f4\u529b\u4e8e\u63a8\u52a8\u5927\u6a21\u578b\u65f6\u4ee3\u7684\u6280\u672f\u53d1\u5c55\u3002"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u517c\u5bb9 Docker \u7684\u5f3a\u5927\u5bb9\u5668\u7ba1\u7406\u5de5\u5177",
+        "repo": "containerd/nerdctl",
+        "url": "https://mp.weixin.qq.com/s/3ZicY-vpS6CI4Ak7HgKkXQ?autoclose",
+        "intro": "nerdctl\u00a0\u662f\u4e00\u4e2a\u5b8c\u5168\u517c\u5bb9 Docker \u7684\u547d\u4ee4\u884c\u63a5\u53e3\uff08CLI\uff09\uff0c\u5b83\u57fa\u4e8e\u5f3a\u5927\u7684\u5bb9\u5668\u8fd0\u884c\u65f6\u00a0containerd\u00a0\u6784\u5efa\uff0c\u5e76\u65e8\u5728\u586b\u8865 Docker \u5728\u67d0\u4e9b\u9ad8\u7ea7\u7279\u6027\u4e0a\u7684\u7a7a\u767d\u3002nerdctl\u00a0\u517c\u5bb9 Docker \u7684 UI/UX\uff0c\u8ba9\u7528\u6237\u65e0\u9700\u989d\u5916\u7684\u5b66\u4e60\u6210\u672c\u5c31\u80fd\u5207\u6362\u4f7f\u7528\u3002"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u5907\u4efd\u548c\u8fc1\u79fb Kubernetes \u5e94\u7528\u53ca\u5b58\u50a8\u7684\u5229\u5668",
+        "repo": "vmware-tanzu/velero",
+        "url": "https://mp.weixin.qq.com/s/XtlDfPkWL1AmZjsNNdE8yw?autoclose",
+        "intro": "Velero\uff08\u524d\u8eab\u4e3a Heptio Ark\uff09\u63d0\u4f9b\u4e86\u4e00\u5957\u5de5\u5177\u6765\u5907\u4efd\u548c\u6062\u590d Kubernetes \u96c6\u7fa4\u8d44\u6e90\u53ca\u5176\u6301\u4e45\u5377\u3002\u4e0d\u8bba\u662f\u516c\u6709\u4e91\u5e73\u53f0\u8fd8\u662f\u672c\u5730\u90e8\u7f72\uff0c\u4f60\u90fd\u53ef\u4ee5\u8fd0\u884c Velero\u3002"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u7528\u65e5\u5e38\u8bbe\u5907\u8fd0\u884c\u81ea\u5df1\u7684 AI \u96c6\u7fa4",
+        "repo": "exo-explore/exo",
+        "url": "https://mp.weixin.qq.com/s/fkbEj1cgO-nJqzS3GS6kIw?autoclose",
+        "intro": "exo\u00a0\u8ba9\u4eba\u4eec\u53ef\u4ee5\u5728\u5bb6\u4e2d\u7528\u65e5\u5e38\u8bbe\u5907\u8fd0\u884c\u81ea\u5df1\u7684 AI \u96c6\u7fa4\u3002\u5fd8\u6389\u6602\u8d35\u7684 NVIDIA GPU\uff0c\u5229\u7528\u4f60\u73b0\u6709\u7684\u8bbe\u5907\u7ec4\u5efa\u4e00\u4e2a\u5f3a\u5927\u7684 GPU \u96c6\u7fa4\uff1aiPhone\u3001iPad\u3001Android\u3001Mac\u3001Linux\uff0c\u51e0\u4e4e\u4efb\u4f55\u8bbe\u5907\uff01exo \u7684\u8fd9\u4e00\u7406\u5ff5\uff0c\u4e3a\u5e7f\u5927\u6280\u672f\u7231\u597d\u8005\u3001\u7814\u7a76\u4eba\u5458\u3001\u5c0f\u578b\u56e2\u961f\u63d0\u4f9b\u4e86\u524d\u6240\u672a\u6709\u7684\u673a\u4f1a\uff0c\u8ba9\u4ed6\u4eec\u53ef\u4ee5\u5229\u7528\u624b\u5934\u4e0a\u770b\u4f3c\u666e\u901a\u7684\u8bbe\u5907\uff0c\u5b8c\u6210\u590d\u6742\u7684 AI \u6a21\u578b\u8fd0\u884c\u4efb\u52a1\u3002"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e00\u6b3e\u7b80\u5355\u4e0a\u624b\u7684\u5f00\u6e90 2D \u6e38\u620f\u5f15\u64ce",
+        "repo": "hajimehoshi/ebiten",
+        "url": "https://mp.weixin.qq.com/s/9A6s-Klvt0nKPYTJ6RcWog?autoclose",
+        "intro": "Ebitengine \u662f\u4e00\u4e2a\u57fa\u4e8e Go \u8bed\u8a00\u7684\u5f00\u6e90 2D \u6e38\u620f\u5f15\u64ce\uff0c\u4ee5\u5176\u7b80\u6d01\u7684 API \u548c\u51fa\u8272\u7684\u8de8\u5e73\u53f0\u517c\u5bb9\u6027\u8131\u9896\u800c\u51fa\uff0c\u4f7f\u5f97\u5f00\u53d1\u8005\u80fd\u591f\u8f7b\u677e\u5feb\u901f\u5730\u5f00\u53d1\u548c\u90e8\u7f72\u8de8\u5e73\u53f0 2D \u6e38\u620f\u3002Ebitengine\u00a0\u652f\u6301\u5305\u62ec\u00a0Windows\u3001macOS\u3001Linux\u3001FreeBSD\u3001Android\u3001iOS\u3001WebAssembly\uff0c\u4e43\u81f3\u00a0Nintendo Switch \u548c Xbox\u00a0\u5728\u5185\u7684\u591a\u4e2a\u5e73\u53f0\uff0c\u5145\u5206\u5c55\u793a\u4e86\u5176\u5f3a\u5927\u7684\u8de8\u5e73\u53f0\u529f\u80fd\u3002"
+    },
+    {
+        "website": "wechat",
+        "type": "text",
+        "title": "\u4e13\u6ce8\u4e8e\u5bb9\u5668\u955c\u50cf\u5b89\u5168\u7684\u5de5\u5177",
+        "repo": "anchore/syft",
+        "url": "https://mp.weixin.qq.com/s/ZAUA3gy_aoVG7J84WI2mlA?autoclose",
+        "intro": "Syft\u00a0\u662f\u4e00\u4e2a\u5f00\u6e90\u7684 CLI \u5de5\u5177\u548c Go \u8bed\u8a00\u5e93\uff0c\u4e13\u95e8\u7528\u4e8e\u4ece\u5bb9\u5668\u955c\u50cf\u548c\u6587\u4ef6\u7cfb\u7edf\u751f\u6210\u8f6f\u4ef6\u7269\u6599\u6e05\u5355\uff08Software Bill of Materials\uff0c\u7b80\u79f0\u00a0SBOM\uff09\u3002\u901a\u8fc7\u00a0Syft\uff0c\u4f60\u53ef\u4ee5\u83b7\u5f97\u4e00\u4e2a\u6e05\u6670\u7684\u8f6f\u4ef6\u5305\u548c\u4f9d\u8d56\u5173\u7cfb\u89c6\u56fe\uff0c\u8fd9\u6837\u4e0d\u4ec5\u53ef\u4ee5\u5e2e\u52a9\u4f60\u9ad8\u6548\u5730\u7ba1\u7406\u8f6f\u4ef6\u8bb8\u53ef\u8bc1\uff0c\u8fd8\u53ef\u4ee5\u548c\u8bf8\u5982\u00a0Grype\u00a0\u8fd9\u6837\u7684\u626b\u63cf\u5de5\u5177\u642d\u914d\u4f7f\u7528\uff0c\u4ee5\u4fbf\u8fdb\u884c\u6f0f\u6d1e\u68c0\u6d4b\u548c\u8f6f\u4ef6\u4f9b\u5e94\u94fe\u98ce\u9669\u7ba1\u7406\u3002"
     }
 ]
