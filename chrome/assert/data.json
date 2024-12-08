@@ -1072,28 +1072,28 @@
         "type": "text",
         "title": "\u524d\u6cbf\u63a2\u7d22\uff0c\u9002\u7528\u4e8e AI \u8bbe\u5907\u7684\u5f00\u6e90\u751f\u6001\u7cfb\u7edf",
         "repo": "OpenInterpreter/01",
-        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490919&idx=1&sn=fb691101d22afe9f1dd809e2fd4a2c7d&chksm=9b3f8dbfac4804a91c31e1cb5ea826675949014d7115748ca5bc20c7b42710da2526e878b57d#rd&autoclose"
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490919&idx=1&sn=fb691101d22afe9f1dd809e2fd4a2c7d&chksm=9b3f8dbfac4804a91c31e1cb5ea826675949014d7115748ca5bc20c7b42710da2526e878b57d#rd"
     },
     {
         "website": "wechat",
         "type": "text",
         "title": "\u5168\u8bed\u8a00\u65e0\u5dee\u522b\u5e94\u7528\u6027\u80fd\u5206\u6790\u5668",
         "repo": "elastic/otel-profiling-agent",
-        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490958&idx=1&sn=8db3ed2484cb8cd6a2055bcb072ef020&chksm=9b3f8d56ac4804409dc127465c2dcf0589f4f85860f57628ce1ffe6404909b71667ad0e3c69d#rd&autoclose"
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490958&idx=1&sn=8db3ed2484cb8cd6a2055bcb072ef020&chksm=9b3f8d56ac4804409dc127465c2dcf0589f4f85860f57628ce1ffe6404909b71667ad0e3c69d#rd"
     },
     {
         "website": "wechat",
         "type": "text",
         "title": "Devin \u7684\u5f00\u6e90\u7ade\u4e89\u5bf9\u624b\uff0c\u667a\u80fd AI \u8f6f\u4ef6\u5de5\u7a0b\u5e08",
         "repo": "stitionai/devika",
-        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490938&idx=1&sn=4ab9dae3ed15103ab7da98fb94bd1372&chksm=9b3f8da2ac4804b402d82bca20339df05fe19c37914e5eabc7d827d5864e8d04b27e06b228aa#rd&autoclose"
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490938&idx=1&sn=4ab9dae3ed15103ab7da98fb94bd1372&chksm=9b3f8da2ac4804b402d82bca20339df05fe19c37914e5eabc7d827d5864e8d04b27e06b228aa#rd"
     },
     {
         "website": "wechat",
         "type": "text",
         "title": "\u5b9a\u5236\u5316\u751f\u6210\u4ee3\u7801\u548c\u7ec8\u7aef\u7684\u4ee3\u7801\u56fe\u7247",
         "repo": "charmbracelet/freeze",
-        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490948&idx=1&sn=1c34485ad59a32b56e83bc06131be129&chksm=9b3f8d5cac48044ab88387c8fba4b50d09d40b56a31d6eebe29964dc98e55f33345cfab97d53#rd&autoclose"
+        "url": "https://mp.weixin.qq.com/s?__biz=MzAwMzE5NzM2Nw==&mid=2247490948&idx=1&sn=1c34485ad59a32b56e83bc06131be129&chksm=9b3f8d5cac48044ab88387c8fba4b50d09d40b56a31d6eebe29964dc98e55f33345cfab97d53#rd"
     },
     {
         "website": "wechat",
@@ -4552,7 +4552,7 @@
         "type": "text",
         "title": "\u7b80\u5316\u4e8b\u4ef6\u9a71\u52a8\u5e94\u7528\u7a0b\u5e8f\u5f00\u53d1\u7684\u6846\u67b6",
         "repo": "ThreeDotsLabs/watermill",
-        "url": "https://mp.weixin.qq.com/s/gMxJkpbBj-X5Ul2_8UcR_w?autoclose",
+        "url": "https://mp.weixin.qq.com/s/gMxJkpbBj-X5Ul2_8UcR_w",
         "intro": "\u6c34\u78e8 (Watermill) \u662f\u4e00\u4e2a\u4e3a Go \u8bed\u8a00\u8bbe\u8ba1\u7684\u5f00\u6e90\u5e93\uff0c\u4e13\u95e8\u7528\u4e8e\u9ad8\u6548\u5904\u7406\u6d88\u606f\u6d41\uff0c\u65e8\u5728\u7b80\u5316\u4e8b\u4ef6\u9a71\u52a8\u5e94\u7528\u7a0b\u5e8f\u7684\u6784\u5efa\u8fc7\u7a0b\u3002\u5b83\u652f\u6301\u5e38\u89c4\u7684\u53d1\u5e03/\u8ba2\u9605\u5b9e\u73b0\uff0c\u4f8b\u5982 Kafka \u6216 RabbitMQ\uff0c\u4e5f\u652f\u6301 HTTP \u6216 MySQL binlog\uff0c\u4ee5\u9002\u5e94\u4e0d\u540c\u7684\u4f7f\u7528\u573a\u666f\u3002Watermill \u7684\u4e3b\u8981\u76ee\u6807\u662f\u4fdd\u6301\u5bb9\u6613\u7406\u89e3\u3001\u901a\u7528\u6027\u3001\u5feb\u901f\u3001\u7075\u6d3b\u5e76\u4e14\u97e7\u6027\u5f3a\u3002\u5f00\u53d1\u8005\u53ef\u4ee5\u4f7f\u7528\u5b83\u8fdb\u884c\u4e8b\u4ef6\u9a71\u52a8\u67b6\u6784\u3001\u6d88\u606f\u4f20\u9012\u3001\u6d41\u5904\u7406\u3001CQRS \u7b49\u591a\u79cd\u9700\u6c42\u7684\u5f00\u53d1\uff0c\u5176\u4e30\u5bcc\u7684\u4e2d\u95f4\u4ef6\u3001\u63d2\u4ef6\u548c\u53d1\u5e03/\u8ba2\u9605\u914d\u7f6e\u63d0\u4f9b\u4e86\u6781\u5927\u7684\u7075\u6d3b\u6027\u548c\u7a33\u5b9a\u6027\u4fdd\u8bc1\u3002"
     },
     {
@@ -4560,7 +4560,7 @@
         "type": "text",
         "title": "\u7b80\u5316 Docker \u5bb9\u5668\u7ba1\u7406\u7684\u547d\u4ee4\u884c\u5de5\u5177",
         "repo": "jesseduffield/lazydocker",
-        "url": "https://mp.weixin.qq.com/s/ArGG3pzFesEhvzJCvfbbzQ?autoclose",
+        "url": "https://mp.weixin.qq.com/s/ArGG3pzFesEhvzJCvfbbzQ",
         "intro": "Lazydocker \u662f\u4e00\u4e2a\u7b80\u5316 Docker \u548c Docker-compose \u7ba1\u7406\u7684\u5f00\u6e90\u9879\u76ee\uff0c\u5176\u91c7\u7528 Go \u7f16\u7a0b\u8bed\u8a00\u5f00\u53d1\u5e76\u4f7f\u7528\u4e86\u00a0gocui\u00a0\u5e93\u6765\u521b\u5efa\u7ec8\u7aef\u7528\u6237\u754c\u9762\u3002Lazydocker \u901a\u8fc7\u63d0\u4f9b\u4e00\u4e2a\u7b80\u6d01\u7684\u7ec8\u7aef\u7528\u6237\u754c\u9762\uff08TUI\uff09\uff0c\u4f7f\u5f97\u5bb9\u5668\u3001\u955c\u50cf\u3001\u5377\u7b49\u7684\u7ba1\u7406\u53d8\u5f97\u6613\u5982\u53cd\u638c\u3002\u5b83\u5c06\u5e38\u7528\u64cd\u4f5c\u7b80\u5316\u4e3a\u5355\u952e\u64cd\u4f5c\uff0c\u5e76\u5141\u8bb8\u7528\u6237\u81ea\u5b9a\u4e49\u547d\u4ee4\uff0c\u65e8\u5728\u6781\u5927\u51cf\u8f7b\u5f00\u53d1\u8005\u5728\u4f7f\u7528 Docker \u8fc7\u7a0b\u4e2d\u7684\u8bb0\u5fc6\u8d1f\u62c5\u548c\u64cd\u4f5c\u70e6\u7410\u3002"
     },
     {
@@ -4568,7 +4568,7 @@
         "type": "text",
         "title": "\u4e00\u6b3e\u7b80\u5355\u6613\u7528\u7684 Json \u89e3\u6790\u5e93",
         "repo": "tidwall/gjson",
-        "url": "https://mp.weixin.qq.com/s/308cZ0dZM6QJFTlwSI3WWA?autoclose",
+        "url": "https://mp.weixin.qq.com/s/308cZ0dZM6QJFTlwSI3WWA",
         "intro": "GJSON\u00a0\u662f\u4e00\u4e2a\u4e3a Go \u8bed\u8a00\u8bbe\u8ba1\u7684\u5f00\u6e90\u5305\uff0c\u5b83\u901a\u8fc7\u63d0\u4f9b\u5feb\u901f\u7b80\u5355\u7684\u65b9\u5f0f\u4ece JSON \u4e2d\u83b7\u53d6\u503c\u6765\u89e3\u51b3\u4e0a\u8ff0\u95ee\u9898\u3002\u5176\u7279\u70b9\u5305\u62ec\uff1a"
     },
     {
@@ -4576,7 +4576,7 @@
         "type": "text",
         "title": "\u652f\u6301PDF/\u7f51\u9875/\u591a\u683c\u5f0f\u7535\u5b50\u4e66\u7684\u6570\u636e\u63d0\u53d6\u5de5\u5177",
         "repo": "opendatalab/MinerU",
-        "url": "https://mp.weixin.qq.com/s/gTlU4UimBXriEA5zFTlJkg?autoclose",
+        "url": "https://mp.weixin.qq.com/s/gTlU4UimBXriEA5zFTlJkg",
         "intro": "MinerU \u662f\u4e00\u4e2a\u5f00\u6e90\u9ad8\u8d28\u91cf\u6570\u636e\u63d0\u53d6\u5de5\u5177\uff0c\u652f\u6301\u4ece PDF\u3001\u7f51\u9875\u3001\u7535\u5b50\u4e66\u7b49\u591a\u79cd\u683c\u5f0f\u8fdb\u884c\u6570\u636e\u63d0\u53d6\u3002\u9879\u76ee\u5728 InternLM \u7684\u9884\u8bad\u7ec3\u8fc7\u7a0b\u4e2d\u88ab\u5f00\u53d1\u548c\u5b8c\u5584\uff0c\u4e13\u6ce8\u4e8e\u89e3\u51b3\u79d1\u5b66\u6587\u732e\u548c\u6280\u672f\u6587\u4ef6\u4e2d\u7684\u7b26\u53f7\u8f6c\u6362\u95ee\u9898\uff0c\u81f4\u529b\u4e8e\u63a8\u52a8\u5927\u6a21\u578b\u65f6\u4ee3\u7684\u6280\u672f\u53d1\u5c55\u3002"
     },
     {
@@ -4584,7 +4584,7 @@
         "type": "text",
         "title": "\u517c\u5bb9 Docker \u7684\u5f3a\u5927\u5bb9\u5668\u7ba1\u7406\u5de5\u5177",
         "repo": "containerd/nerdctl",
-        "url": "https://mp.weixin.qq.com/s/3ZicY-vpS6CI4Ak7HgKkXQ?autoclose",
+        "url": "https://mp.weixin.qq.com/s/3ZicY-vpS6CI4Ak7HgKkXQ",
         "intro": "nerdctl\u00a0\u662f\u4e00\u4e2a\u5b8c\u5168\u517c\u5bb9 Docker \u7684\u547d\u4ee4\u884c\u63a5\u53e3\uff08CLI\uff09\uff0c\u5b83\u57fa\u4e8e\u5f3a\u5927\u7684\u5bb9\u5668\u8fd0\u884c\u65f6\u00a0containerd\u00a0\u6784\u5efa\uff0c\u5e76\u65e8\u5728\u586b\u8865 Docker \u5728\u67d0\u4e9b\u9ad8\u7ea7\u7279\u6027\u4e0a\u7684\u7a7a\u767d\u3002nerdctl\u00a0\u517c\u5bb9 Docker \u7684 UI/UX\uff0c\u8ba9\u7528\u6237\u65e0\u9700\u989d\u5916\u7684\u5b66\u4e60\u6210\u672c\u5c31\u80fd\u5207\u6362\u4f7f\u7528\u3002"
     },
     {
@@ -4592,7 +4592,7 @@
         "type": "text",
         "title": "\u5907\u4efd\u548c\u8fc1\u79fb Kubernetes \u5e94\u7528\u53ca\u5b58\u50a8\u7684\u5229\u5668",
         "repo": "vmware-tanzu/velero",
-        "url": "https://mp.weixin.qq.com/s/XtlDfPkWL1AmZjsNNdE8yw?autoclose",
+        "url": "https://mp.weixin.qq.com/s/XtlDfPkWL1AmZjsNNdE8yw",
         "intro": "Velero\uff08\u524d\u8eab\u4e3a Heptio Ark\uff09\u63d0\u4f9b\u4e86\u4e00\u5957\u5de5\u5177\u6765\u5907\u4efd\u548c\u6062\u590d Kubernetes \u96c6\u7fa4\u8d44\u6e90\u53ca\u5176\u6301\u4e45\u5377\u3002\u4e0d\u8bba\u662f\u516c\u6709\u4e91\u5e73\u53f0\u8fd8\u662f\u672c\u5730\u90e8\u7f72\uff0c\u4f60\u90fd\u53ef\u4ee5\u8fd0\u884c Velero\u3002"
     },
     {
@@ -4600,7 +4600,7 @@
         "type": "text",
         "title": "\u7528\u65e5\u5e38\u8bbe\u5907\u8fd0\u884c\u81ea\u5df1\u7684 AI \u96c6\u7fa4",
         "repo": "exo-explore/exo",
-        "url": "https://mp.weixin.qq.com/s/fkbEj1cgO-nJqzS3GS6kIw?autoclose",
+        "url": "https://mp.weixin.qq.com/s/fkbEj1cgO-nJqzS3GS6kIw",
         "intro": "exo\u00a0\u8ba9\u4eba\u4eec\u53ef\u4ee5\u5728\u5bb6\u4e2d\u7528\u65e5\u5e38\u8bbe\u5907\u8fd0\u884c\u81ea\u5df1\u7684 AI \u96c6\u7fa4\u3002\u5fd8\u6389\u6602\u8d35\u7684 NVIDIA GPU\uff0c\u5229\u7528\u4f60\u73b0\u6709\u7684\u8bbe\u5907\u7ec4\u5efa\u4e00\u4e2a\u5f3a\u5927\u7684 GPU \u96c6\u7fa4\uff1aiPhone\u3001iPad\u3001Android\u3001Mac\u3001Linux\uff0c\u51e0\u4e4e\u4efb\u4f55\u8bbe\u5907\uff01exo \u7684\u8fd9\u4e00\u7406\u5ff5\uff0c\u4e3a\u5e7f\u5927\u6280\u672f\u7231\u597d\u8005\u3001\u7814\u7a76\u4eba\u5458\u3001\u5c0f\u578b\u56e2\u961f\u63d0\u4f9b\u4e86\u524d\u6240\u672a\u6709\u7684\u673a\u4f1a\uff0c\u8ba9\u4ed6\u4eec\u53ef\u4ee5\u5229\u7528\u624b\u5934\u4e0a\u770b\u4f3c\u666e\u901a\u7684\u8bbe\u5907\uff0c\u5b8c\u6210\u590d\u6742\u7684 AI \u6a21\u578b\u8fd0\u884c\u4efb\u52a1\u3002"
     },
     {
@@ -4608,7 +4608,7 @@
         "type": "text",
         "title": "\u4e00\u6b3e\u7b80\u5355\u4e0a\u624b\u7684\u5f00\u6e90 2D \u6e38\u620f\u5f15\u64ce",
         "repo": "hajimehoshi/ebiten",
-        "url": "https://mp.weixin.qq.com/s/9A6s-Klvt0nKPYTJ6RcWog?autoclose",
+        "url": "https://mp.weixin.qq.com/s/9A6s-Klvt0nKPYTJ6RcWog",
         "intro": "Ebitengine \u662f\u4e00\u4e2a\u57fa\u4e8e Go \u8bed\u8a00\u7684\u5f00\u6e90 2D \u6e38\u620f\u5f15\u64ce\uff0c\u4ee5\u5176\u7b80\u6d01\u7684 API \u548c\u51fa\u8272\u7684\u8de8\u5e73\u53f0\u517c\u5bb9\u6027\u8131\u9896\u800c\u51fa\uff0c\u4f7f\u5f97\u5f00\u53d1\u8005\u80fd\u591f\u8f7b\u677e\u5feb\u901f\u5730\u5f00\u53d1\u548c\u90e8\u7f72\u8de8\u5e73\u53f0 2D \u6e38\u620f\u3002Ebitengine\u00a0\u652f\u6301\u5305\u62ec\u00a0Windows\u3001macOS\u3001Linux\u3001FreeBSD\u3001Android\u3001iOS\u3001WebAssembly\uff0c\u4e43\u81f3\u00a0Nintendo Switch \u548c Xbox\u00a0\u5728\u5185\u7684\u591a\u4e2a\u5e73\u53f0\uff0c\u5145\u5206\u5c55\u793a\u4e86\u5176\u5f3a\u5927\u7684\u8de8\u5e73\u53f0\u529f\u80fd\u3002"
     },
     {
@@ -4616,7 +4616,7 @@
         "type": "text",
         "title": "\u4e13\u6ce8\u4e8e\u5bb9\u5668\u955c\u50cf\u5b89\u5168\u7684\u5de5\u5177",
         "repo": "anchore/syft",
-        "url": "https://mp.weixin.qq.com/s/ZAUA3gy_aoVG7J84WI2mlA?autoclose",
+        "url": "https://mp.weixin.qq.com/s/ZAUA3gy_aoVG7J84WI2mlA",
         "intro": "Syft\u00a0\u662f\u4e00\u4e2a\u5f00\u6e90\u7684 CLI \u5de5\u5177\u548c Go \u8bed\u8a00\u5e93\uff0c\u4e13\u95e8\u7528\u4e8e\u4ece\u5bb9\u5668\u955c\u50cf\u548c\u6587\u4ef6\u7cfb\u7edf\u751f\u6210\u8f6f\u4ef6\u7269\u6599\u6e05\u5355\uff08Software Bill of Materials\uff0c\u7b80\u79f0\u00a0SBOM\uff09\u3002\u901a\u8fc7\u00a0Syft\uff0c\u4f60\u53ef\u4ee5\u83b7\u5f97\u4e00\u4e2a\u6e05\u6670\u7684\u8f6f\u4ef6\u5305\u548c\u4f9d\u8d56\u5173\u7cfb\u89c6\u56fe\uff0c\u8fd9\u6837\u4e0d\u4ec5\u53ef\u4ee5\u5e2e\u52a9\u4f60\u9ad8\u6548\u5730\u7ba1\u7406\u8f6f\u4ef6\u8bb8\u53ef\u8bc1\uff0c\u8fd8\u53ef\u4ee5\u548c\u8bf8\u5982\u00a0Grype\u00a0\u8fd9\u6837\u7684\u626b\u63cf\u5de5\u5177\u642d\u914d\u4f7f\u7528\uff0c\u4ee5\u4fbf\u8fdb\u884c\u6f0f\u6d1e\u68c0\u6d4b\u548c\u8f6f\u4ef6\u4f9b\u5e94\u94fe\u98ce\u9669\u7ba1\u7406\u3002"
     }
 ]
